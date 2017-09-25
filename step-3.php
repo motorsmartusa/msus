@@ -25,21 +25,19 @@
   <div class="container-fluid export">
     <div class="row">
       <div class="col-md-2">
-        <nav>
-          <ul class="nav nav-pills nav-stacked">
-            <li role="presentation"><a href="step-1.php">BACK TO STEP 1</a></li>
-            <li role="presentation"><a href="step-2.php">BACK TO STEP 2</a></li>
-            <li role="presentation" class="active"><a href="#exp">EXPORTER DETAILS</a></li>
-            <li role="presentation"><a href="#dest">DESTINATION DETAILS</a></li>
-            <li role="presentation"><a href="#trans">TRANSPORTER DETAILS</a></li>
-            <li role="presentation"><a href="#bill">BILLING DETAILS</a></li>
-            <li role="presentation"><a href="#title-request">TITLE REQUEST</a></li>
-            <li role="presentation"><a href="#title">TITLE DETAILS</a></li>
-            <li role="presentation"><a href="#label">RI LABEL DETAILS</a></li>
-            <li role="presentation"><a href="#courier">ORDER COURIER</a></li>
-            <li role="presentation"><a href="#done">SUBMIT</a></li>
-          </ul>
-        </nav>
+        <ul class="nav nav-pills nav-stacked sidebar">
+          <li role="presentation"><a href="step-1.php">BACK TO STEP 1</a></li>
+          <li role="presentation"><a href="step-2.php">BACK TO STEP 2</a></li>
+          <li role="presentation" class="active"><a href="#exp">EXPORTER DETAILS</a></li>
+          <li role="presentation"><a href="#dest">DESTINATION DETAILS</a></li>
+          <li role="presentation"><a href="#trans">TRANSPORTER DETAILS</a></li>
+          <li role="presentation"><a href="#bill">BILLING DETAILS</a></li>
+          <li role="presentation"><a href="#title-request">TITLE REQUEST</a></li>
+          <li role="presentation"><a href="#title">TITLE DETAILS</a></li>
+          <li role="presentation"><a href="#label">RI LABEL DETAILS</a></li>
+          <li role="presentation"><a href="#courier">ORDER COURIER</a></li>
+          <li role="presentation"><a href="#done">SUBMIT</a></li>
+        </ul>
       </div>
       <div class="col-md-8">
           <form name="step-3" method="post" action="dealermain.php">
@@ -294,7 +292,6 @@
 
                     </div>
                     <div class="col-md-4">
-<!--                       <a class="btn btn-primary btn-grey btn-lg" href="javscript:;" role="button">REQUEST A TITLE</a> -->
                       <input type="radio" id="radio1" value="request_title" name="title">
                       <label for="radio1">REQUEST A TITLE</label>
                     </div>
@@ -439,8 +436,10 @@
       </div>
 
       <div class="col-md-2">
-        <a class="btn btn-primary btn-ask btn-lg" href="#footer" role="button">ASK A QUESTION</a>
-        <a class="btn btn-primary btn-dashbrd btn-lg" href="javscript:;" role="button">DASHBOARD</a>
+        <div class="sidebar">
+          <a class="btn btn-primary btn-ask btn-lg" href="#footer" role="button">ASK A QUESTION</a>
+          <a class="btn btn-primary btn-dashbrd btn-lg" href="javscript:;" role="button">DASHBOARD</a>
+        </div>
       </div>
     </div>
   </div>

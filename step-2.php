@@ -25,13 +25,11 @@
   <div class="container-fluid export">
     <div class="row">
       <div class="col-md-2">
-        <nav>
-          <ul class="nav nav-pills nav-stacked">
-            <li role="presentation"><a href="step-1.php">BACK TO STEP 1</a></li>
-            <li role="presentation" class="active"><a href="#pictures">PICTURES</a></li>
-            <li role="presentation"><a href="#next">NEXT STEP</a></li>
-          </ul>
-        </nav>
+        <ul class="nav nav-pills nav-stacked sidebar">
+          <li role="presentation"><a href="step-1.php">BACK TO STEP 1</a></li>
+          <li role="presentation" class="active"><a href="#pictures">PICTURES</a></li>
+          <li role="presentation"><a href="#next">NEXT STEP</a></li>
+        </ul>
       </div>
 
       <div class="col-md-8">
@@ -89,8 +87,10 @@
       </div>
 
       <div class="col-md-2">
-        <a class="btn btn-primary btn-ask btn-lg" href="#footer" role="button">ASK A QUESTION</a>
-        <a class="btn btn-primary btn-dashbrd btn-lg" href="javscript:;" role="button">DASHBOARD</a>
+        <div class="sidebar">
+          <a class="btn btn-primary btn-ask btn-lg" href="#footer" role="button">ASK A QUESTION</a>
+          <a class="btn btn-primary btn-dashbrd btn-lg" href="javscript:;" role="button">DASHBOARD</a>
+        </div>
       </div>
     </div>
   </div>

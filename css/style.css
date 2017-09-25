@@ -907,6 +907,12 @@ select[class=form-control] {
   padding: 0;
 }
 
+.sidebar {
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .nav>li>a {
   display: inline-block;
   color: #a0a09f;
