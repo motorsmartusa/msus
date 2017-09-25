@@ -25,24 +25,24 @@
   <div class="container-fluid export">
     <div class="row">
       <div class="col-md-2">
-        <ul class="nav nav-pills nav-stacked sidebar">
+        <ul class="sidebar">
           <li role="presentation"><a href="step-1.php">BACK TO STEP 1</a></li>
           <li role="presentation"><a href="step-2.php">BACK TO STEP 2</a></li>
-          <li role="presentation" class="active"><a href="#exp">EXPORTER DETAILS</a></li>
+          <li role="presentation"><a class="active" href="#exp">EXPORTER DETAILS</a></li>
           <li role="presentation"><a href="#dest">DESTINATION DETAILS</a></li>
           <li role="presentation"><a href="#trans">TRANSPORTER DETAILS</a></li>
           <li role="presentation"><a href="#bill">BILLING DETAILS</a></li>
           <li role="presentation"><a href="#title-request">TITLE REQUEST</a></li>
           <li role="presentation"><a href="#title">TITLE DETAILS</a></li>
-          <li role="presentation"><a href="#label">RI LABEL DETAILS</a></li>
+          <li role="presentation"><a href="#label-details">RI LABEL DETAILS</a></li>
           <li role="presentation"><a href="#courier">ORDER COURIER</a></li>
           <li role="presentation"><a href="#done">SUBMIT</a></li>
         </ul>
       </div>
       <div class="col-md-8">
           <form name="step-3" method="post" action="dealermain.php">
-                <section>
-                  <h2><a name="exp"></a>EXPORTER DETAILS</h2>
+                <section id="exp">
+                  <h2>EXPORTER DETAILS</h2>
 
                   <div class="sub-heading">
                     Tell us who is <span class="highlight">EXPORTING</span> this vehicle
@@ -102,8 +102,8 @@
                     </div>
                   </div>
                 </section>
-                <section>
-                  <h2><a name="dest"></a>DESTINATION DETAILS</h2>
+                <section id="dest">
+                  <h2>DESTINATION DETAILS</h2>
 
                   
                   <div class="sub-heading">
@@ -167,8 +167,8 @@
                   </div>
 
                 </section>
-                <section>
-                  <h2><a name="trans"></a>TRANSPORTER DETAILS</h2>
+                <section id="trans">
+                  <h2>TRANSPORTER DETAILS</h2>
 
                   <div class="sub-heading">Who is <span class="highlight">TRANSPORTING</span> this vehicle for you? 
                   <a role="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#transporterModal">ADD NEW</a>
@@ -219,8 +219,8 @@
                   </div>
 
                 </section>
-                <section>
-                  <h2><a name="bill"></a>BILLING DETAILS</h2>
+                <section id="bill">
+                  <h2>BILLING DETAILS</h2>
 
                   <div class="sub-heading">Who should we send the <span class="highlight">INVOICE</span> to?
                   <a role="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#billingModal">ADD NEW</a>
@@ -282,8 +282,8 @@
                   </div>
 
                 </section>
-                <section>
-                  <h2><a name="title-request"></a>TITLE REQUEST</h2>
+                <section id="title-request">
+                  <h2>TITLE REQUEST</h2>
 
                   <div class="sub-heading">Need us to get a <span class="highlight">TITLE</span> for this vehicle?</div>
 
@@ -310,8 +310,8 @@
                   </div>
 
                 </section>
-                <section>
-                  <h2><a name="title"></a>TITLE DETAILS</h2>
+                <section id="title">
+                  <h2>TITLE DETAILS</h2>
 
                   <div class="sub-heading">Where are we sending the <span class="highlight">TITLE</span>?
                   <a role="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#titleModal">ADD NEW</a>
@@ -343,8 +343,8 @@
                   </div>
 
                 </section>
-                <section>
-                  <h2><a name="label-details"></a>RI LABEL DETAILS</h2>
+                <section id="label-details">
+                  <h2>RI LABEL DETAILS</h2>
 
                   <div class="sub-heading">Where do you want the <span class="highlight">LABEL</span> sent to?
                     <a role="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#labelModal">ADD NEW</a>
@@ -389,8 +389,8 @@
                   </div>
 
                 </section>
-                <section>
-                  <h2><a name="courier"></a>ORDER COURIER</h2>
+                <section id="courier">
+                  <h2>ORDER COURIER</h2>
 
                   <div class="sub-heading">Do you want to order <span class="highlight">COURIER</span> services for this vehicle? <span class="note">(fees apply)</span> </div>
                   
@@ -413,13 +413,12 @@
 
                 </section>
   
-                <section>
+                <section id="done">
                   <div class="row">
                     <div class="col-md-2">
 
                     </div>
                     <div class="col-md-8 text-center">
-                      <a name="done"></a>
                       <button class="btn btn-primary btn-xl" type="submit">SUBMIT</button>
                     </div>
 

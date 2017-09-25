@@ -25,17 +25,17 @@
   <div class="container-fluid export">
     <div class="row">
       <div class="col-md-2">
-        <ul class="nav nav-pills nav-stacked sidebar">
+        <ul class="sidebar">
           <li role="presentation"><a href="step-1.php">BACK TO STEP 1</a></li>
-          <li role="presentation" class="active"><a href="#pictures">PICTURES</a></li>
-          <li role="presentation"><a href="#next">NEXT STEP</a></li>
+          <li role="presentation"><a class="active" href="#pictures">PICTURES</a></li>
+          <li role="presentation"><a href="#next-step">NEXT STEP</a></li>
         </ul>
       </div>
 
       <div class="col-md-8">
           <form name="step-2" method="post" action="step-3.php">
-                <section>
-                  <h2><a name="pictures"></a>PICTURES</h2>
+                <section id="pictures">
+                  <h2>PICTURES</h2>
 
                   <div class="sub-heading">Choose which <span class="highlight">PICTURE</span> option you would like</div>
 
@@ -64,13 +64,12 @@
                   </div>
                 </section>
   
-                <section>
+                <section id="next-step">
                   <div class="row">
                     <div class="col-md-2">
 
                     </div>
                     <div class="col-md-8 text-center">
-                      <a name="next"></a>
                       <button class="btn btn-primary btn-xl" type="submit">NEXT STEP</button>
                     </div>
 

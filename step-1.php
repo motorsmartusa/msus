@@ -26,8 +26,8 @@
   <div class="container-fluid export">
     <div class="row">
       <div class="col-md-2">
-        <ul class="nav nav-pills nav-stacked sidebar">
-          <li role="presentation" class="active"><a href="#vehicle-details">VEHICLE DETAILS</a></li>
+        <ul class="sidebar">
+          <li role="presentation"><a class="active" href="#vehicle-details">VEHICLE DETAILS</a></li>
           <li role="presentation"><a href="#manufacture-label">MANUFACTURE LABEL</a></li>
           <li role="presentation"><a href="#recalls">RECALLS</a></li>
           <li role="presentation"><a href="#next-step">NEXT STEP</a></li>
@@ -36,8 +36,8 @@
 
       <div class="col-md-8">
           <form name="step-1" method="post" action="step-2.php">
-                <section>
-                  <h2><a name="vehicle-details"></a>VEHICLE DETAILS</h2>
+                <section id="vehicle-details">
+                  <h2>VEHICLE DETAILS</h2>
 
                   <div class="sub-heading">Enter your <span class="highlight">VEHICLE DETAILS</span> below</div>
 
@@ -131,9 +131,8 @@
                   </div>
                 </section>
 
-                <section>
-
-                  <h2><a name="manufacture-label"></a>MANUFACTURE LABEL</h2>
+                <section id="manufacture-label">
+                  <h2>MANUFACTURE LABEL</h2>
 
                   <div class="sub-heading">Upload a picture of the <span class="highlight">MANUFACTURE LABEL</span> and enter the details below</div>
                 
@@ -320,9 +319,8 @@
                   </div>
                 </section>
 
-                <section>
-
-                  <h2><a name="recalls"></a>RECALLS</h2>
+                <section id="recalls">
+                  <h2>RECALLS</h2>
 
                   <div class="sub-heading">Check to see if there are any <span class="highlight">RECALLS</span> for his vehicles</div>
 
@@ -348,13 +346,12 @@
 
                 </section>
   
-                <section>
+                <section id="next-step">
                   <div class="row">
                     <div class="col-md-2">
 
                     </div>
                     <div class="col-md-8 text-center">
-                      <a name="next-step"></a>
                       <button class="btn btn-primary btn-xl" type="submit">NEXT STEP</button>
                     </div>
 
@@ -365,6 +362,8 @@
                   </div>
 
                   <div class="sub-heading">Only a couple more <span class="highlight">STEPS</span> left</div>
+
+
                 </section>
 
           </form>

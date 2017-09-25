@@ -907,13 +907,25 @@ select[class=form-control] {
   padding: 0;
 }
 
+.export > .row > .col-md-2:first-child {
+  padding-left: 0;
+}
+
 .sidebar {
   top: 0;
   position: -webkit-sticky;
   position: sticky;
 }
 
-.nav>li>a {
+.sidebar {
+  padding: 0;
+}
+
+.sidebar > li {
+  list-style-type: none;
+}
+
+.sidebar>li>a {
   display: inline-block;
   color: #a0a09f;
   border-radius: 0;
@@ -923,22 +935,17 @@ select[class=form-control] {
   border-bottom: 3px solid transparent;
 }
 
-.nav>li>a:hover {
+.sidebar>li>a:hover {
   border-bottom: 3px solid #a0a09f;
 }
 
-.nav-pills>li {
+.sidebar>li {
   text-align: right;
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  background: #fff;
+.sidebar>li>a.active {
   color: #30bdff;
   border-bottom: 3px solid #30bdff;
-}
-
-.nav>li>a:focus, .nav>li>a:hover {
-  background: #fff;
 }
 
 /** export steps end **/

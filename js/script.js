@@ -63,14 +63,29 @@ $(document).ready(function() {
   // $(".pdf-cross").on("click", function() {
   //   $(".pdf-image").slideToggle();
   // });
- 
+
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= 300) {       // If page is scrolled more than 50px
-        $('#return-to-top').fadeIn(200);    // Fade in the arrow
-    } else {
-        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
-    }
+
+  if ($(this).scrollTop() >= 300) {       // If page is scrolled more than 300px
+      $('#return-to-top').fadeIn(200);    // Fade in the arrow
+  } else {
+      $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+  }
+
+  var position = $(this).scrollTop();
+
+  $('section').each(function() {
+      var target = $(this).offset().top;
+      var offset = 100;
+      var id = $(this).attr('id');
+
+      if (position + offset >= target) {
+          $('.sidebar > li > a').removeClass('active');
+          $('.sidebar > li > a[href=\\#' + id + ']').addClass('active');
+      }
+  });
 });
+ 
 $('#return-to-top').click(function() {      // When arrow is clicked
     $('body,html').animate({
         scrollTop : 0                       // Scroll to top of body
