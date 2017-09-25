@@ -299,12 +299,11 @@
                       <label for="radio1">REQUEST A TITLE</label>
                     </div>
                     <div class="col-md-2">
-                      <div class="outer"><div class="inner"></div></div>
-                      <div class="or">OR</div>
-                      <div class="outer"><div class="inner"></div></div>
+                      <hr class="top" />
+                      <span class="highlight">OR</span>
+                      <hr class="bottom" />
                     </div>
                     <div class="col-md-4">
-                      <!-- <a class="btn btn-primary btn-grey btn-lg" href="javscript:;" role="button">I WILL GET MY OWN TITLE</a> -->
                       <input type="radio" id="radio2" value="get_own_title" name="title">
                       <label for="radio2">I WILL GET MY OWN</label>
                     </div>
@@ -403,7 +402,6 @@
 
                     </div>
                     <div class="col-md-4">
-                      <!-- <a class="btn btn-primary btn-grey btn-lg" href="javscript:;" role="button">ORDER TITLE &amp; LABEL COURIER</a> -->
                       <div class="inside-radio">
                         <input type="radio" value="yes" id="radio3" name="order_courier">
                         <label for="radio3">YES</label>

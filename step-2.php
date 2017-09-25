@@ -46,18 +46,18 @@
                       <a class="btn btn-primary btn-lg" href="javscript:;" role="button">UPLOAD PICTURES</a>
                     </div>
                     <div class="col-md-1">
-                      <div class="outer"><div class="inner"></div></div>
-                      <div class="or">OR</div>
-                      <div class="outer"><div class="inner"></div></div>
+                      <hr class="top" />
+                      <span class="highlight">OR</span>
+                      <hr class="bottom" />
                     </div>
                     <div class="col-md-3">
                       <input type="radio" id="radio1" value="send_later" name="pictures">
                       <label for="radio1">SEND LATER</label>
                     </div>
                     <div class="col-md-1">
-                      <div class="outer"><div class="inner"></div></div>
-                      <div class="or">OR</div>
-                      <div class="outer"><div class="inner"></div></div>
+                      <hr class="top" />
+                      <span class="highlight">OR</span>
+                      <hr class="bottom" />
                     </div>
                     <div class="col-md-4">
                       <input type="radio" id="radio2" value="importer_takes" name="pictures">

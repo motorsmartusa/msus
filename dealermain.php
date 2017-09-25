@@ -51,14 +51,16 @@
 
 
       <div class="col-md-2 align-items-center">
-        <img alt="divider" src="images/divider-image.png">
+        <hr class="top" />
+        <span class="highlight">OR</span>
+        <hr class="bottom" />
+        <!-- <img alt="divider" src="images/divider-image.png"> -->
       </div>
 
 
       <div class="col-md-2 align-items-center">
         <div class="circle">
           VIEW DASHBOARD
-          <!-- <a href="#"><img src="images/image-dashboard.png"></a> -->
         </div>
       </div>
 

@@ -110,27 +110,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
   margin-bottom: 30px;
 }
 
-.outer {
-  width: 1px;
-  height: 100px;
-  margin: auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.inner {
-  position: absolute;
-  width:100%;
-  height: 40%;
-  background: grey;
-  top: 30%;
-  box-shadow: 0px 0px 30px 20px grey;
-}
-
-.or {
-  text-align: center;
-}
-
 .sub-heading {
   font-size: 22px;
   font-weight: 400;
@@ -741,6 +720,29 @@ select[class=form-control] {
 .dealer .sub-heading {
   font-size: 26px;
 }
+
+.dealer hr {
+  transform: rotate(90deg);
+  width: 100px;
+  background-color: #a0a09f;
+}
+
+.dealer hr.top {
+  transform: rotate(90deg) translateX(-28px);
+}
+
+.dealer hr.bottom {
+  transform: rotate(90deg) translateX(28px);
+}
+
+.dealer hr + .highlight {
+  font-size: 22px;
+  font-weight: 400;
+  color: #a0a09f;
+  text-transform: uppercase;
+  padding: 6px 0;
+  text-align: center;
+}
 /** dealer main end **/
 
 /** export steps start **/
@@ -750,7 +752,30 @@ select[class=form-control] {
 }
 
 .export .border-right {
-  border-right: 1px solid #a0a09f;
+  border-right: 2px solid #a0a09f;
+}
+
+.export hr {
+  transform: rotate(90deg);
+  width: 50px;
+  background-color: #a0a09f;
+}
+
+.export hr.top {
+  transform: rotate(90deg) translateX(-4px);
+}
+
+.export hr.bottom {
+  transform: rotate(90deg) translateX(4px);
+}
+
+.export hr + .highlight {
+  font-size: 18px;
+  font-weight: 400;
+  color: #a0a09f;
+  text-transform: uppercase;
+  padding: 6px 0;
+  text-align: center;
 }
 
 .export .inside-button {
