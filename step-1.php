@@ -151,7 +151,7 @@
                   </div>
                   <div class="row align-items-end">
                     
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                       <label>Manufactured By</label>
                       <input type="text" class="form-control" name="manu_by" >
                     </div>
@@ -173,8 +173,7 @@
                         <option>12</option>
                       </select>
                     </div>
-                    <div class="col-md-1">
-                      <!-- <label></label> -->
+                    <div class="col-md-2">
                       <select name="build_year" class="form-control">
                         <option disabled selected>--</option>
                         <option>1980</option>

@@ -70,6 +70,17 @@
                       </div>
                       <select name="photoLocation" class="form-control">
                         <option disabled selected>--</option>
+                        <option>Front/Driver Side</option>
+                        <option>Rear/Passenger Side</option>
+                        <option>Passenger Airbag</option>
+                        <option>VIN Plate</option>
+                        <option>Steering Airbag</option>
+                        <option>Cluster with lights on</option>
+                        <option>Miles</option>
+                        <option>KMS</option>
+                        <option>Manufacture Label</option>
+                        <option>Tire Label</option>
+                        <option>RI Label</option>
                       </select>
                     </div>
                     <div class="col-md-4 align-items-center">
@@ -78,6 +89,17 @@
                       </div>
                       <select name="photoLocation" class="form-control">
                         <option disabled selected>--</option>
+                        <option>Front/Driver Side</option>
+                        <option>Rear/Passenger Side</option>
+                        <option>Passenger Airbag</option>
+                        <option>VIN Plate</option>
+                        <option>Steering Airbag</option>
+                        <option>Cluster with lights on</option>
+                        <option>Miles</option>
+                        <option>KMS</option>
+                        <option>Manufacture Label</option>
+                        <option>Tire Label</option>
+                        <option>RI Label</option>
                       </select>
                     </div>
                     <div class="col-md-4 align-items-center">
@@ -86,6 +108,17 @@
                       </div>
                       <select name="photoLocation" class="form-control">
                         <option disabled selected>--</option>
+                        <option>Front/Driver Side</option>
+                        <option>Rear/Passenger Side</option>
+                        <option>Passenger Airbag</option>
+                        <option>VIN Plate</option>
+                        <option>Steering Airbag</option>
+                        <option>Cluster with lights on</option>
+                        <option>Miles</option>
+                        <option>KMS</option>
+                        <option>Manufacture Label</option>
+                        <option>Tire Label</option>
+                        <option>RI Label</option>
                       </select>
                     </div>
                   </div>
