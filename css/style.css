@@ -949,3 +949,39 @@ select[class=form-control] {
 }
 
 /** export steps end **/
+
+/** picture uploader start **/
+#pictureUpload, #pictureUploadInst {
+  display: none;
+}
+
+#pictureUploadInst {
+  margin-top: 12px;
+}
+
+#pictureUploadInst .highlight {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #30bdff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#pictureUploadInst ol {
+  font-size: 14px;
+  color: #999;
+  font-weight: 400;
+}
+
+#pictureUploadInst ol li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+#pictureUploadInst > ol > li > span {
+  color: #30bdff;
+  font-weight: 400;
+}
+
+/** picture uploader end **/

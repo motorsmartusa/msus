@@ -57,6 +57,12 @@ $(document).ready(function() {
     }
   });
 
+  $('#uploadLnk').on("click", function() {
+      $('#pictureOption').hide();
+      $('#pictureUpload').show();
+      $('#pictureUploadInst').show();
+  });
+
   // $(".image-cross").on("click", function() {
   //   $(".close-image").slideToggle();
   // });
@@ -66,10 +72,10 @@ $(document).ready(function() {
 
 $(window).scroll(function() {
 
-  if ($(this).scrollTop() >= 300) {       // If page is scrolled more than 300px
-      $('#return-to-top').fadeIn(200);    // Fade in the arrow
+  if ($(this).scrollTop() >= 300) {
+      $('#return-to-top').fadeIn(200);
   } else {
-      $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      $('#return-to-top').fadeOut(200);
   }
 
   var position = $(this).scrollTop();
@@ -86,9 +92,9 @@ $(window).scroll(function() {
   });
 });
  
-$('#return-to-top').click(function() {      // When arrow is clicked
+$('#return-to-top').click(function() {
     $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
+        scrollTop : 0
     }, 500);
 });
 

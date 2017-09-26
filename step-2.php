@@ -39,9 +39,9 @@
 
                   <div class="sub-heading">Choose which <span class="highlight">PICTURE</span> option you would like</div>
 
-                  <div class="row align-items-center">
+                  <div class="row align-items-center" id="pictureOption">
                     <div class="col-md-3">
-                      <a class="btn btn-primary btn-lg" href="javscript:;" role="button">UPLOAD PICTURES</a>
+                      <a class="btn btn-primary btn-lg" href="javscript:;" role="button" id="uploadLnk">UPLOAD PICTURES</a>
                     </div>
                     <div class="col-md-1">
                       <hr class="top" />
@@ -62,7 +62,15 @@
                       <label for="radio2">IMPORTER TAKES PICTURES</label>
                     </div>
                   </div>
+
+                  <div class="row align-items-center" id="pictureUpload">
+                    <div class="col-md-12">
+                      Uploader
+                    </div>
+                  </div>
+
                 </section>
+
   
                 <section id="next-step">
                   <div class="row">
@@ -89,6 +97,30 @@
         <div class="sidebar">
           <a class="btn btn-primary btn-ask btn-lg" href="#footer" role="button">ASK A QUESTION</a>
           <a class="btn btn-primary btn-dashbrd btn-lg" href="javscript:;" role="button">DASHBOARD</a>
+
+          <div id="pictureUploadInst">
+            <span class="highlight">Instructions</span>
+            <ol>
+              <li>Press <span>+</span> to add a picture</li>
+              <li>Browse and select the picture you would like to upload</li>
+              <li>Select the location of the picture from the drop down</li>
+              <li>Hover over the picture to zoom in, delete it or download it.</li>
+            </ol> 
+            <span class="highlight">Picture List</span>
+            <ol>
+              <li>Front/Driver Side</li>
+              <li>Rear/Passenger Side</li>
+              <li>Passenger Airbag</li>
+              <li>VIN Plate</li>
+              <li>Steering Airbag</li>
+              <li>Cluster with lights on</li>
+              <li>Miles</li>
+              <li>KMS</li>
+              <li>Manufacture Label</li>
+              <li>Tire Label</li>
+              <li>RI Label</li>
+            </ol>
+          </div>
         </div>
       </div>
     </div>
