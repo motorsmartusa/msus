@@ -6,7 +6,7 @@
           <span class="cls rounded white"></span>
         </a>
           
-        <h4 class="modal-title" id="myModalLabel">ADD NEW LABEL DETAILS</h4>
+        <h4 class="modal-title" id="myModalLabel">ADD NEW RI LABEL DETAILS</h4>
       </div>
       <div class="modal-body">
         <form action="label.php" method="post" name="add-new-label">

@@ -26,6 +26,18 @@ a:hover {
   text-decoration: none;
 }
 
+input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 5%;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
 input[type=option], 
 input[type=radio] {
   display: none;
@@ -184,37 +196,14 @@ input[type=date]::-webkit-calendar-picker-indicator {
   transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
 }
 
+.btn-primary:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary:focus,
 .btn-primary:hover {
   background: #73d2ff;
-}
-
-.btn-primary:active,
-.btn-primary:focus,
-.btn-primary:active:focus,
-.btn-dashbrd:active,
-.btn-dashbrd:focus,
-.btn-dashbrd:active:focus,
-.btn-ask:active,
-.btn-ask:focus,
-.btn-ask:active:focus,
-.btn-login-bottom:active,
-.btn-login-bottom:focus,
-.btn-login-bottom:active:focus,
-.btn-login-bottom:hover {
-  background: #30bdff;
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;
   outline: none;
-}
-
-.btn-login:active,
-.btn-login:focus,
-.btn-login:active:focus,
-.btn-white:active,
-.btn-white:focus,
-.btn-white:active:focus {
-  background: #fff;
-  color: #30bdff;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;
 }
 
 .btn-login-top {
@@ -229,8 +218,16 @@ input[type=date]::-webkit-calendar-picker-indicator {
   margin-right: 20px;
 }
 
+.btn-login-bottom:active,
+.btn-login-bottom:active:focus,
+.btn-login-bottom:active:hover,
+.btn-login-bottom:focus,
 .btn-login-bottom:hover {
-  border-color: #30bdff;
+  color: #fff;
+  background: #30bdff;
+  outline: none;
+  border: solid rgba(48, 189, 255, 1) 1px;
+  box-shadow: none;
 }
 
 .btn-subscribe {
@@ -243,8 +240,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .btn-subscribe:active,
-.btn-subscribe:focus,
 .btn-subscribe:active:focus,
+.btn-subscribe:active:hover,
+.btn-subscribe:focus,
 .btn-subscribe:hover {
   background: #a0a09f;
   color: #fff;
@@ -260,12 +258,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .btn-white {
   background: #fff;
   color: #30bdff;
-}
-
-.btn-grey {
-  color: #30bdff;
-  background: #e6e6e6;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;
 }
 
 .btn-sm {
@@ -878,18 +870,6 @@ select[class=form-control] {
   margin: 24px 0;
 }
 
-.export .hide-file {
-  position: absolute;
-  z-index: 1000;
-  opacity: 0;
-  cursor: pointer;
-  right: 0;
-  top: 0;
-  height: 100%;
-  font-size: 24px;
-  width: 100%;
-}
-
 .file-upload {
     position: relative;
     overflow: hidden;
@@ -955,6 +935,7 @@ select[class=form-control] {
 /** export steps end **/
 
 /** picture uploader start **/
+
 #pictureUpload, #pictureUploadInst {
   display: none;
 }

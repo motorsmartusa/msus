@@ -66,7 +66,7 @@
                   <div class="row" id="pictureUpload">
                     <div class="col-md-4 align-items-center">
                       <div class="pictureUploadCont">
-                        <i class="fa fa-plus"></i>
+                        <i class="fa fa-plus"><input type="file" id="imgUpload"></i>
                       </div>
                       <select name="photoLocation" class="form-control">
                         <option disabled selected>--</option>
@@ -74,7 +74,7 @@
                     </div>
                     <div class="col-md-4 align-items-center">
                       <div class="pictureUploadCont">
-                        <i class="fa fa-plus"></i>
+                        <i class="fa fa-plus"><input type="file" id="imgUpload"></i>
                       </div>
                       <select name="photoLocation" class="form-control">
                         <option disabled selected>--</option>
@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-md-4 align-items-center">
                       <div class="pictureUploadCont">
-                        <i class="fa fa-plus"></i>
+                        <i class="fa fa-plus"><input type="file" id="imgUpload"></i>
                       </div>
                       <select name="photoLocation" class="form-control">
                         <option disabled selected>--</option>

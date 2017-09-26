@@ -330,15 +330,15 @@
                     <div class="col-md-4 border-right">
                       <div class="inside-button">
                         <a href="javascript:;" class="btn btn-primary">MANUFACTURE RECALL</a>
-                        <a href="JavaScript:;" class="btn btn-primary btn-white">VIEW</a>
+                        <a href="javascript:;" class="btn btn-primary btn-white">VIEW</a>
                       </div>
                       <div class="inside-button">
                         <a href="javascript:;" class="btn btn-primary">SAFECAR RECALL</a>
-                        <a href="JavaScript:;" class="btn btn-primary btn-white">VIEW</a>
+                        <a href="javascript:;" class="btn btn-primary btn-white">VIEW</a>
                       </div>
                       <div class="inside-button">
                         <a href="javascript:;" class="btn btn-primary btn-white">RECALL SATISFACTION</a>
-                        <a href="JavaScript:;" class="btn btn-primary btn-white">VIEW</a>
+                        <a href="javascript:;" class="btn btn-primary btn-white">VIEW</a>
                       </div>
                     </div>
                     <div class="col-md-8">
