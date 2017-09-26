@@ -1013,4 +1013,9 @@ select[class=form-control] {
   color: #fff;
 }
 
+#pictureUpload .form-control {
+  width: 200px;
+  margin-top: 12px;
+}
+
 /** picture uploader end **/
