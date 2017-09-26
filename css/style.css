@@ -155,6 +155,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
   align-items: flex-start;
 }
 
+.align-center {
+  align-items: center;
+}
+
 .align-end {
   align-items: flex-end;
 }
@@ -982,6 +986,31 @@ select[class=form-control] {
 #pictureUploadInst > ol > li > span {
   color: #30bdff;
   font-weight: 400;
+}
+
+.pictureUploadCont {
+  background-color: #e6e6e6;
+  border-radius: 6px;
+  height: 200px;
+  width: 200px;
+  transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pictureUploadCont .fa-plus {
+  color: #30bdff;
+  font-size: 30px;
+}
+
+.pictureUploadCont:hover {
+  background-color: #30bdff;
+}
+
+.pictureUploadCont:hover .fa-plus {
+  color: #fff;
 }
 
 /** picture uploader end **/

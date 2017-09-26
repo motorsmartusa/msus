@@ -63,9 +63,21 @@
                     </div>
                   </div>
 
-                  <div class="row align-items-center" id="pictureUpload">
-                    <div class="col-md-12">
-                      Uploader
+                  <div class="row" id="pictureUpload">
+                    <div class="col-md-4 align-items-center">
+                      <div class="pictureUploadCont">
+                        <i class="fa fa-plus"></i>
+                      </div>
+                    </div>
+                    <div class="col-md-4 align-items-center">
+                      <div class="pictureUploadCont">
+                        <i class="fa fa-plus"></i>
+                      </div>
+                    </div>
+                    <div class="col-md-4 align-items-center">
+                      <div class="pictureUploadCont">
+                        <i class="fa fa-plus"></i>
+                      </div>
                     </div>
                   </div>
 
