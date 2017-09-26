@@ -18,13 +18,11 @@ h2 {
   margin: 0;
 }
 
-a {
-  text-decoration: none !important;
-}
-
-a:hover {
+a:active, a:focus, a:hover {
   text-decoration: none;
 }
+
+/** input styles start **/
 
 input[type=file] {
   position: absolute;
@@ -83,6 +81,12 @@ select {
   text-decoration: none;
 }
 
+select[class=form-control] {
+  background: #fff url(../images/arrow-down.png) right 4px center no-repeat;
+  height: 42px;
+  padding: 0 12px;
+}
+
 input[type=date]::-webkit-inner-spin-button,
 input[type=date]::-webkit-calendar-picker-indicator {
   appearance: none;
@@ -92,12 +96,18 @@ input[type=date]::-webkit-calendar-picker-indicator {
   color: #30bdff;
 }
 
-.container form .row {
-  margin: 10px 0;
+.form-control {
+  padding: 20px 12px;
+  color: #878787;
+  font-size: 16px;
+  border: #ccc solid 1px;
+  border-radius: 6px;
 }
 
-.img-responsive {
-  display: inline-block;
+/** input styles end **/
+
+.container form .row {
+  margin: 10px 0;
 }
 
 .row {
@@ -112,6 +122,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .row>[class*='col-'] {
   display: flex;
   flex-direction: column;
+}
+
+.img-responsive {
+  display: inline-block;
 }
 
 .section {
@@ -182,6 +196,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .justify-space {
   justify-content: space-between;
 }
+
+/** button styles start **/
 
 .btn-primary {
   font-size: 12px;
@@ -280,13 +296,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   padding: 30px 45px;
 }
 
-.form-control {
-  padding: 20px 12px;
-  color: #878787;
-  font-size: 16px;
-  border: #ccc solid 1px;
-  border-radius: 6px;
-}
+/** button styles end **/
 
 /** white close x start **/
 
@@ -420,17 +430,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 /** login form end **/
-
-
-/** signup form start **/
-
-select[class=form-control] {
-  background: #fff url(../images/arrow-down.png) right 4px center no-repeat;
-  height: 42px;
-  padding: 0 12px;
-}
-
-/** signup form end **/
 
 
 /** services start */
@@ -868,23 +867,6 @@ select[class=form-control] {
 
 .export .sub-heading {
   margin: 24px 0;
-}
-
-.file-upload {
-    position: relative;
-    overflow: hidden;
-}
-
-.file-upload input.upload {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 0;
-    padding: 5%;
-    font-size: 20px;
-    cursor: pointer;
-    opacity: 0;
-    filter: alpha(opacity=0);
 }
 
 .modal-header {

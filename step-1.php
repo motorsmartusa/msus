@@ -138,7 +138,7 @@
                 
                   <div class="row align-items-center">
                     <div class="col-md-3">
-                      <div class="file-upload btn btn-primary btn-lg">
+                      <div class="btn btn-primary btn-lg">
                       Upload Image
                         <input type="file" class="upload">
                       </div>
