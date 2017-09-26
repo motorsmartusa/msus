@@ -124,9 +124,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
   flex-direction: column;
 }
 
-.img-responsive {
+/*.img-responsive {
   display: inline-block;
-}
+}*/
 
 .section {
   margin: 36px 0 30px;
@@ -912,6 +912,47 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .sidebar>li>a.active {
   color: #30bdff;
   border-bottom: 3px solid #30bdff;
+}
+
+#labelImage, #pdfImage {
+  position: relative;
+}
+
+#labelImage .fa, #pdfImage .fa {
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+}
+
+#labelImage .fa-times {
+  top: 6px;
+  right: 18px;
+}
+
+#labelImage .fa-search-plus {
+  bottom: 10px;
+  left: 16px;
+}
+
+#labelImage .fa-download {
+  bottom: 10px;
+  right: 18px;
+}
+
+#pdfImage .fa-times {
+  color: #30bdff;
+  top: 8px;
+  right: 8px;
+}
+
+#pdfImage .fa-search-plus {
+  bottom: 6px;
+  right: 10px;  
+}
+
+#pdfImage .fa-download {
+  bottom: 6px;
+  left: 10px;
 }
 
 /** export steps end **/

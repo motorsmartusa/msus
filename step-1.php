@@ -145,8 +145,12 @@
                     </div>
                     <div class="col-md-9 text-center">
 
-                      <div><img src="images/dummy-image.jpg" class="img-responsive"></div> 
-                      <!-- TODO: add zoom, delete, and download-->
+                      <div id="labelImage">
+                        <img src="images/dummy-image.jpg" class="img-responsive">
+                        <i class="fa fa-times"></i>
+                        <i class="fa fa-download"></i>
+                        <i class="fa fa-search-plus"></i>
+                      </div> 
                     </div>
                   </div>
                   <div class="row align-items-end">
@@ -340,8 +344,13 @@
                         <a href="javascript:;" class="btn btn-primary btn-white">VIEW</a>
                       </div>
                     </div>
-                    <div class="col-md-8">
-                      <div class="text-center"><img src="images/pdf-image.jpg" class="img-responsive"></div>
+                    <div class="col-md-8 align-items-center">
+                      <div id="pdfImage">
+                        <img src="images/pdf-image.jpg" class="img-responsive">
+                        <i class="fa fa-times"></i>
+                        <i class="fa fa-download"></i>
+                        <i class="fa fa-search-plus"></i>
+                      </div>
                     </div>
                   </div>
 
