@@ -115,7 +115,7 @@
                     <div class="col-md-2">
                         <label>Fuel Type</label>
                         <select class="form-control" name="fuel_type">
-                          <option></option>
+                          <option disabled selected>--</option>
                           <option>Diesel</option>
                           <option>Gas</option>
                           <option>Propane</option>
@@ -158,7 +158,7 @@
                     <div class="col-md-2">
                       <label>Build Date (mm/yyyy)</label>
                       <select name="build_month" class="form-control">
-                        <option></option>
+                        <option disabled selected>--</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -176,7 +176,7 @@
                     <div class="col-md-1">
                       <!-- <label></label> -->
                       <select name="build_year" class="form-control">
-                        <option></option>
+                        <option disabled selected>--</option>
                         <option>1980</option>
                         <option>1981</option>
                         <option>1982</option>
@@ -253,6 +253,7 @@
                     <div class="col-md-2">
                       <label>FR Rim Diameter</label>
                       <select name="front_rim_diameter" class="form-control">
+                        <option disabled selected>--</option>
                         <option>14"</option>
                         <option>15"</option>
                         <option>16"</option>
@@ -295,6 +296,7 @@
                     <div class="col-md-2">
                       <label>RR Rim Diameter</label>
                       <select name="rear_rim_diameter" class="form-control">
+                        <option disabled selected>--</option>
                         <option>14"</option>
                         <option>15"</option>
                         <option>16"</option>

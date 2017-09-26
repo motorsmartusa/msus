@@ -91,7 +91,7 @@
                     <div class="col-md-3">
                       <label>State/Province</label>
                       <select class="form-control" name="exp_state">
-                        <option></option>
+                        <option disabled selected>--</option>
                       </select>
                     </div>
                     <div class="col-md-3">
@@ -153,7 +153,7 @@
                     <div class="col-md-3">
                       <label>State/Province</label>
                       <select class="form-control" name="dest_state">
-                        <option></option>
+                        <option disabled selected>--</option>
                       </select>
                     </div>
                     <div class="col-md-3">
@@ -206,7 +206,7 @@
                     <div class="col-md-4">
                       <label>Port of Crossing</label>
                       <select class="form-control" name="trans_port_of_crossing">
-                        <option></option>
+                        <option disabled selected>--</option>
                       </select>
                     </div>
                     <div class="col-md-2">
@@ -268,7 +268,7 @@
                     <div class="col-md-3">
                       <label>State/Province</label>
                       <select class="form-control" name="bill_state">
-                        <option></option>
+                        <option disabled selected>--</option>
                       </select>
                     </div>
                     <div class="col-md-3">
@@ -329,7 +329,7 @@
                         <div class="col-md-12">
                           <label>Delivery Service</label>
                           <select class="form-control" name="title_delivery_service">
-                            <option></option>
+                            <option disabled selected>--</option>
                             <option>Standard</option>
                             <option>Rush</option>
                           </select>
@@ -375,7 +375,7 @@
                         <div class="col-md-12">
                           <label>Delivery Service</label>
                           <select class="form-control" name="label_delivery_service">
-                            <option></option>
+                            <option disabled selected>--</option>
                             <option>Standard</option>
                             <option>Rush</option>
                           </select>

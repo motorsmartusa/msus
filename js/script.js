@@ -79,7 +79,7 @@ $(window).scroll(function() {
       var offset = 100;
       var id = $(this).attr('id');
 
-      if (position + offset >= target) {
+      if (position + offset > target) {
           $('.sidebar > li > a').removeClass('active');
           $('.sidebar > li > a[href=\\#' + id + ']').addClass('active');
       }
