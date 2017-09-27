@@ -63,6 +63,25 @@ $(document).ready(function() {
       $('#pictureUploadInst').show();
   });
 
+  var readURL = function(input) {
+
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function(e) {
+        $(input).siblings('.imgPreview').attr('src', e.target.result);
+        $(input).siblings('.fa.fa-plus').hide();
+        $(input).siblings('.imgPreview').hide();
+        $(input).siblings('.imgPreview').fadeIn(650);
+      }
+
+      reader.readAsDataURL(input.files[0]);
+    }
+  }
+
+  $('.imgUpload').change(function() {
+    readURL(this);
+  });
   // $(".image-cross").on("click", function() {
   //   $(".close-image").slideToggle();
   // });

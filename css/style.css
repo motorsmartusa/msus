@@ -1004,6 +1004,20 @@ input[type=date]::-webkit-calendar-picker-indicator {
   justify-content: center;
 }
 
+.pictureUploadCont input[type=file] {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    margin: 0;
+    padding: 5%;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 200px;
+    height: 200px;
+}
+
 .pictureUploadCont .fa-plus {
   color: #30bdff;
   font-size: 30px;
@@ -1020,6 +1034,12 @@ input[type=date]::-webkit-calendar-picker-indicator {
 #pictureUpload .form-control {
   width: 200px;
   margin-top: 12px;
+}
+
+.imgPreview {
+  display: none;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /** picture uploader end **/
