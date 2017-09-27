@@ -69,6 +69,11 @@
                         <i class="fa fa-plus"></i>
                         <input type="file" class="imgUpload">
                         <img class="imgPreview" src="#" />
+                        <div class="iconOverlay">
+                          <i class="fa fa-times"></i>
+                          <i class="fa fa-download"></i>
+                          <i class="fa fa-search-plus"></i>
+                        </div>
                       </div>
                       <select name="photoLocation" class="form-control">
                         <option disabled selected>--</option>
@@ -90,6 +95,11 @@
                         <i class="fa fa-plus"></i>
                         <input type="file" class="imgUpload">
                         <img class="imgPreview" src="#" />
+                        <div class="iconOverlay">
+                          <i class="fa fa-times"></i>
+                          <i class="fa fa-download"></i>
+                          <i class="fa fa-search-plus"></i>
+                        </div>
                       </div>
                       <select name="photoLocation" class="form-control">
                         <option disabled selected>--</option>
@@ -111,6 +121,11 @@
                         <i class="fa fa-plus"></i>
                         <input type="file" class="imgUpload">
                         <img class="imgPreview" src="#" />
+                        <div class="iconOverlay">
+                          <i class="fa fa-times"></i>
+                          <i class="fa fa-download"></i>
+                          <i class="fa fa-search-plus"></i>
+                        </div>
                       </div>
                       <select name="photoLocation" class="form-control">
                         <option disabled selected>--</option>

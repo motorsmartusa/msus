@@ -73,6 +73,11 @@ $(document).ready(function() {
         $(input).siblings('.fa.fa-plus').hide();
         $(input).siblings('.imgPreview').hide();
         $(input).siblings('.imgPreview').fadeIn(650);
+        $(input).siblings('.iconOverlay').show();
+
+        $(input).siblings('.iconOverlay').hover(function() {
+          $(this).parent().attr('style', 'opacity: 0.5');
+        });
       }
 
       reader.readAsDataURL(input.files[0]);

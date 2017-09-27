@@ -1042,4 +1042,42 @@ input[type=date]::-webkit-calendar-picker-indicator {
   max-height: 100%;
 }
 
+.iconOverlay {
+  display: none;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.iconOverlay .fa {
+  display: none;
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+}
+
+.iconOverlay .fa-times {
+  top: 6px;
+  right: 10px;
+}
+
+.iconOverlay .fa-search-plus {
+  bottom: 6px;
+  left: 10px;
+}
+
+.iconOverlay .fa-download {
+  bottom: 6px;
+  right: 10px;
+}
+
+.iconOverlay:hover {
+  background-color: rgba(48, 189, 255, 0.5);
+  z-index: 1000;
+}
+
+.iconOverlay:hover .fa {
+  display: inline;
+}
+
 /** picture uploader end **/
