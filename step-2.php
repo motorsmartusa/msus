@@ -71,7 +71,7 @@
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
                           <i class="fa fa-times"></i>
-                          <i class="fa fa-download"></i>
+                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
                           <i class="fa fa-search-plus"></i>
                         </div>
                       </div>
@@ -97,7 +97,7 @@
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
                           <i class="fa fa-times"></i>
-                          <i class="fa fa-download"></i>
+                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
                           <i class="fa fa-search-plus"></i>
                         </div>
                       </div>
@@ -123,7 +123,7 @@
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
                           <i class="fa fa-times"></i>
-                          <i class="fa fa-download"></i>
+                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
                           <i class="fa fa-search-plus"></i>
                         </div>
                       </div>

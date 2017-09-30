@@ -70,21 +70,34 @@ $(document).ready(function() {
 
       reader.onload = function(e) {
         $(input).siblings('.imgPreview').attr('src', e.target.result);
+        $(input).siblings('.iconOverlay').children('a').attr('href', e.target.result);
         $(input).siblings('.fa.fa-plus').hide();
         $(input).siblings('.imgPreview').hide();
         $(input).siblings('.imgPreview').fadeIn(650);
         $(input).siblings('.iconOverlay').show();
 
-        $(input).siblings('.iconOverlay').hover(function() {
-          $(this).parent().attr('style', 'opacity: 0.5');
-        });
+        // $(input).siblings('.iconOverlay').hover(function() {
+        //   $(this).parent().removeClass('solid');
+        //   $(this).parent().addClass('opaque');
+        // });
+
+        // $(input).siblings('.iconOverlay').children('.fa.fa-times').click(function() {
+        //     $(this).parent().siblings('.imgPreview').hide();
+        //     $(this).parent().siblings('.imgPreview').attr('src', '#');
+        //     $(this).siblings('a').attr('href', 'javascript:;');
+        //     $(this).parent().parent().removeClass('opaque');
+        //     $(this).parent().parent().addClass('solid');
+        //     $(this).parent().hide();
+        //     $(this).parent().siblings('.fa.fa-plus').fadeIn(650);
+        // });
       }
 
       reader.readAsDataURL(input.files[0]);
+      input.value = '';
     }
   }
 
-  $('.imgUpload').change(function() {
+  $('.imgUpload').on('change', function() {
     readURL(this);
   });
   // $(".image-cross").on("click", function() {
