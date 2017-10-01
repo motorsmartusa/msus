@@ -81,7 +81,7 @@ select {
   text-decoration: none;
 }
 
-select[class=form-control] {
+select[class*=form-control] {
   background: #fff url(../images/arrow-down.png) right 4px center no-repeat;
   height: 42px;
   padding: 0 12px;
@@ -1096,6 +1096,18 @@ input[type=date]::-webkit-calendar-picker-indicator {
   height: auto;
   min-height: 100%;
   border-radius: 0;
+}
+
+li.checkmark {
+  list-style-type: none;
+}
+
+li.checkmark:before {
+  content: '\2713';
+  color:  #30bdff;
+  font-size: 20px;
+  margin-left: -18px;
+  margin-right: 2px;
 }
 
 /** picture uploader end **/

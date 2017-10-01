@@ -63,6 +63,17 @@ $(document).ready(function() {
       $('#pictureUploadInst').show();
   });
 
+  var prevVal;
+  $('.picture-list-option').on('focus', function() {
+      prevVal = $(this).val();  
+  }).on('change', function() {
+    if (prevVal !== '--') {
+      $('#pictureList li:contains(' + prevVal + ')').removeClass('checkmark');
+    }
+    $('#pictureList li:contains(' + $(this).val() + ')').addClass('checkmark');
+    prevVal = $(this).val();
+  });
+
   var readURL = function(input) {
 
     if (input.files && input.files[0]) {
@@ -88,7 +99,7 @@ $(document).ready(function() {
           var html = '<img src="' + e.target.result + '"/>';
           $('#previewModal .modal-body').html(html);
           $('#previewModal').modal('show');
-        })
+        });
       }
 
       reader.readAsDataURL(input.files[0]);
@@ -99,39 +110,34 @@ $(document).ready(function() {
   $('.imgUpload').on('change', function() {
     readURL(this);
   });
-  // $(".image-cross").on("click", function() {
-  //   $(".close-image").slideToggle();
-  // });
-  // $(".pdf-cross").on("click", function() {
-  //   $(".pdf-image").slideToggle();
-  // });
 
-$(window).scroll(function() {
 
-  if ($(this).scrollTop() >= 300) {
-      $('#return-to-top').fadeIn(200);
-  } else {
-      $('#return-to-top').fadeOut(200);
-  }
+  $(window).scroll(function() {
 
-  var position = $(this).scrollTop();
+    if ($(this).scrollTop() >= 300) {
+        $('#return-to-top').fadeIn(200);
+    } else {
+        $('#return-to-top').fadeOut(200);
+    }
 
-  $('section').each(function() {
-      var target = $(this).offset().top;
-      var offset = 100;
-      var id = $(this).attr('id');
+    var position = $(this).scrollTop();
 
-      if (position + offset > target) {
-          $('.sidebar > li > a').removeClass('active');
-          $('.sidebar > li > a[href=\\#' + id + ']').addClass('active');
-      }
+    $('section').each(function() {
+        var target = $(this).offset().top;
+        var offset = 100;
+        var id = $(this).attr('id');
+
+        if (position + offset > target) {
+            $('.sidebar > li > a').removeClass('active');
+            $('.sidebar > li > a[href=\\#' + id + ']').addClass('active');
+        }
+    });
   });
-});
- 
-$('#return-to-top').click(function() {
-    $('body,html').animate({
-        scrollTop : 0
-    }, 500);
-});
+   
+  $('#return-to-top').click(function() {
+      $('body,html').animate({
+          scrollTop : 0
+      }, 500);
+  });
 
 });

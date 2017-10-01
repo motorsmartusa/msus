@@ -75,8 +75,8 @@
                           <i class="fa fa-search-plus"></i>
                         </div>
                       </div>
-                      <select name="photoLocation" class="form-control">
-                        <option disabled selected>--</option>
+                      <select name="photoLocation" class="form-control picture-list-option">
+                        <option selected>--</option>
                         <option>Front/Driver Side</option>
                         <option>Rear/Passenger Side</option>
                         <option>Passenger Airbag</option>
@@ -101,8 +101,8 @@
                           <i class="fa fa-search-plus"></i>
                         </div>
                       </div>
-                      <select name="photoLocation" class="form-control">
-                        <option disabled selected>--</option>
+                      <select name="photoLocation" class="form-control picture-list-option">
+                        <option selected>--</option>
                         <option>Front/Driver Side</option>
                         <option>Rear/Passenger Side</option>
                         <option>Passenger Airbag</option>
@@ -127,8 +127,8 @@
                           <i class="fa fa-search-plus"></i>
                         </div>
                       </div>
-                      <select name="photoLocation" class="form-control">
-                        <option disabled selected>--</option>
+                      <select name="photoLocation" class="form-control picture-list-option">
+                        <option selected>--</option>
                         <option>Front/Driver Side</option>
                         <option>Rear/Passenger Side</option>
                         <option>Passenger Airbag</option>
@@ -182,7 +182,7 @@
               <li>Hover over the picture to zoom in, delete it or download it.</li>
             </ol> 
             <span class="highlight">Picture List</span>
-            <ol>
+            <ol id="pictureList">
               <li>Front/Driver Side</li>
               <li>Rear/Passenger Side</li>
               <li>Passenger Airbag</li>
