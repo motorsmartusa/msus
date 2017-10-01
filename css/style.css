@@ -216,7 +216,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .btn-primary:active:focus,
 .btn-primary:active:hover,
 .btn-primary:focus,
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary[disabled]:hover {
   background: #73d2ff;
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;
   outline: none;
@@ -1122,3 +1123,13 @@ li.checkmark:before {
 }
 
 /** picture uploader end **/
+
+/** decode start **/
+.form-control-feedback {
+    top: 40px !important;
+}
+
+.text-success {
+  color:  #30bdff;
+}
+/** decode end **/

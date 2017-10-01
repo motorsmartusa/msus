@@ -44,15 +44,17 @@
                   <div class="row align-items-end">
                       <div class="col-md-5">
                         <label>VIN*</label>
-                        <input type="text" class="form-control" name="vin">
+                        <input type="text" class="form-control vin-input" name="vin">
+                        <i class="fa fa-check text-success form-control-feedback hidden"></i>
                       </div>
 
                       <div class="col-md-5">
                         <label>Confirm VIN*</label>
-                        <input type="text" class="form-control" name="confirm_vin" >
+                        <input type="text" class="form-control vin-input" name="confirm_vin" >
+                        <i class="fa fa-check text-success form-control-feedback hidden"></i>
                       </div>
                       <div class="col-md-2">
-                        <a role="button" class="btn btn-primary btn-lg" href="javascript:;" id="decode">DECODE</a>
+                        <a role="button" class="btn btn-primary btn-lg vin-decoder" href="javascript:;" id="decodeVin" disabled>DECODE</a>
                       </div>
                   </div>
                   <div class="row align-items-end">
@@ -400,6 +402,8 @@
   <script src="js/script.js">
   </script>
   <script src="js/step-1.js">
+  </script> 
+  <script src="js/decode.js">
   </script> 
   <!-- javascript end -->
 </body>
