@@ -34,6 +34,9 @@ $(document).ready(function() {
         $(input).siblings('.iconOverlay').children('.fa.fa-times').click(function() {
             $(this).parent().siblings('.imgPreview').hide();
             $(this).parent().siblings('.imgPreview').attr('src', '#');
+            $(this).parent().parent().siblings('.picture-list-option').focus();
+            $(this).parent().parent().siblings('.picture-list-option').prop('selectedIndex',0);
+            $(this).parent().parent().siblings('.picture-list-option').change();
             $(this).siblings('a').attr('href', 'javascript:;');
             $(this).parent().hide();
             $(this).parent().siblings('.fa.fa-plus').fadeIn(650);
