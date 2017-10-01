@@ -924,7 +924,18 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 30px;
 }
 
+#labelImage {
+  width: 600px;
+  height: auto;
+}
+
+#labelImage img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 #labelImage .fa-times {
+  display: none;
   top: 6px;
   right: 18px;
 }

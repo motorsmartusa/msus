@@ -115,7 +115,7 @@
                     <div class="col-md-2">
                         <label>Fuel Type</label>
                         <select class="form-control" name="fuel_type">
-                          <option disabled selected>--</option>
+                          <option selected>--</option>
                           <option>Diesel</option>
                           <option>Gas</option>
                           <option>Propane</option>
@@ -143,12 +143,12 @@
                         <input type="file" class="upload">
                       </div>
                     </div>
-                    <div class="col-md-9 text-center">
+                    <div class="col-md-9 align-items-center">
 
                       <div id="labelImage">
-                        <img src="images/dummy-image.jpg" class="img-responsive">
+                        <img src="images/dummy-image.jpg">
                         <i class="fa fa-times"></i>
-                        <i class="fa fa-download"></i>
+                        <a href="images/dummy-image.jpg" download><i class="fa fa-download"></i></a>
                         <i class="fa fa-search-plus"></i>
                       </div> 
                     </div>
@@ -162,7 +162,7 @@
                     <div class="col-md-2">
                       <label>Build Date (mm/yyyy)</label>
                       <select name="build_month" class="form-control">
-                        <option disabled selected>--</option>
+                        <option selected>--</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -179,7 +179,7 @@
                     </div>
                     <div class="col-md-2">
                       <select name="build_year" class="form-control">
-                        <option disabled selected>--</option>
+                        <option selected>--</option>
                         <option>1980</option>
                         <option>1981</option>
                         <option>1982</option>
@@ -256,7 +256,7 @@
                     <div class="col-md-2">
                       <label>FR Rim Diameter</label>
                       <select name="front_rim_diameter" class="form-control">
-                        <option disabled selected>--</option>
+                        <option selected>--</option>
                         <option>14"</option>
                         <option>15"</option>
                         <option>16"</option>
@@ -299,7 +299,7 @@
                     <div class="col-md-2">
                       <label>RR Rim Diameter</label>
                       <select name="rear_rim_diameter" class="form-control">
-                        <option disabled selected>--</option>
+                        <option selected>--</option>
                         <option>14"</option>
                         <option>15"</option>
                         <option>16"</option>
@@ -388,6 +388,7 @@
     </div>
   </div>
 
+  <?php include dirname(__FILE__)."/preview.php"; ?>
   <?php include dirname(__FILE__)."/footer.php"; ?>
   <!-- javascript start -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -397,6 +398,9 @@
   <script src="css/bootstrap/js/bootstrap.min.js">
   </script> 
   <script src="js/script.js">
-  </script> <!-- javascript end -->
+  </script>
+  <script src="js/step-1.js">
+  </script> 
+  <!-- javascript end -->
 </body>
 </html>
