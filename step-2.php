@@ -201,6 +201,7 @@
     </div>
   </div>
 
+  <?php include dirname(__FILE__)."/preview.php"; ?>
   <?php include dirname(__FILE__)."/footer.php"; ?>
   <!-- javascript start -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
