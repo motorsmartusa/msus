@@ -764,7 +764,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   position:relative;
   top:-7px;
 }
-.searrch:-moz-placeholder { /* Firefox 18- */
+.search:-moz-placeholder { /* Firefox 18- */
   white-space:pre-line;  
   position:relative;
   top:-7px;
@@ -779,6 +779,52 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .dashboard .input-group {
   margin-top:  6px;
+}
+
+.dashboard .flex-container {
+  padding: 0;
+  margin: 0;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.dashboard .flex-container div {
+  width: 20%;
+  height: 120px;
+  margin: 6px;
+  border: 1px solid #30bdff;
+  border-radius: 4px;
+  color: #30bdff;
+  font-size: 28px;
+  line-height: 63px;
+  text-align: center;
+}
+
+.dashboard .flex-container .btn-primary {
+  width: 100%;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  box-shadow: none;
+}
+
+.dashboard .flex-container .btn-primary:active,
+.dashboard .flex-container .btn-primary:active:focus,
+.dashboard .flex-container .btn-primary:active:hover,
+.dashboard .flex-container .btn-primary:focus,
+.dashboard .flex-container .btn-primary:hover {
+  color: #fff;
+  background: #73d2ff;
+  outline: none;
+  border: none;
+  box-shadow: none;
 }
 /** dealer main and dashboard end **/
 

@@ -34,7 +34,28 @@
 
       <div class="col-md-8">
         <div class="sub-heading">Here is what <span class="highlight">YOU</span> have going on</div>
-         
+        <div class="flex-container">
+          <div>
+            8
+            <a role="button" class="btn btn-primary" href="javascript:;">NEW</a>
+          </div> 
+          <div>
+            26
+             <a role="button" class="btn btn-primary" href="javascript:;">PICTURES REQUIRED</a>
+          </div> 
+          <div>
+            35
+             <a role="button" class="btn btn-primary" href="javascript:;">SUBMITTED</a>
+          </div> 
+          <div>
+            12
+             <a role="button" class="btn btn-primary" href="javascript:;">UNPAID</a>
+          </div> 
+          <div>
+            832
+             <a role="button" class="btn btn-primary" href="javascript:;">COMPLETE</a>
+          </div> 
+        </div>
       </div>
 
       <div class="col-md-2">
