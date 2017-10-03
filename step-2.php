@@ -171,7 +171,7 @@
       <div class="col-md-2">
         <div class="sidebar">
           <a class="btn btn-primary btn-ask btn-lg" href="#footer" role="button">ASK A QUESTION</a>
-          <a class="btn btn-primary btn-dashbrd btn-lg" href="javscript:;" role="button">DASHBOARD</a>
+          <a class="btn btn-primary btn-dashbrd btn-lg" href="dashboard.php" role="button">DASHBOARD</a>
 
           <div id="pictureUploadInst">
             <span class="highlight">Instructions</span>

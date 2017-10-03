@@ -59,9 +59,11 @@
 
 
       <div class="col-md-2 align-items-center">
-        <div class="circle">
-          VIEW DASHBOARD
-        </div>
+        <a href="dashboard.php">
+          <div class="circle">
+            VIEW DASHBOARD
+          </div>
+        </a>
       </div>
 
 
