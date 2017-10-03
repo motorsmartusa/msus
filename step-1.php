@@ -1,3 +1,6 @@
+<?php
+ header("Access-Control-Allow-Origin: *"); 
+?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -334,11 +337,11 @@
                   <div class="row">
                     <div class="col-md-4 border-right">
                       <div class="inside-button">
-                        <a href="javascript:;" class="btn btn-primary">MANUFACTURE RECALL</a>
+                        <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#recallsModal" data-recall="manu">MANUFACTURE RECALL</a>
                         <a href="javascript:;" class="btn btn-primary btn-white">VIEW</a>
                       </div>
                       <div class="inside-button">
-                        <a href="javascript:;" class="btn btn-primary">SAFECAR RECALL</a>
+                        <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#recallsModal" data-recall="safercar">SAFERCAR RECALL</a>
                         <a href="javascript:;" class="btn btn-primary btn-white">VIEW</a>
                       </div>
                       <div class="inside-button">
@@ -391,6 +394,7 @@
   </div>
 
   <?php include dirname(__FILE__)."/preview.php"; ?>
+  <?php include dirname(__FILE__)."/recalls.php"; ?>
   <?php include dirname(__FILE__)."/footer.php"; ?>
   <!-- javascript start -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

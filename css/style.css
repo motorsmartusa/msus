@@ -1133,3 +1133,30 @@ li.checkmark:before {
   color:  #30bdff;
 }
 /** decode end **/
+
+/** recalls start **/
+
+#recallsModal iframe {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+#recallsModal .modal-dialog {
+  width: 98%;
+  height: 98%;
+  padding: 0;
+  margin:  0 auto;
+}
+
+#recallsModal .modal-content {
+  height: 99%;
+}
+
+#recallsModal .modal-body {
+  height: 100%;
+}
+
+/** recalls end **/

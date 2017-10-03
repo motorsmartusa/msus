@@ -33,9 +33,23 @@ $(document).ready(function() {
   });
 
   $('#labelImage').children('.fa.fa-search-plus').click(function() {
-	var html = '<img src="' + $(this).siblings('img').attr('src') + '"/>';
-	$('#previewModal .modal-body').html(html);
-	$('#previewModal').modal('show');	
+  	var html = '<img src="' + $(this).siblings('img').attr('src') + '"/>';
+  	$('#previewModal .modal-body').html(html);
+  	$('#previewModal').modal('show');	
    });
+
+  $('#recallsModal').on('shown.bs.modal',function(e){
+    var btn = $(e.relatedTarget);
+    var recallType = btn.data('recall');
+
+    if(recallType === "manu") {
+      $(this).find('.modal-title').text("SAFECAR RECALLS");
+      $(this).find('iframe').attr('src','https://vinrcl.safercar.gov/vin/');
+    } else if (recallType == "safercar") {
+      $(this).find('.modal-title').text("MANUFACTURER RECALLS");
+      $(this).find('iframe').attr('src','https://owner.ford.com/tools/account/maintenance/recalls.html');
+    }
+
+  });
 
 });
