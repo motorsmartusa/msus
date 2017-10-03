@@ -685,7 +685,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 /** dealer main and dashboard start **/
 
-.dealer {
+.dealer, .dashboard {
   background: #fff;
   padding: 10px 0 36px 0;
 }
@@ -714,7 +714,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .dashboard .sub-heading {
-  margin-top:  20px;
+  margin:  20px 0;
 }
 
 .dealer .sub-heading {
@@ -825,6 +825,19 @@ input[type=date]::-webkit-calendar-picker-indicator {
   outline: none;
   border: none;
   box-shadow: none;
+}
+
+#dataTable th {
+  font-size:  14px;
+  color:  #30bdff;
+  font-weight: 400;
+  white-space: nowrap;
+  border-bottom:  none;
+}
+
+#dataTable td {
+  color:  #a0a09f;
+  font-size:  14px;
 }
 /** dealer main and dashboard end **/
 

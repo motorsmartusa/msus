@@ -18,6 +18,7 @@
     <![endif]-->
   <!-- bootstrap css -->
   <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap/css/datatables.bootstrap.min.css" rel="stylesheet">
   <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet"><!-- custom css -->
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -69,17 +70,123 @@
         </div>
       </div>
     </div>
+
+    <table id="dataTable" class="table" cellspacing="0" width="100%">
+      <thead>
+          <tr>
+              <th>STATUS</th>
+              <th>LAST ACTIVITY</th>
+              <th>STOCK #</th>
+              <th>VEHICLE DETAILS</th>
+              <th>RI PICTURES</th>
+              <th>PICK UP LOCATION</th>
+              <th>DESTINATION</th>
+              <th>TRANSPORTER</th>
+              <th>CROSS DATE</th>
+              <th>PORT</th>
+              <th>ACTION</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Pictures Required</td>
+              <td>1-Sep-16</td>
+              <td>4E142903</td>
+              <td>2014 Ford F150 XLT 1FTW1257B4E142903</td>
+              <td>Required</td>
+              <td>MotorSmart USA c/o Adesa Calgary</td>
+              <td>Manheim Denver</td>
+              <td>Corporate Fleet Express</td>
+              <td>19-Sep-2016</td>
+              <td>SWEET GRASS</td>
+              <td><a href="javascript:;" class="btn btn-primary btn-white">VIEW</a></td>
+          </tr>
+          <tr>
+              <td>Pictures Required</td>
+              <td>3-Sep-16</td>
+              <td>4E142902</td>
+              <td>2014 Ford F150 XLT 1FTW1257B4E142903</td>
+              <td>Required</td>
+              <td>MotorSmart USA c/o Adesa Calgary</td>
+              <td>Manheim Denver</td>
+              <td>Corporate Fleet Express</td>
+              <td>20-Sep-2016</td>
+              <td>SWEET GRASS</td>
+              <td><a href="javascript:;" class="btn btn-primary btn-white">VIEW</a></td>
+          </tr>
+          <tr>
+              <td>Pictures Required</td>
+              <td>4-Sep-16</td>
+              <td>4E142905</td>
+              <td>2014 Ford F150 XLT 1FTW1257B4E142903</td>
+              <td>Required</td>
+              <td>MotorSmart USA c/o Adesa Calgary</td>
+              <td>Manheim Denver</td>
+              <td>Corporate Fleet Express</td>
+              <td>27-Sep-2016</td>
+              <td>SWEET GRASS</td>
+              <td><a href="javascript:;" class="btn btn-primary btn-white">VIEW</a></td>
+          </tr>
+          <tr>
+              <td>Pictures Required</td>
+              <td>5-Sep-16</td>
+              <td>4E142907</td>
+              <td>2014 Ford F150 XLT 1FTW1257B4E142903</td>
+              <td>Required</td>
+              <td>MotorSmart USA c/o Adesa Calgary</td>
+              <td>Manheim Denver</td>
+              <td>Corporate Fleet Express</td>
+              <td>18-Sep-2016</td>
+              <td>SWEET GRASS</td>
+              <td><a href="javascript:;" class="btn btn-primary btn-white">VIEW</a></td>
+          </tr>
+          <tr>
+             <td>Pictures Required</td>
+             <td>1-Sep-16</td>
+              <td>4E142908</td>
+              <td>2014 Ford F150 XLT 1FTW1257B4E142903</td>
+              <td>Required</td>
+              <td>MotorSmart USA c/o Adesa Calgary</td>
+              <td>Manheim Denver</td>
+              <td>Corporate Fleet Express</td>
+              <td>19-Sep-2016</td>
+              <td>SWEET GRASS</td>
+              <td><a href="javascript:;" class="btn btn-primary btn-white">VIEW</a></td>
+          </tr>
+          <tr>
+              <td>Pictures Required</td>
+              <td>2-Sep-16</td>
+              <td>4E142909</td>
+              <td>2014 Ford F150 XLT 1FTW1257B4E142903</td>
+              <td>Required</td>
+              <td>MotorSmart USA c/o Adesa Calgary</td>
+              <td>Manheim Denver</td>
+              <td>Corporate Fleet Express</td>
+              <td>19-Sep-2016</td>
+              <td>SWEET GRASS</td>
+              <td><a href="javascript:;" class="btn btn-primary btn-white">VIEW</a></td>
+          </tr>
+      </tbody>
+  </table>
   </div>
 
   <?php include dirname(__FILE__)."/footer.php"; ?>
   <!-- javascript start -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-  </script> <!-- Include all compiled plugins (below), or include individual files as needed -->
+  </script> 
+  <script src="js/jquery.datatables.min.js">
+  </script>
+  <script src="js/datatables.bootstrap.min.js">
+  </script>
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
    
   <script src="css/bootstrap/js/bootstrap.min.js">
   </script> 
   <script src="js/script.js">
+  </script>
+  <script src="js/datatable.js">
   </script>
   <!-- javascript end -->
 </body>
