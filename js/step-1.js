@@ -41,12 +41,16 @@ $(document).ready(function() {
   $('#recallsModal').on('shown.bs.modal',function(e){
     var btn = $(e.relatedTarget);
     var recallType = btn.data('recall');
+    var vin = $('input[name=vin]').val();
+    var title;
 
-    if(recallType === "manu") {
-      $(this).find('.modal-title').text("SAFECAR RECALLS");
+    if(recallType === "safercar") {
+      title = (vin !== "") ? "SAFERCAR RECALLS - VIN: " + vin : "SAFERCAR RECALLS";
+      $(this).find('.modal-title').text(title);
       $(this).find('iframe').attr('src','https://vinrcl.safercar.gov/vin/');
-    } else if (recallType == "safercar") {
-      $(this).find('.modal-title').text("MANUFACTURER RECALLS");
+    } else if (recallType == "mfg") {
+      title = (vin !== "") ? "MANUFACTURER RECALLS - VIN: " + vin : "MANUFACTURER RECALLS";
+      $(this).find('.modal-title').text(title);
       $(this).find('iframe').attr('src','https://owner.ford.com/tools/account/maintenance/recalls.html');
     }
 

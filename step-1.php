@@ -326,7 +326,7 @@
                   <div class="row">
                     <div class="col-md-4 border-right">
                       <div class="inside-button">
-                        <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#recallsModal" data-recall="manu">MANUFACTURE RECALL</a>
+                        <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#recallsModal" data-recall="mfg">MANUFACTURE RECALL</a>
                         <a href="javascript:;" class="btn btn-primary btn-white">VIEW</a>
                       </div>
                       <div class="inside-button">
