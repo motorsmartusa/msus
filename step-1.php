@@ -75,17 +75,23 @@
                       </div>
                       <div class="col-md-3">
                         <label>Series/Trim*</label>
-                        <input type="text" class="form-control" name="series_trim" required>
+                        <select class="form-control" name="series_trim" required>
+                          <option value="">--</option>
+                        </select>
                       </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-3">
                       <label>Style*</label>
-                      <input type="text"  class="form-control" name="style" required>
+                      <select class="form-control" name="style" required>
+                        <option value="">--</option>
+                      </select>
                     </div>
                     <div class="col-md-3">
                       <label>Color*</label>
-                      <input type="text" class="form-control" name="color" required>
+                      <select class="form-control" name="color" required>
+                        <option value="">--</option>
+                      </select>
                     </div>
                     <div class="col-md-3">
                       <label>Mileage*</label>
@@ -120,18 +126,15 @@
                     <div class="col-md-2">
                         <label>Fuel Type*</label>
                         <select class="form-control" name="fuel_type" required>
-                          <option selected>--</option>
-                          <option>Diesel</option>
-                          <option>Gas</option>
-                          <option>Propane</option>
-                          <option>Electric</option>
-                          <option>Hybrid</option>
+                          <option value="" selected>--</option>
                         </select>
                         
                     </div>
                     <div class="col-md-2">
                         <label>Displacement*</label>
-                        <input type="text" class="form-control" name="displacement" required>
+                        <select class="form-control" name="displacement" required>
+                        <option value="">--</option>
+                      </select>
                     </div>
                   </div>
                 </section>
@@ -162,7 +165,9 @@
                     
                     <div class="col-md-3">
                       <label>Manufactured By*</label>
-                      <input type="text" class="form-control" name="manu_by" required>
+                      <select class="form-control" name="manu_by" required>
+                        <option value="">--</option>
+                      </select>
                     </div>
                     <div class="col-md-2">
                       <label>Build Date (mm/yyyy)*</label>
@@ -256,28 +261,21 @@
                     </div>
                     <div class="col-md-2">
                       <label>Front Tire Size*</label>
-                      <input type="text" class="form-control" name="front_tire_size" required>
+                      <select class="form-control" name="front_tire_size" required>
+                        <option value="">--</option>
+                      </select>
                     </div>
                     <div class="col-md-2">
                       <label>FR Rim Diameter*</label>
                       <select name="front_rim_diameter" class="form-control" required>
-                        <option selected>--</option>
-                        <option>14"</option>
-                        <option>15"</option>
-                        <option>16"</option>
-                        <option>17"</option>
-                        <option>18"</option>
-                        <option>19"</option>
-                        <option>20"</option>
-                        <option>21"</option>
-                        <option>22"</option>
-                        <option>23"</option>
-                        <option>24"</option>
+                        <option value="" selected>--</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>FR Rim Width*</label>
-                      <input type="text" class="form-control" name="front_rim_width" required>
+                      <select class="form-control" name="front_rim_width" required>
+                        <option value="">--</option>
+                      </select>
                     </div>
                     <div class="col-md-2">
                       <label>Front PSI*</label>
@@ -299,23 +297,14 @@
                     </div>
                     <div class="col-md-2">
                       <label>Rear Tire Size*</label>
-                      <input type="text" class="form-control" name="rear_tire_size" required>
+                      <select class="form-control" name="rear_tire_size" required>
+                        <option value="">--</option>
+                      </select>
                     </div>
                     <div class="col-md-2">
                       <label>RR Rim Diameter*</label>
                       <select name="rear_rim_diameter" class="form-control" required>
-                        <option selected>--</option>
-                        <option>14"</option>
-                        <option>15"</option>
-                        <option>16"</option>
-                        <option>17"</option>
-                        <option>18"</option>
-                        <option>19"</option>
-                        <option>20"</option>
-                        <option>21"</option>
-                        <option>22"</option>
-                        <option>23"</option>
-                        <option>24"</option>
+                        <option value="" selected>--</option>
                       </select>
                     </div>
                     <div class="col-md-2">
