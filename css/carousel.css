@@ -23,3 +23,11 @@
 .carousel-control .glyphicon-chevron-right {
   right: 30px;
 }
+
+.carousel-indicators .active {
+	opacity: 0.5;
+}
+
+.carousel-indicators .active:hover {
+	opacity: 1;
+}
