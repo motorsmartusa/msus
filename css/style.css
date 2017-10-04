@@ -718,20 +718,21 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .dealer .sub-heading {
   font-size: 26px;
+  margin-top:  40px;
 }
 
 .dealer hr {
   transform: rotate(90deg);
-  width: 100px;
-  background-color: #a0a09f;
+  width: 160px;
+  border-top: 1px solid #c7c7c7;
 }
 
 .dealer hr.top {
-  transform: rotate(90deg) translateX(-28px);
+  transform: rotate(90deg) translateX(-60px);
 }
 
 .dealer hr.bottom {
-  transform: rotate(90deg) translateX(28px);
+  transform: rotate(90deg) translateX(60px);
 }
 
 .dealer hr + .highlight {
