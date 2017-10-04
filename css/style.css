@@ -1023,6 +1023,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   position: absolute;
   color: #fff;
   font-size: 30px;
+  opacity: 0.5;
+}
+
+#labelImage .fa:hover, #pdfImage .fa:hover {
+  opacity: 1;
 }
 
 #labelImage {
@@ -1166,6 +1171,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   position: absolute;
   color: #fff;
   font-size: 30px;
+  opacity: 0.5;
+}
+
+.iconOverlay .fa:hover {
+  opacity: 1;
 }
 
 .iconOverlay .fa-times {
@@ -1198,8 +1208,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 #previewModal .modal-dialog {
-  width: 80%;
-  height: 100%;
+  width: 50%;
+  height: auto;
   margin: 0 auto;
   padding: 0;
 }
