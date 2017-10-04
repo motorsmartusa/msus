@@ -697,15 +697,14 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .dealer .circle {
   color: #30bdff;
-  padding: 25px;
-  width: 250px;
-  height: 250px;
+  width: 375px;
+  height: 375px;
   border-radius: 50%;
   border: 2px solid #30bdff;
   justify-content: center;
   align-items: center;
   display: flex;
-  font-size: 22px;
+  font-size: 36px;
 }
 
 .dealer .circle:hover {

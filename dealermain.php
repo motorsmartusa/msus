@@ -46,7 +46,7 @@
 
 
       <div class="col-md-2 align-items-center">
-          <a class="btn btn-primary btn-lg" href="step-1.php" role="button">Export a Vehicle</a>
+          <a class="btn btn-primary btn-xl" href="step-1.php" role="button">Export a Vehicle</a>
       </div>
 
 
