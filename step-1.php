@@ -47,13 +47,13 @@
                   <div class="row align-items-end">
                       <div class="col-md-5">
                         <label>VIN*</label>
-                        <input type="text" class="form-control vin-input" name="vin">
+                        <input type="text" class="form-control vin-input" name="vin" required>
                         <i class="fa fa-check text-success form-control-feedback hidden"></i>
                       </div>
 
                       <div class="col-md-5">
                         <label>Confirm VIN*</label>
-                        <input type="text" class="form-control vin-input" name="confirm_vin" >
+                        <input type="text" class="form-control vin-input" name="confirm_vin" required>
                         <i class="fa fa-check text-success form-control-feedback hidden"></i>
                       </div>
                       <div class="col-md-2">
@@ -63,63 +63,63 @@
                   <div class="row align-items-end">
                       <div class="col-md-3">
                         <label>Year*</label>
-                        <input type="text" class="form-control" name="year">
+                        <input type="text" class="form-control" name="year" required>
                       </div>
                       <div class="col-md-3">
                         <label>Make*</label>
-                        <input type="text" class="form-control" name="make">
+                        <input type="text" class="form-control" name="make" required>
                       </div>
                       <div class="col-md-3">
                         <label>Model*</label>
-                        <input type="text" class="form-control" name="model">
+                        <input type="text" class="form-control" name="model" required>
                       </div>
                       <div class="col-md-3">
-                        <label>Series/Trim</label>
-                        <input type="text" class="form-control" name="series_trim">
+                        <label>Series/Trim*</label>
+                        <input type="text" class="form-control" name="series_trim" required>
                       </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-3">
                       <label>Style*</label>
-                      <input type="number"  class="form-control" name="style">
+                      <input type="text"  class="form-control" name="style" required>
                     </div>
                     <div class="col-md-3">
-                      <label>Color</label>
-                      <input type="text" class="form-control" name="color">
+                      <label>Color*</label>
+                      <input type="text" class="form-control" name="color" required>
                     </div>
                     <div class="col-md-3">
                       <label>Mileage*</label>
-                      <input type="text" class="form-control" name="mileage">
+                      <input type="text" class="form-control" name="mileage" required>
                     </div>
                     <div class="col-md-3">
                       <div class="inside-radio">
-                        <input type="radio" value="kms" id="radio1" name="unit_mileage">
-                        <label for="radio1">KMS</label>
-                        <input type="radio" value="miles" id="radio2" name="unit_mileage">
-                        <label for="radio2">MILES</label>
+                        <input type="radio" value="kms" id="unit_mileage_1" name="unit_mileage">
+                        <label for="unit_mileage_1">KMS</label>
+                        <input type="radio" value="miles" id="unit_mileage_2" name="unit_mileage">
+                        <label for="unit_mileage_2">MILES</label>
                       </div>
                     </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-3">
-                      <label>Stock Number</label>
-                      <input type="text" class="form-control" name="stock_number">
+                      <label>Stock Number*</label>
+                      <input type="text" class="form-control" name="stock_number" required>
                     </div>
                     <div class="col-md-2">
-                      <label>Value</label>
-                      <input type="text" class="form-control" name="value">
+                      <label>Value*</label>
+                      <input type="text" class="form-control" name="value" required>
                     </div>
                     <div class="col-md-3">
                       <div class="inside-radio">
-                        <input type="radio" name="currency" id="radio3" value="cad">
-                        <label for="radio3">CAD</label>
-                        <input type="radio" name="currency" id="radio4" value="usd">
-                        <label for="radio4">USD</label>
+                        <input type="radio" name="currency" id="currency_1" value="cad">
+                        <label for="currency_1">CAD</label>
+                        <input type="radio" name="currency" id="currency_2" value="usd">
+                        <label for="currency_2">USD</label>
                       </div>
                     </div>
                     <div class="col-md-2">
-                        <label>Fuel Type</label>
-                        <select class="form-control" name="fuel_type">
+                        <label>Fuel Type*</label>
+                        <select class="form-control" name="fuel_type" required>
                           <option selected>--</option>
                           <option>Diesel</option>
                           <option>Gas</option>
@@ -130,8 +130,8 @@
                         
                     </div>
                     <div class="col-md-2">
-                        <label>Displacement</label>
-                        <input type="text" class="form-control" name="displacement">
+                        <label>Displacement*</label>
+                        <input type="text" class="form-control" name="displacement" required>
                     </div>
                   </div>
                 </section>
@@ -161,12 +161,12 @@
                   <div class="row align-items-end">
                     
                     <div class="col-md-3">
-                      <label>Manufactured By</label>
-                      <input type="text" class="form-control" name="manu_by" >
+                      <label>Manufactured By*</label>
+                      <input type="text" class="form-control" name="manu_by" required>
                     </div>
                     <div class="col-md-2">
-                      <label>Build Date (mm/yyyy)</label>
-                      <select name="build_month" class="form-control">
+                      <label>Build Date (mm/yyyy)*</label>
+                      <select name="build_month" class="form-control" required>
                         <option selected>--</option>
                         <option>1</option>
                         <option>2</option>
@@ -183,7 +183,7 @@
                       </select>
                     </div>
                     <div class="col-md-2">
-                      <select name="build_year" class="form-control">
+                      <select name="build_year" class="form-control" required>
                         <option selected>--</option>
                         <option>1980</option>
                         <option>1981</option>
@@ -227,15 +227,15 @@
                      </select> 
                     </div>
                     <div class="col-md-3">
-                      <label>GVRW</label>
-                      <input type="text" class="form-control" name="gvrw">
+                      <label>GVRW*</label>
+                      <input type="text" class="form-control" name="gvrw" required>
                     </div>
                     <div class="col-md-2">
                       <div class="inside-radio">
-                        <input type="radio" id="kgs" name="gvrw_unit" value="kgs">
-                        <label for="kgs">KGS</label>
-                        <input type="radio" id="lbs" name="gvrw_unit" value="lbs">
-                        <label for="lbs">LBS</label>
+                        <input type="radio" id="gvrw_unit_1" name="gvrw_unit" value="kgs">
+                        <label for="gvrw_unit_1">KGS</label>
+                        <input type="radio" id="gvrw_unit_2" name="gvrw_unit" value="lbs">
+                        <label for="gvrw_unit_2">LBS</label>
                       </div>
                     </div>
 
@@ -243,24 +243,24 @@
 
                   <div class="row align-items-end">
                     <div class="col-md-2">
-                      <label>Front GAWR</label>
-                      <input type="text" class="form-control" name="front_gawr">
+                      <label>Front GAWR*</label>
+                      <input type="text" class="form-control" name="front_gawr" required>
                     </div>
                     <div class="col-md-2">
                       <div class="inside-radio">
-                        <input type="radio" id="kgs" name="front_gawr_unit" value="kgs">
-                        <label for="kgs">KGS</label>
-                        <input type="radio" id="lbs" name="front_gawr_unit" value="lbs">
-                        <label for="lbs">LBS</label>
+                        <input type="radio" id="front_gawr_unit_1" name="front_gawr_unit" value="kgs">
+                        <label for="front_gawr_unit_1">KGS</label>
+                        <input type="radio" id="front_gawr_unit_2" name="front_gawr_unit" value="lbs">
+                        <label for="front_gawr_unit_2">LBS</label>
                       </div>
                     </div>
                     <div class="col-md-2">
-                      <label>Front Tire Size</label>
-                      <input type="text" class="form-control" name="front_tire_size">
+                      <label>Front Tire Size*</label>
+                      <input type="text" class="form-control" name="front_tire_size" required>
                     </div>
                     <div class="col-md-2">
-                      <label>FR Rim Diameter</label>
-                      <select name="front_rim_diameter" class="form-control">
+                      <label>FR Rim Diameter*</label>
+                      <select name="front_rim_diameter" class="form-control" required>
                         <option selected>--</option>
                         <option>14"</option>
                         <option>15"</option>
@@ -276,34 +276,34 @@
                       </select>
                     </div>
                     <div class="col-md-2">
-                      <label>FR Rim Width</label>
-                      <input type="text" class="form-control" name="front_rim_width">
+                      <label>FR Rim Width*</label>
+                      <input type="text" class="form-control" name="front_rim_width" required>
                     </div>
                     <div class="col-md-2">
-                      <label>Front PSI</label>
-                      <input type="text" class="form-control" name="front_psi">
+                      <label>Front PSI*</label>
+                      <input type="text" class="form-control" name="front_psi" required>
                     </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-2">
-                      <label>Rear GAWR</label>
-                      <input type="text" class="form-control" name="rear_gawr">
+                      <label>Rear GAWR*</label>
+                      <input type="text" class="form-control" name="rear_gawr" required>
                     </div>
                     <div class="col-md-2">
                       <div class="inside-radio">
-                        <input type="radio" id="kgs" name="rear_gawr_unit" value="kgs">
-                        <label for="kgs">KGS</label>
-                        <input type="radio" id="lbs" name="rear_gawr_unit" value="lbs">
-                        <label for="lbs">LBS</label>
+                        <input type="radio" id="rear_gawr_unit_1" name="rear_gawr_unit" value="kgs">
+                        <label for="rear_gawr_unit_1">KGS</label>
+                        <input type="radio" id="rear_gawr_unit_2" name="rear_gawr_unit" value="lbs">
+                        <label for="rear_gawr_unit_2">LBS</label>
                       </div>
                     </div>
                     <div class="col-md-2">
-                      <label>Rear Tire Size</label>
-                      <input type="text" class="form-control" name="rear_tire_size">
+                      <label>Rear Tire Size*</label>
+                      <input type="text" class="form-control" name="rear_tire_size" required>
                     </div>
                     <div class="col-md-2">
-                      <label>RR Rim Diameter</label>
-                      <select name="rear_rim_diameter" class="form-control">
+                      <label>RR Rim Diameter*</label>
+                      <select name="rear_rim_diameter" class="form-control" required>
                         <option selected>--</option>
                         <option>14"</option>
                         <option>15"</option>
@@ -319,12 +319,12 @@
                       </select>
                     </div>
                     <div class="col-md-2">
-                      <label>RR Rim Width</label>
-                      <input type="text" class="form-control" name="rear_rim_width">
+                      <label>RR Rim Width*</label>
+                      <input type="text" class="form-control" name="rear_rim_width" required>
                     </div>
                     <div class="col-md-2">
-                      <label>Rear PSI</label>
-                      <input type="text" class="form-control" name="rear_psi">
+                      <label>Rear PSI*</label>
+                      <input type="text" class="form-control" name="rear_psi" required>
                     </div>
                   </div>
                 </section>
