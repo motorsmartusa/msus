@@ -38,10 +38,13 @@
 
           <form id="contact-form" method="post" name="contact-form">
             <div>
-              <input class="form-control" id="contact-name" name="contact-name" placeholder="Name" required="" type="text"> <input class="form-control" id="contact-email" name="contact-email" placeholder="Email" required="" type="email"> <input class="form-control" id="contact-subject" name="contact-subject" placeholder="Subject" type="text">
+              <input class="form-control" id="contact-name" name="contact-name" placeholder="Name*" required="" type="text" required> 
+              <input class="form-control" id="contact-email" name="contact-email" placeholder="Email*" required="" type="email" required> 
+              <input class="form-control" id="contact-subject" name="contact-subject" placeholder="Subject*" type="text" required>
             </div>
             <div>
-              <textarea class="form-control" id="contact-message" name="contact-message" placeholder="Message" required="" rows="6"></textarea> <button class="btn btn-primary" type="submit">SEND</button>
+              <textarea class="form-control" id="contact-message" name="contact-message" placeholder="Message*" required="" rows="6" required></textarea> 
+              <button class="btn btn-primary" type="submit">SEND</button>
             </div>
           </form>
           

@@ -47,12 +47,12 @@
           <form id="login-form" method="post" name="login-form" action="dealermain.php">
             <div class="row align-items-end">
               <div class="col-md-5">
-                <label>Email</label> <input class="form-control" name="email" type="email">
+                <label>Email*</label> <input class="form-control" name="email" type="email" required>
               </div>
 
 
               <div class="col-md-5">
-                <label>Password</label> <input class="form-control" name="password" type="password">
+                <label>Password*</label> <input class="form-control" name="password" type="password" required>
               </div>
 
 
@@ -104,24 +104,24 @@
           <form method="post" action="index.php" name="signup-form">
             <div class="row align-items-center">
               <div class="col-md-6">
-                <label>Dealership Name*</label> <input class="form-control" name="dealer_name" type="text">
+                <label>Dealership Name*</label> <input class="form-control" name="dealer_name" type="text" required>
               </div>
 
 
               <div class="col-md-6">
-                <label>Contact Name*</label> <input class="form-control" name="dealer_contact" type="text">
+                <label>Contact Name*</label> <input class="form-control" name="dealer_contact" type="text" required>
               </div>
             </div>
 
 
             <div class="row align-items-center">
               <div class="col-md-3">
-                <label>Phone*</label> <input class="form-control" name="dealer_phone" type="tel">
+                <label>Phone*</label> <input class="form-control" name="dealer_phone" type="tel" required>
               </div>
 
 
               <div class="col-md-3">
-                <label>Fax*</label> <input class="form-control" name="dealer_fax" type="tel">
+                <label>Fax</label> <input class="form-control" name="dealer_fax" type="tel">
               </div>
 
 
@@ -131,7 +131,7 @@
 
 
               <div class="col-md-3">
-                <label>Email*</label> <input class="form-control" name="dealer_email" type="email">
+                <label>Email*</label> <input class="form-control" name="dealer_email" type="email" required>
               </div>
             </div>
 
@@ -143,72 +143,62 @@
 
 
               <div class="col-md-11">
-                <label>Address</label> <input class="form-control" name="dealer_address" type="text">
+                <label>Address*</label> <input class="form-control" name="dealer_address" type="text" required>
               </div>
             </div>
 
 
             <div class="row align-items-center">
               <div class="col-md-3">
-                <label>City</label> <input class="form-control" name="dealer_city" type="text">
+                <label>City*</label> <input class="form-control" name="dealer_city" type="text" required>
               </div>
 
 
               <div class="col-md-3">
-                <label>State/Province</label> <input class="form-control" name="dealer_state" type="text">
+                <label>State/Province*</label> <input class="form-control" name="dealer_state" type="text">
               </div>
 
 
               <div class="col-md-3">
-                <label>Zip/Postal Code</label> <input class="form-control" name="dealer_postal_code" type="text">
+                <label>Zip/Postal Code*</label> <input class="form-control" name="dealer_postal_code" type="text" required>
               </div>
 
 
               <div class="col-md-3">
-                <label>Country</label> <input class="form-control" name="dealer_country" type="text">
+                <label>Country*</label> <input class="form-control" name="dealer_country" type="text" required>
               </div>
             </div>
 
 
             <div class="row align-items-center">
               <div class="col-md-6">
-                <label>Password*</label> <input class="form-control" name="password" type="password">
+                <label>Password*</label> <input class="form-control" name="password" type="password" required>
               </div>
 
 
               <div class="col-md-6">
-                <label>Confirm Password*</label> <input class="form-control" name="confirm_password" type="password">
+                <label>Confirm Password*</label> <input class="form-control" name="confirm_password" type="password" required>
               </div>
             </div>
 
 
             <div class="row align-items-center">
               <div class="col-md-4">
-                <label>Federal ID</label> <input class="form-control" name="dealer_federalid" type="text">
+                <label>Federal ID*</label> <input class="form-control" name="dealer_federalid" type="text" required>
               </div>
 
 
               <div class="col-md-4">
-                <label>Dealer Number*</label> <input class="form-control" name="dealer_number" type="text">
+                <label>Dealer Number*</label> <input class="form-control" name="dealer_number" type="text" required>
               </div>
 
 
               <div class="col-md-4">
-                <label>Payment Method</label> <select class="form-control" name="dealer_payment_method">
-                  <option>
-                  </option>
-
-                  <option>
-                    Credit Card
-                  </option>
-
-                  <option>
-                    Check
-                  </option>
-
-                  <option>
-                    Wire
-                  </option>
+                <label>Payment Method*</label> <select class="form-control" name="dealer_payment_method" required>
+                  <option value="">--</option>
+                  <option value="Credit Card">Credit Card</option>
+                  <option value="Check">Check</option>
+                  <option value="Wire">Wire</option>
                 </select>
               </div>
             </div>
@@ -451,12 +441,12 @@
         <form action="index.php" id="newsletter-form" method="post" name="newsletter-form">
           <div class="row align-items-center">
             <div class="col-md-4">
-              <input class="form-control" name="fullname" placeholder="Name" type="text">
+              <input class="form-control" name="fullname" placeholder="Name*" type="text" required>
             </div>
 
 
             <div class="col-md-4">
-              <input class="form-control" name="email" placeholder="Email" type="email">
+              <input class="form-control" name="email" placeholder="Email*" type="email" required>
             </div>
 
 
