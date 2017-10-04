@@ -353,7 +353,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .fixed-top {
   background: #fcfcfc;
-  border-bottom: #a0a09f solid 5px;
+  border-bottom: #c7c7c7 solid 5px;
   padding: 12px 0;
 }
 
@@ -901,8 +901,8 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .export > .row > .col-md-8 {
   padding: 0;
-  border-left: 2px solid #a0a09f;
-  border-right: 2px solid #a0a09f;
+  border-left: 2px solid #c7c7c7;
+  border-right: 2px solid #c7c7c7;
 }
 
 .export > .row > .col-md-2:nth-child(3) {
