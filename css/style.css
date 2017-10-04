@@ -124,10 +124,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
   flex-direction: column;
 }
 
-/*.img-responsive {
-  display: inline-block;
-}*/
-
 .section {
   margin: 36px 0 30px;
 }
@@ -546,6 +542,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.footer .row>[class*='col-md-9'] {
+  padding-left:  32px;
 }
 
 .footer .fa {
