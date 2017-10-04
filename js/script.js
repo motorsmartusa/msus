@@ -57,6 +57,18 @@ $(document).ready(function() {
     }
   });
 
+  $('input[name*=phone], input[name*=fax]').on('input', function(e) {
+    var x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+    e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
+  });
+
+  $(this).keypress(function(e) {
+    if(e.which == 13) {
+        e.preventDefault();
+        return false;
+    }
+  });
+
 
   $(window).scroll(function() {
 
@@ -84,11 +96,6 @@ $(document).ready(function() {
       $('body,html').animate({
           scrollTop : 0
       }, 500);
-  });
-
-  $('input[name*=phone], input[name*=fax]').on('input', function(e) {
-    var x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
-    e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
   });
 
 });
