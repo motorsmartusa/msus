@@ -68,7 +68,7 @@
                     <div class="col-md-3 align-items-center">
                       <div class="pictureUploadCont">
                         <i class="fa fa-plus"></i>
-                        <input type="file" class="imgUpload">
+                        <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
                           <i class="fa fa-times"></i>
@@ -94,7 +94,7 @@
                     <div class="col-md-3 align-items-center">
                       <div class="pictureUploadCont">
                         <i class="fa fa-plus"></i>
-                        <input type="file" class="imgUpload">
+                        <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
                           <i class="fa fa-times"></i>
@@ -120,7 +120,7 @@
                     <div class="col-md-3 align-items-center">
                       <div class="pictureUploadCont">
                         <i class="fa fa-plus"></i>
-                        <input type="file" class="imgUpload">
+                        <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
                           <i class="fa fa-times"></i>
@@ -146,7 +146,7 @@
                     <div class="col-md-3 align-items-center">
                       <div class="pictureUploadCont">
                         <i class="fa fa-plus"></i>
-                        <input type="file" class="imgUpload">
+                        <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
                           <i class="fa fa-times"></i>
