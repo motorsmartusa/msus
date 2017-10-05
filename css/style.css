@@ -286,6 +286,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .btn-med {
   padding: 12px 20px;
   font-size: 14px;
+  min-width: 105px;
 }
 
 .btn-lg {
