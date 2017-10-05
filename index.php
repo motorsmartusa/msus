@@ -47,7 +47,7 @@
           <form id="login-form" method="post" name="login-form" action="dealermain.php">
             <div class="row align-items-end">
               <div class="col-md-5">
-                <label>Email*</label> <input class="form-control" name="email" type="email" required>
+                <label>Username*</label> <input class="form-control" name="username" type="text" required>
               </div>
 
 
@@ -171,12 +171,16 @@
 
 
             <div class="row align-items-center">
-              <div class="col-md-6">
+              <div class="col-md-4">
+                <label>Username*</label> <input class="form-control" name="username" type="text" required>
+              </div>
+
+              <div class="col-md-4">
                 <label>Password*</label> <input class="form-control" name="password" type="password" required>
               </div>
 
 
-              <div class="col-md-6">
+              <div class="col-md-4">
                 <label>Confirm Password*</label> <input class="form-control" name="confirm_password" type="password" required>
               </div>
             </div>

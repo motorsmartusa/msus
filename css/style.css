@@ -206,7 +206,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
-  min-height: 42px;
   border: 0;
   background: #30bdff;
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;
