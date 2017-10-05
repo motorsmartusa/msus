@@ -990,6 +990,10 @@ table.dataTable thead .sorting_desc_disabled:after {
   padding-right: 6px;
 }
 
+.export .btn-primary.upload {
+  margin-left: 6px;
+}
+
 .export section .row:not(:first-child), .modal .row:not(:first-child) {
   margin-top: 20px;
 }
