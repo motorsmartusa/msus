@@ -200,7 +200,7 @@
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-4">
-                      <label>Est. Crossing Date*</label>
+                      <label>Est. Crossing Date* (mm/dd/yyyy)</label>
                       <input type="date" class="form-control" name="trans_estimated_crossing_date" required>
                     </div>
                     <div class="col-md-4">

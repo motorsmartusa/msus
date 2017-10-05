@@ -89,6 +89,10 @@ select[class*=form-control] {
   padding: 0 12px;
 }
 
+textarea {
+  resize: none;
+}
+
 input[type=date]::-webkit-inner-spin-button,
 input[type=date]::-webkit-calendar-picker-indicator {
   appearance: none;
