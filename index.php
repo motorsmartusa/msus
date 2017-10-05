@@ -184,7 +184,7 @@
 
             <div class="row align-items-center">
               <div class="col-md-4">
-                <label>Federal ID*</label> <input class="form-control" name="dealer_federalid" type="text" required>
+                <label>Federal ID</label> <input class="form-control" name="dealer_federalid" type="text">
               </div>
 
 

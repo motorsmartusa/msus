@@ -337,8 +337,8 @@
                       </div>
                     </div>
                     <div class="col-md-6">
-                      <label>Notes*</label>
-                      <textarea rows="4" class="form-control" name="title_notes" required></textarea>
+                      <label>Notes</label>
+                      <textarea rows="4" class="form-control" name="title_notes"></textarea>
                     </div>
                   </div>
 
@@ -354,7 +354,7 @@
                     <div class="col-md-6">
                       <div class="row">
                         <div class="col-md-6">
-                          <p>Is the RI Label going to the same address as the Title?</p>
+                          <p>Is the RI Label going to the same address as the Title?*</p>
                         </div>
                         <div class="col-md-6">
                           <div class="inside-radio">
@@ -383,8 +383,8 @@
                       </div>
                     </div>
                     <div class="col-md-6">
-                      <label>Notes*</label>
-                      <textarea rows="7" class="form-control" name="label_notes" required></textarea>
+                      <label>Notes</label>
+                      <textarea rows="7" class="form-control" name="label_notes"></textarea>
                     </div>
                   </div>
 

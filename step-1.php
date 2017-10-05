@@ -108,8 +108,8 @@
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-3">
-                      <label>Stock Number*</label>
-                      <input type="text" class="form-control" name="stock_number" required>
+                      <label>Stock Number</label>
+                      <input type="text" class="form-control" name="stock_number">
                     </div>
                     <div class="col-md-2">
                       <label>Value*</label>
