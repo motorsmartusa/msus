@@ -358,10 +358,10 @@
                         </div>
                         <div class="col-md-6">
                           <div class="inside-radio">
-                            <input type="radio" value="yes" id="radio1" name="label_same_as_title" required>
-                            <label for="radio1">YES</label>
-                            <input type="radio" value="no" id="radio2" name="label_same_as_title">
-                            <label for="radio2">NO</label>
+                            <input type="radio" value="yes" id="ri_label_1" name="label_same_as_title" required>
+                            <label for="ri_label_1">YES</label>
+                            <input type="radio" value="no" id="ri_label_2" name="label_same_as_title">
+                            <label for="ri_label_2">NO</label>
                           </div>
                         </div>
                       </div>
@@ -398,12 +398,12 @@
                     <div class="col-md-4">
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 align-center">
                       <div class="inside-radio">
-                        <input type="radio" value="yes" id="radio3" name="order_courier" required>
-                        <label for="radio3">YES</label>
-                        <input type="radio" value="no" id="radio4" name="order_courier">
-                        <label for="radio4">NO</label>
+                        <input type="radio" value="yes" id="courier_1" name="order_courier" required>
+                        <label for="courier_1">YES</label>
+                        <input type="radio" value="no" id="courier_2" name="order_courier">
+                        <label for="courier_2">NO</label>
                       </div>
                     </div>
                     <div class="col-md-4">

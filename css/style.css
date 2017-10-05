@@ -66,9 +66,9 @@ input[type=radio]:checked + label {
   cursor: pointer;
 }
 
-input[type=radio]:not(:last-child) + label {
+/* input[type=radio]:not(:last-child) + label {
   margin-right: 4px;
-}
+} */
 
 label {
   font-size: 15px;
@@ -1077,6 +1077,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
 #pdfImage .fa-download {
   bottom: 6px;
   left: 10px;
+}
+
+#label-details input[type=radio] + label,
+#courier input[type=radio] + label { 
+  width:  80px;
 }
 
 /** export steps end **/
