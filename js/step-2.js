@@ -1,8 +1,16 @@
 $(document).ready(function() {
-  $('#uploadLnk').on("click", function() {
+  $('#pictures_1').on("click", function() {
       $('#pictureOption').hide();
       $('#pictureUpload').show();
       $('#pictureUploadInst').show();
+      $('#pictures .cls.rounded.white').show();
+  });
+
+  $('#pictures .cls.rounded.white').on('click', function() {
+      $('#pictureOption').show();
+      $('#pictureUpload').hide();
+      $('#pictureUploadInst').hide();
+      $('#pictures .cls.rounded.white').hide();
   });
 
   var prevVal;

@@ -38,7 +38,9 @@ input[type=file] {
 
 input[type=option], 
 input[type=radio] {
-  display: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   margin: 0;
 }
 
@@ -1075,6 +1077,14 @@ input[type=date]::-webkit-calendar-picker-indicator {
 /** export steps end **/
 
 /** picture uploader start **/
+
+#pictures .cls.rounded.white {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  cursor: pointer;
+}
 
 #pictureUpload, #pictureUploadInst {
   display: none;

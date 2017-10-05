@@ -35,13 +35,14 @@
       <div class="col-md-8">
           <form name="step-2" method="post" action="step-3.php">
                 <section id="pictures">
-                  <h2>PICTURES</h2>
+                  <h2>PICTURES</h2><span class="cls rounded white"></span>
 
                   <div class="sub-heading">Choose which <span class="highlight">PICTURE</span> option you would like</div>
 
                   <div class="row align-items-center" id="pictureOption">
                     <div class="col-md-3">
-                      <a class="btn btn-primary btn-lg" href="javscript:;" role="button" id="uploadLnk">UPLOAD PICTURES</a>
+                      <input type="radio" id="pictures_1" value="upload" name="pictures" required>
+                      <label for="pictures_1">UPLOAD PICTURES</label>
                     </div>
                     <div class="col-md-1">
                       <hr class="top" />
@@ -49,8 +50,8 @@
                       <hr class="bottom" />
                     </div>
                     <div class="col-md-3">
-                      <input type="radio" id="radio1" value="send_later" name="pictures">
-                      <label for="radio1">SEND LATER</label>
+                      <input type="radio" id="pictures_2" value="send_later" name="pictures">
+                      <label for="pictures_2">SEND LATER</label>
                     </div>
                     <div class="col-md-1">
                       <hr class="top" />
@@ -58,8 +59,8 @@
                       <hr class="bottom" />
                     </div>
                     <div class="col-md-4">
-                      <input type="radio" id="radio2" value="importer_takes" name="pictures">
-                      <label for="radio2">IMPORTER TAKES PICTURES</label>
+                      <input type="radio" id="pictures_3" value="importer_takes" name="pictures">
+                      <label for="pictures_3">IMPORTER TAKES PICTURES</label>
                     </div>
                   </div>
 
@@ -206,7 +207,8 @@
   <!-- javascript start -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-  </script> <!-- Include all compiled plugins (below), or include individual files as needed -->
+  </script> 
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
    
   <script src="css/bootstrap/js/bootstrap.min.js">
   </script> 
