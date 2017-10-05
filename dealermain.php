@@ -41,7 +41,7 @@
 
 
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-2">
       </div>
 
 
@@ -50,7 +50,7 @@
       </div>
 
 
-      <div class="col-md-2 align-items-center">
+      <div class="col-md-4 align-items-center">
         <hr class="top" />
         <span class="highlight">OR</span>
         <hr class="bottom" />
@@ -67,7 +67,7 @@
       </div>
 
 
-      <div class="col-md-3">
+      <div class="col-md-2">
       </div>
     </div>
 
