@@ -279,7 +279,9 @@
                     </div>
                     <div class="col-md-2">
                       <label>Front PSI*</label>
-                      <input type="text" class="form-control" name="front_psi" required>
+                      <select class="form-control" name="front_psi" required>
+                        <option value="">--</option>
+                      </select>
                     </div>
                   </div>
                   <div class="row align-items-end">
@@ -303,17 +305,22 @@
                     </div>
                     <div class="col-md-2">
                       <label>RR Rim Diameter*</label>
-                      <select name="rear_rim_diameter" class="form-control" required>
+                      <select class="form-control" name="rear_rim_diameter" required>
                         <option value="" selected>--</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>RR Rim Width*</label>
-                      <input type="text" class="form-control" name="rear_rim_width" required>
+                      <select class="form-control" name="rear_rim_width" required>
+                        <option value="" selected>--</option>
+                      </select>
+
                     </div>
                     <div class="col-md-2">
                       <label>Rear PSI*</label>
-                      <input type="text" class="form-control" name="rear_psi" required>
+                      <select class="form-control" name="rear_psi" required>
+                        <option value="" selected>--</option>
+                      </select>
                     </div>
                   </div>
                 </section>
