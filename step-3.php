@@ -31,7 +31,7 @@
           <li role="presentation"><a class="active" href="#exp">EXPORTER DETAILS</a></li>
           <li role="presentation"><a href="#dest">DESTINATION DETAILS</a></li>
           <li role="presentation"><a href="#trans">TRANSPORTER DETAILS</a></li>
-          <li role="presentation"><a href="#bill">BILLING DETAILS</a></li>
+          <!-- <li role="presentation"><a href="#bill">BILLING DETAILS</a></li> -->
           <li role="presentation"><a href="#title-request">TITLE REQUEST</a></li>
           <li role="presentation"><a href="#title">TITLE DETAILS</a></li>
           <li role="presentation"><a href="#label-details">RI LABEL DETAILS</a></li>
@@ -219,7 +219,7 @@
                   </div>
 
                 </section>
-                <section id="bill">
+                <!-- <section id="bill">
                   <h2>BILLING DETAILS</h2>
 
                   <div class="sub-heading">Who should we send the <span class="highlight">INVOICE</span> to?
@@ -281,7 +281,7 @@
                     </div>
                   </div>
 
-                </section>
+                </section> -->
                 <section id="title-request">
                   <h2>TITLE REQUEST</h2>
 
@@ -446,7 +446,6 @@
   <?php include dirname(__FILE__)."/exporter.php"; ?>
   <?php include dirname(__FILE__)."/destination.php"; ?>
   <?php include dirname(__FILE__)."/transporter.php"; ?>
-  <?php include dirname(__FILE__)."/billing.php"; ?>
   <?php include dirname(__FILE__)."/title.php"; ?>
   <?php include dirname(__FILE__)."/label.php"; ?>
 
