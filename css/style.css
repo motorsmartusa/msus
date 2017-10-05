@@ -47,6 +47,7 @@ input[type=radio] {
 input[type=radio] + label {
   font-size: 14px; 
   width: 45%;
+  min-height: 42px; 
   display: inline-block;
   padding: 12px;
   border-color: #ddd;
@@ -56,7 +57,7 @@ input[type=radio] + label {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 1px; 
   border-radius: 3px; 
   margin-bottom: 0;
-  cursor: pointer;  
+  cursor: pointer; 
 }
 
 input[type=radio]:checked + label { 
@@ -205,6 +206,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
+  min-height: 42px;
   border: 0;
   background: #30bdff;
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;
@@ -219,6 +221,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .btn-primary:active:hover,
 .btn-primary:focus,
 .btn-primary:hover,
+.btn-primary[disabled]:active:focus,
+.btn-primary[disabled]:active:hover,
+.btn-primary[disabled]:focus,
 .btn-primary[disabled]:hover {
   background: #73d2ff;
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;

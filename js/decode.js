@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.vin-input').on('keyup paste', function()
+	$('.vin-input').on('propertychange change click keyup input paste', function()
     {
         $('.vin-decoder').attr('disabled', true);
         $(this).val($(this).val().toUpperCase());
