@@ -51,18 +51,18 @@
                   
                   <div class="row align-items-end">
                     <div class="col-md-6">
-                      <label>Exporter (Shipper)</label>
-                      <input type="text" class="form-control" name="exp_owner">
+                      <label>Exporter (Shipper)*</label>
+                      <input type="text" class="form-control" name="exp_owner" required>
                     </div>
                     <div class="col-md-6">
-                      <label>Contact Name</label>
-                      <input type="text" class="form-control" name="exp_contact">
+                      <label>Contact Name*</label>
+                      <input type="text" class="form-control" name="exp_contact" required>
                     </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-3">
-                      <label>Phone</label>
-                      <input type="tel" class="form-control" name="exp_phone">
+                      <label>Phone*</label>
+                      <input type="tel" class="form-control" name="exp_phone" required>
                     </div>
                     <div class="col-md-3">
                       <label>Fax</label>
@@ -79,24 +79,24 @@
                       <input type="text" class="form-control" name="exp_unit">
                     </div>
                     <div class="col-md-9">
-                      <label>Address</label>
-                      <input type="text" class="form-control" name="exp_address">
+                      <label>Address*</label>
+                      <input type="text" class="form-control" name="exp_address" required>
                     </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-3">
-                      <label>City</label>
-                      <input type="text" class="form-control" name="exp_city">
+                      <label>City*</label>
+                      <input type="text" class="form-control" name="exp_city" required>
                     </div>
                     <div class="col-md-3">
-                      <label>State/Province</label>
-                      <select class="form-control" name="exp_state">
+                      <label>State/Province*</label>
+                      <select class="form-control" name="exp_state" required>
                         <option selected>--</option>
                       </select>
                     </div>
                     <div class="col-md-3">
-                      <label>Zip/Postal Code</label>
-                      <input type="text" class="form-control" name="exp_postal_code">
+                      <label>Zip/Postal Code*</label>
+                      <input type="text" class="form-control" name="exp_postal_code" required>
                     </div>
                     <div class="col-md-3">
                     </div>
@@ -113,18 +113,18 @@
 
                   <div class="row align-items-end">
                     <div class="col-md-6">
-                      <label>Destination Name</label>
-                      <input type="text" class="form-control" name="dest_owner">
+                      <label>Destination Name*</label>
+                      <input type="text" class="form-control" name="dest_owner" required>
                     </div>
                     <div class="col-md-6">
-                      <label>Contact Name</label>
-                      <input type="text" class="form-control" name="dest_contact">
+                      <label>Contact Name*</label>
+                      <input type="text" class="form-control" name="dest_contact" required>
                     </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-3">
-                      <label>Phone</label>
-                      <input type="tel" class="form-control" name="dest_phone">
+                      <label>Phone*</label>
+                      <input type="tel" class="form-control" name="dest_phone" required>
                     </div>
                     <div class="col-md-3">
                       <label>Fax</label>
@@ -141,24 +141,24 @@
                       <input type="text" class="form-control" name="dest_unit">
                     </div>
                     <div class="col-md-9">
-                      <label>Address</label>
-                      <input type="text" class="form-control" name="dest_address">
+                      <label>Address*</label>
+                      <input type="text" class="form-control" name="dest_address" required>
                     </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-3">
-                      <label>City</label>
-                      <input type="text" class="form-control" name="dest_city">
+                      <label>City*</label>
+                      <input type="text" class="form-control" name="dest_city" required>
                     </div>
                     <div class="col-md-3">
-                      <label>State/Province</label>
-                      <select class="form-control" name="dest_state">
+                      <label>State/Province*</label>
+                      <select class="form-control" name="dest_state" required>
                         <option selected>--</option>
                       </select>
                     </div>
                     <div class="col-md-3">
-                      <label>Zip/Postal Code</label>
-                      <input type="text" class="form-control" name="dest_postal_code">
+                      <label>Zip/Postal Code*</label>
+                      <input type="text" class="form-control" name="dest_postal_code" required>
                     </div>
                     <div class="col-md-3">
                       <label>Federal Tax ID</label>
@@ -176,36 +176,36 @@
 
                   <div class="row align-items-end">
                     <div class="col-md-6">
-                      <label>Transporter Name</label>
-                      <input type="text" class="form-control" name="trans_company">
+                      <label>Transporter Name*</label>
+                      <input type="text" class="form-control" name="trans_company" required>
                     </div>
                     <div class="col-md-6">
-                      <label>Contact Name</label>
-                      <input type="text" class="form-control" name="trans_company_contact">
+                      <label>Contact Name*</label>
+                      <input type="text" class="form-control" name="trans_company_contact" required>
                     </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-3">
-                      <label>Phone</label>
-                      <input type="tel" class="form-control" name="trans_company_phone">
+                      <label>Phone*</label>
+                      <input type="tel" class="form-control" name="trans_company_phone" required>
                     </div>
                     <div class="col-md-3">
                       <label>Fax</label>
                       <input type="tel" class="form-control" name="trans_company_fax">
                     </div>
                     <div class="col-md-6">
-                      <label>Email</label>
-                      <input type="email" class="form-control" name="trans_company_email">
+                      <label>Email*</label>
+                      <input type="email" class="form-control" name="trans_company_email" required>
                     </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-4">
-                      <label>Est. Crossing Date</label>
-                      <input type="date" class="form-control" name="trans_estimated_crossing_date">
+                      <label>Est. Crossing Date*</label>
+                      <input type="date" class="form-control" name="trans_estimated_crossing_date" required>
                     </div>
                     <div class="col-md-4">
-                      <label>Port of Crossing</label>
-                      <select class="form-control" name="trans_port_of_crossing">
+                      <label>Port of Crossing*</label>
+                      <select class="form-control" name="trans_port_of_crossing" required>
                         <option selected>--</option>
                       </select>
                     </div>
@@ -213,8 +213,8 @@
                       <a href="javascript:;" class="btn btn-primary btn-lg" role="button">DECODE</a>
                     </div>
                     <div class="col-md-2">
-                      <label>Port Code</label>
-                      <input type="text" class="form-control" name="trans_port_code">
+                      <label>Port Code*</label>
+                      <input type="text" class="form-control" name="trans_port_code" required>
                     </div>
                   </div>
 
@@ -321,14 +321,14 @@
                     <div class="col-md-6">
                       <div class="row">
                         <div class="col-md-12">
-                          <label>Title Destination</label>
-                          <input type="text" class="form-control" name="title_sent_to">
+                          <label>Title Destination*</label>
+                          <input type="text" class="form-control" name="title_sent_to" required>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-12">
-                          <label>Delivery Service</label>
-                          <select class="form-control" name="title_delivery_service">
+                          <label>Delivery Service*</label>
+                          <select class="form-control" name="title_delivery_service" required>
                             <option selected>--</option>
                             <option>Standard</option>
                             <option>Rush</option>
@@ -337,8 +337,8 @@
                       </div>
                     </div>
                     <div class="col-md-6">
-                      <label>Notes</label>
-                      <textarea rows="4" class="form-control" name="title_notes"></textarea>
+                      <label>Notes*</label>
+                      <textarea rows="4" class="form-control" name="title_notes" required></textarea>
                     </div>
                   </div>
 
@@ -358,7 +358,7 @@
                         </div>
                         <div class="col-md-6">
                           <div class="inside-radio">
-                            <input type="radio" value="yes" id="radio1" name="label_same_as_title">
+                            <input type="radio" value="yes" id="radio1" name="label_same_as_title" required>
                             <label for="radio1">YES</label>
                             <input type="radio" value="no" id="radio2" name="label_same_as_title">
                             <label for="radio2">NO</label>
@@ -367,14 +367,14 @@
                       </div>
                       <div class="row">
                         <div class="col-md-12">
-                          <label>Label Destination</label>
-                          <input type="text" class="form-control" name="label_destination">
+                          <label>Label Destination*</label>
+                          <input type="text" class="form-control" name="label_destination" required>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-12">
-                          <label>Delivery Service</label>
-                          <select class="form-control" name="label_delivery_service">
+                          <label>Delivery Service*</label>
+                          <select class="form-control" name="label_delivery_service" required>
                             <option selected>--</option>
                             <option>Standard</option>
                             <option>Rush</option>
@@ -383,8 +383,8 @@
                       </div>
                     </div>
                     <div class="col-md-6">
-                      <label>Notes</label>
-                      <textarea rows="7" class="form-control" name="label_notes"></textarea>
+                      <label>Notes*</label>
+                      <textarea rows="7" class="form-control" name="label_notes" required></textarea>
                     </div>
                   </div>
 
@@ -392,7 +392,7 @@
                 <section id="courier">
                   <h2>ORDER COURIER</h2>
 
-                  <div class="sub-heading">Do you want to order <span class="highlight">COURIER</span> services for this vehicle? <span class="note">(fees apply)</span> </div>
+                  <div class="sub-heading">Do you want to order <span class="highlight">COURIER</span> services for this vehicle?* <span class="note">(fees apply)</span> </div>
                   
                   <div class="row">
                     <div class="col-md-4">
@@ -400,7 +400,7 @@
                     </div>
                     <div class="col-md-4">
                       <div class="inside-radio">
-                        <input type="radio" value="yes" id="radio3" name="order_courier">
+                        <input type="radio" value="yes" id="radio3" name="order_courier" required>
                         <label for="radio3">YES</label>
                         <input type="radio" value="no" id="radio4" name="order_courier">
                         <label for="radio4">NO</label>
