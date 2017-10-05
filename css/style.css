@@ -1267,6 +1267,10 @@ li.checkmark:before {
 .text-success {
   color:  #30bdff;
 }
+
+.vin-decoder {
+  margin-bottom: 1px;
+}
 /** decode end **/
 
 /** recalls start **/

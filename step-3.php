@@ -210,7 +210,7 @@
                       </select>
                     </div>
                     <div class="col-md-2">
-                      <a href="javascript:;" class="btn btn-primary btn-lg" role="button">DECODE</a>
+                      <a href="javascript:;" class="btn btn-primary btn-lg vin-decoder" role="button">DECODE</a>
                     </div>
                     <div class="col-md-2">
                       <label>Port Code*</label>
