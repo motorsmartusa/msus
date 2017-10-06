@@ -7,6 +7,9 @@ $(document).ready(function() {
   });
 
   $('#pictures .cls.rounded.white').on('click', function() {
+      $('#pictures_1').prop('checked', false);
+      $('.picture-list-option').prop('selectedIndex',0);
+      $('#pictureList li').removeClass('checkmark');
       $('#pictureOption').show();
       $('#pictureUpload').hide();
       $('#pictureUploadInst').hide();
