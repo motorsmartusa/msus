@@ -239,7 +239,10 @@
                     </div>
                     <div class="col-md-3">
                       <label>GVRW*</label>
-                      <input type="text" class="form-control" name="gvrw" required>
+                      <select class="form-control manual-intercept" name="gvrw" required>
+                        <option value="">--</option>
+                        <option value="!MANUAL">Fill manually..</option>
+                      </select>
                     </div>
                     <div class="col-md-2">
                       <div class="inside-radio">
@@ -255,7 +258,10 @@
                   <div class="row align-items-end">
                     <div class="col-md-2">
                       <label>Front GAWR*</label>
-                      <input type="text" class="form-control" name="front_gawr" required>
+                      <select class="form-control manual-intercept" name="front_gawr" required>
+                        <option value="">--</option>
+                        <option value="!MANUAL">Fill manually..</option>
+                      </select>
                     </div>
                     <div class="col-md-2">
                       <div class="inside-radio">
@@ -297,7 +303,10 @@
                   <div class="row align-items-end">
                     <div class="col-md-2">
                       <label>Rear GAWR*</label>
-                      <input type="text" class="form-control" name="rear_gawr" required>
+                      <select class="form-control manual-intercept" name="rear_gawr" required>
+                        <option value="">--</option>
+                        <option value="!MANUAL">Fill manually..</option>
+                      </select>
                     </div>
                     <div class="col-md-2">
                       <div class="inside-radio">
