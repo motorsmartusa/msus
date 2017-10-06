@@ -75,22 +75,25 @@
                       </div>
                       <div class="col-md-3">
                         <label>Series/Trim*</label>
-                        <select class="form-control" name="series_trim" required>
+                        <select class="form-control manual-intercept" name="series_trim" required>
                           <option value="">--</option>
+                          <option value="!MANUAL">Fill manually..</option>
                         </select>
                       </div>
                   </div>
                   <div class="row align-items-end">
                     <div class="col-md-3">
                       <label>Style*</label>
-                      <select class="form-control" name="style" required>
+                      <select class="form-control manual-intercept" name="style" required>
                         <option value="">--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-3">
                       <label>Color*</label>
-                      <select class="form-control" name="color" required>
+                      <select class="form-control manual-intercept" name="color" required>
                         <option value="">--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-3">
@@ -125,16 +128,18 @@
                     </div>
                     <div class="col-md-2">
                         <label>Fuel Type*</label>
-                        <select class="form-control" name="fuel_type" required>
+                        <select class="form-control manual-intercept" name="fuel_type" required>
                           <option value="" selected>--</option>
+                          <option value="!MANUAL">Fill manually..</option>
                         </select>
                         
                     </div>
                     <div class="col-md-2">
                         <label>Displacement*</label>
-                        <select class="form-control" name="displacement" required>
-                        <option value="">--</option>
-                      </select>
+                        <select class="form-control manual-intercept" name="displacement" required>
+                          <option value="">--</option>
+                          <option value="!MANUAL">Fill manually..</option>
+                        </select>
                     </div>
                   </div>
                 </section>
@@ -165,8 +170,9 @@
                     
                     <div class="col-md-3">
                       <label>Manufactured By*</label>
-                      <select class="form-control" name="manu_by" required>
+                      <select class="form-control manual-intercept" name="manu_by" required>
                         <option value="">--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
@@ -261,26 +267,30 @@
                     </div>
                     <div class="col-md-2">
                       <label>Front Tire Size*</label>
-                      <select class="form-control" name="front_tire_size" required>
+                      <select class="form-control manual-intercept" name="front_tire_size" required>
                         <option value="">--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>FR Rim Diameter*</label>
-                      <select name="front_rim_diameter" class="form-control" required>
+                      <select class="form-control manual-intercept" name="front_rim_diameter" required>
                         <option value="" selected>--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>FR Rim Width*</label>
-                      <select class="form-control" name="front_rim_width" required>
+                      <select class="form-control manual-intercept" name="front_rim_width" required>
                         <option value="">--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>Front PSI*</label>
-                      <select class="form-control" name="front_psi" required>
+                      <select class="form-control manual-intercept" name="front_psi" required>
                         <option value="">--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                   </div>
@@ -299,27 +309,31 @@
                     </div>
                     <div class="col-md-2">
                       <label>Rear Tire Size*</label>
-                      <select class="form-control" name="rear_tire_size" required>
+                      <select class="form-control manual-intercept" name="rear_tire_size" required>
                         <option value="">--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>RR Rim Diameter*</label>
-                      <select class="form-control" name="rear_rim_diameter" required>
+                      <select class="form-control manual-intercept" name="rear_rim_diameter" required>
                         <option value="" selected>--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>RR Rim Width*</label>
-                      <select class="form-control" name="rear_rim_width" required>
+                      <select class="form-control manual-intercept" name="rear_rim_width" required>
                         <option value="" selected>--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
 
                     </div>
                     <div class="col-md-2">
                       <label>Rear PSI*</label>
-                      <select class="form-control" name="rear_psi" required>
+                      <select class="form-control manual-intercept" name="rear_psi" required>
                         <option value="" selected>--</option>
+                        <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                   </div>

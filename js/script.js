@@ -69,6 +69,38 @@ $(document).ready(function() {
     }
   });
 
+  $('.form-control.manual-intercept').on('change', function() {
+      if($(this).val() == '!MANUAL') {
+        var self = $(this);
+        var name = $(this).attr('name');
+        var input = $('<input name="' + name + '" class="form-control">');
+        var inputGroup = $('<div class="input-group">"');
+        var inputButton = $('<button type="button" class="btn btn-primary">');
+        var inputGroupBtn = $('<span class="input-group-btn">');
+
+        inputButton.append('<i class="fa fa-times"></i>');
+        inputGroup.append(input);
+        inputGroupBtn.append(inputButton);
+        inputGroup.append(inputGroupBtn);
+
+        $(this).val('');
+        $(this).attr('data-old-name', self.attr('name'));
+        $(this).addClass('hidden');
+
+        inputButton.on('click', function() {
+            self.attr('name', self.attr('data-old-name'));
+            self.removeClass('hidden');
+
+            inputGroup.parent().append(self);
+            inputGroup.remove();
+        });
+
+        $(this).parent().append(inputGroup);
+
+        input.focus();
+      }
+    });
+
 
   $(window).scroll(function() {
 

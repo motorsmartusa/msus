@@ -304,6 +304,12 @@ input[type=date]::-webkit-calendar-picker-indicator {
   padding: 30px 45px;
 }
 
+.input-group-btn .btn-primary {
+  box-shadow: none;
+  border: 1px solid #ccc;
+  height: 42px;
+}
+
 /** button styles end **/
 
 /** white close x start **/
