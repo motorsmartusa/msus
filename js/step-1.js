@@ -53,7 +53,15 @@ $(document).ready(function() {
       $(this).find('.modal-title').text(title);
       $(this).find('iframe').attr('src','https://owner.ford.com/tools/account/maintenance/recalls.html');
     }
-
   });
+
+  $(':radio').on('click', function() {
+    if ($(this).val() === 'kgs') {
+      $(':radio[value=kgs]').prop('checked', true);  
+    } else if ($(this).val() === 'lbs') {
+      $(':radio[value=lbs]').prop('checked', true);
+    }
+  });
+
 
 });
