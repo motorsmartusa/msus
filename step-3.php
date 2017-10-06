@@ -395,18 +395,18 @@
                   <div class="sub-heading">Do you want to order <span class="highlight">COURIER</span> services for this vehicle?* <span class="note">(fees apply)</span> </div>
                   
                   <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
 
                     </div>
-                    <div class="col-md-4 align-center">
+                    <div class="col-md-6 align-center">
                       <div class="inside-radio">
                         <input type="radio" value="yes" id="courier_1" name="order_courier" required>
-                        <label for="courier_1">YES</label>
+                        <label for="courier_1">ORDER COURIER</label>
                         <input type="radio" value="no" id="courier_2" name="order_courier">
-                        <label for="courier_2">NO</label>
+                        <label for="courier_2">NO THANKS</label>
                       </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
 
                     </div>
                   </div>
