@@ -318,7 +318,11 @@
                       <div class="row">
                         <div class="col-md-12">
                           <label>Title Destination*</label>
-                          <input type="text" class="form-control" name="title_sent_to" required>
+                          <select class="form-control manual-intercept" name="title_sent_to" required>
+                            <option selected>--</option>
+                            <option value="Importers Storage Yard">Importers Storage Yard</option>
+                            <option value="!MANUAL">Fill manually..</option>
+                          </select>
                         </div>
                       </div>
                       <div class="row">
@@ -364,7 +368,11 @@
                       <div class="row">
                         <div class="col-md-12">
                           <label>Label Destination*</label>
-                          <input type="text" class="form-control" name="label_destination" required>
+                          <select class="form-control manual-intercept" name="label_destination" required>
+                            <option selected>--</option>
+                            <option value="Importers Storage Yard">Importers Storage Yard</option>
+                            <option value="!MANUAL">Fill manually..</option>
+                          </select>
                         </div>
                       </div>
                       <div class="row">
