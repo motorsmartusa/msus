@@ -246,10 +246,10 @@
                     </div>
                     <div class="col-md-2">
                       <div class="inside-radio">
-                        <input type="radio" id="gvrw_unit_1" name="gvrw_unit" value="kgs">
-                        <label for="gvrw_unit_1">KGS</label>
-                        <input type="radio" id="gvrw_unit_2" name="gvrw_unit" value="lbs">
-                        <label for="gvrw_unit_2">LBS</label>
+                        <input type="radio" id="weight_unit_kgs" name="weight_unit_1" value="kgs">
+                        <label for="weight_unit_kgs">KGS</label>
+                        <input type="radio" id="weight_unit_lbs" name="weight_unit_2" value="lbs">
+                        <label for="weight_unit_lbs">LBS</label>
                       </div>
                     </div>
 
@@ -265,10 +265,10 @@
                     </div>
                     <div class="col-md-2">
                       <div class="inside-radio">
-                        <input type="radio" id="front_gawr_unit_1" name="front_gawr_unit" value="kgs">
-                        <label for="front_gawr_unit_1">KGS</label>
-                        <input type="radio" id="front_gawr_unit_2" name="front_gawr_unit" value="lbs">
-                        <label for="front_gawr_unit_2">LBS</label>
+                        <input type="radio" id="weight_unit_kgs" name="weight_unit_3" value="kgs">
+                        <label for="weight_unit_kgs">KGS</label>
+                        <input type="radio" id="weight_unit_lbs" name="weight_unit_4" value="lbs">
+                        <label for="weight_unit_lbs">LBS</label>
                       </div>
                     </div>
                     <div class="col-md-2">
@@ -310,10 +310,10 @@
                     </div>
                     <div class="col-md-2">
                       <div class="inside-radio">
-                        <input type="radio" id="rear_gawr_unit_1" name="rear_gawr_unit" value="kgs">
-                        <label for="rear_gawr_unit_1">KGS</label>
-                        <input type="radio" id="rear_gawr_unit_2" name="rear_gawr_unit" value="lbs">
-                        <label for="rear_gawr_unit_2">LBS</label>
+                        <input type="radio" id="weight_unit_kgs" name="weight_unit_5" value="kgs">
+                        <label for="weight_unit_kgs">KGS</label>
+                        <input type="radio" id="weight_unit_lbs" name="weight_unit_6" value="lbs">
+                        <label for="weight_unit_lbs">LBS</label>
                       </div>
                     </div>
                     <div class="col-md-2">
@@ -412,6 +412,7 @@
     </div>
   </div>
 
+  <?php include dirname(__FILE__)."/warning.php"; ?>
   <?php include dirname(__FILE__)."/preview.php"; ?>
   <?php include dirname(__FILE__)."/recalls.php"; ?>
   <?php include dirname(__FILE__)."/footer.php"; ?>

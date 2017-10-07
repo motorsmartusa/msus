@@ -55,11 +55,22 @@ $(document).ready(function() {
     }
   });
 
+  var dataEntered = false;
   $(':radio').on('click', function() {
+    if ($('input[name=gvrw]').val() !== undefined || 
+      $('input[name=front_gawr]').val() !== undefined || 
+      $('input[name=rear_gawr]').val() !== undefined) {
+      $('#warningModal').modal({
+        show: true
+      });
+    }
+
     if ($(this).val() === 'kgs') {
-      $(':radio[value=kgs]').prop('checked', true);  
+      $(':radio[value=kgs]').prop('checked', true); 
+      $(':radio[value=lbs]').prop('checked', false);
     } else if ($(this).val() === 'lbs') {
       $(':radio[value=lbs]').prop('checked', true);
+      $(':radio[value=kgs]').prop('checked', false); 
     }
   });
 

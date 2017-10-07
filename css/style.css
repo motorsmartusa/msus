@@ -1118,6 +1118,10 @@ table.dataTable thead .sorting_desc_disabled:after {
   width:  180px;
 }
 
+#warningModal .modal-content {
+  font-size:  18px;
+}
+
 /** export steps end **/
 
 /** picture uploader start **/
