@@ -967,13 +967,6 @@ table.dataTable thead .sorting_desc_disabled:after {
   right: 22px;
 }
 
-.export p {
-  font-size: 14px;
-  color: #878787;
-  font-weight: 400;
-  padding: 0;
-}
-
 .export section {
   margin-bottom: 60px;
 }
