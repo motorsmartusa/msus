@@ -31,6 +31,7 @@
     <div class="row">
       <div class="col-md-2">
         <h2>DASHBOARD</h2>
+        <a class="btn btn-primary" id="viewAllBtn" role="button">VIEW ALL</a>
       </div>
 
       <div class="col-md-8">
@@ -62,16 +63,6 @@
       <div class="col-md-2">
         <a class="btn btn-primary btn-ask" href="#footer" role="button">ASK A QUESTION</a>
         <a class="btn btn-primary" href="step-1.php" role="button">EXPORT A VEHICLE</a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <a class="btn btn-primary" id="viewAllBtn" role="button">VIEW ALL</a>
-      </div>
-      <div class="col-md-8">
-
-      </div>
-      <div class="col-md-2">
         <div class="input-group">
           <input id="searchText" type="text" class="form-control search">
           <span class="input-group-btn">
@@ -80,6 +71,7 @@
         </div>
       </div>
     </div>
+
 
     <table id="dataTable" class="table" cellspacing="0" width="100%">
       <thead>
