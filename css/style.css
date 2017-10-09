@@ -306,13 +306,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 18px;
 }
 
-.dashboard .btn-primary {
+.dashboard .flex-container .btn-primary {
   width: 100%;
-  border-radius: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 28px;
+  border-radius: 0 0 4px 4px;
   box-shadow: none;
+  padding: 10px;
 }
 
 .dashboard .btn-primary:active,
@@ -775,9 +773,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
   text-align: center;
 }
 
-.dashboard .search {
+/* .dashboard .search {
   height:50px;
-}
+} */
 
 .search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   white-space:pre-line;  

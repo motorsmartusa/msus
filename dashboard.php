@@ -63,7 +63,7 @@
         <a class="btn btn-primary btn-ask btn-lg" href="#footer" role="button">ASK A QUESTION</a>
         <a class="btn btn-primary btn-lg" href="step-1.php" role="button">EXPORT A VEHICLE</a>
         <div class="input-group">
-          <input id="searchText" type="text" class="form-control search" placeholder="Type what you are looking for here...">
+          <input id="searchText" type="text" class="form-control search">
           <span class="input-group-btn">
             <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
           </span>
