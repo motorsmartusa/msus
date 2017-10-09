@@ -773,10 +773,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
   text-align: center;
 }
 
-/* .dashboard .search {
-  height:50px;
-} */
-
 .search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   white-space:pre-line;  
   position:relative;
@@ -822,7 +818,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   margin: 6px;
   border: 1px solid #30bdff;
   border-radius: 4px;
-  color: #a0a09f;
+  color: #c7c7c7;
   font-size: 36px;
   line-height: 63px;
   text-align: center;

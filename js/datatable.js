@@ -10,4 +10,7 @@ $(document).ready(function() {
 		oTable.search($(this).val()).draw();
 	});
 
+	$('#viewAllBtn').on('click', function() {
+		oTable.search("").draw();
+	});
 });
