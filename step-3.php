@@ -318,11 +318,7 @@
                       <div class="row">
                         <div class="col-md-12">
                           <label>Title Destination*</label>
-                          <select class="form-control manual-intercept" name="title_sent_to" required>
-                            <option selected>--</option>
-                            <option value="Importers Storage Yard">Importers Storage Yard</option>
-                            <option value="!MANUAL">Fill manually..</option>
-                          </select>
+                          <input type="text" class="form-control" name="title_sent_to" required>
                         </div>
                       </div>
                       <div class="row">
