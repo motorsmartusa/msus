@@ -207,6 +207,42 @@
                       <label>Port of Crossing*</label>
                       <select class="form-control" name="trans_port_of_crossing" required>
                         <option selected>--</option>
+                        <option value="706">706 - Aden Wildhorse</option>
+                        <option value="3410">3410 - Ambrose</option>
+                        <option value="3004">3004 - Blaine</option>
+                        <option value="3316">3316 - Chief Mountain</option>
+                        <option value="705">705 - Coutts</option>
+                        <option value="3322">3322 - Del Bonita</option>
+                        <option value="103">103 - Eastport</option>
+                        <option value="3417">3417 - Fortuna</option>
+                        <option value="3408">3408 - Hannah</option>
+                        <option value="3415">3415 - Hansboro</option>
+                        <option value="3023">3023 - Lynden</option>
+                        <option value="3416">3416 - Maida</option>
+                        <option value="3319">3319 - Morgan</option>
+                        <option value="3404">3404 - Neche</option>
+                        <option value="1111">1111 - New Port - Alberta</option>
+                        <option value="3420">3420 - Noonan</option>
+                        <option value="3406">3406 - Northgate</option>
+                        <option value="3317">3317 - Opheim</option>
+                        <option value="3004">3004 - Peace Arch</option>
+                        <option value="3401">3401 - Pembina</option>
+                        <option value="3316">3316 - Piegan</option>
+                        <option value="3017">3017 - Point Roberts</option>
+                        <option value="3403">3403 - Portal</option>
+                        <option value="3308">3308 - Porthill</option>
+                        <option value="3301">3301 - Raymond</option>
+                        <option value="3318">3318 - Roosville</option>
+                        <option value="3409">3409 - Sarles</option>
+                        <option value="3309">3309 - Scobey</option>
+                        <option value="3405">3405 - St. John</option>
+                        <option value="3009">3009 - Sumas</option>
+                        <option value="3310">3310 - Sweet Grass</option>
+                        <option value="3306">3306 - Turner</option>
+                        <option value="3407">3407 - Walhalla</option>
+                        <option value="3321">3321 - Whitlash Aden Wildhorse</option>
+                        <option value="3323">3323 - Wild Horse</option>
+                        <option value="3325">3325 - Willow Creek</option>
                       </select>
                     </div>
                     <div class="col-md-4">
