@@ -35,7 +35,7 @@
 
 
       <div class="col-md-2 align-items-end">
-        <a class="btn btn-primary btn-ask btn-lg" href="#footer" role="button">ASK A QUESTION</a>
+        <a class="btn btn-primary btn-ask" href="#footer" role="button">ASK A QUESTION</a>
       </div>
     </div>
 

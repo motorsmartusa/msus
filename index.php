@@ -57,7 +57,7 @@
 
 
               <div class="col-md-2">
-                <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                <button class="btn btn-primary" type="submit">Submit</button>
               </div>
             </div>
 
@@ -214,7 +214,7 @@
 
 
               <div class="col-md-2 text-right">
-                <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                <button class="btn btn-primary" type="submit">Submit</button>
               </div>
             </div>
           </form>
@@ -337,7 +337,7 @@
 
 
       <div class="col-md-2">
-        <a class="btn btn-primary btn-signup btn-lg top" href="#sign-t" role="button">REGISTER NOW</a>
+        <a class="btn btn-primary btn-signup top" href="#sign-t" role="button">REGISTER NOW</a>
       </div>
 
 
@@ -455,7 +455,7 @@
 
 
             <div class="col-md-4">
-              <button class="btn btn-primary btn-subscribe btn-default" type="submit">SUBSCRIBE</button>
+              <button class="btn btn-primary btn-subscribe" type="submit">SUBSCRIBE</button>
             </div>
           </div>
         </form>

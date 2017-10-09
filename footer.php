@@ -6,7 +6,10 @@
     <div class="row">
         <div class="col-md-3 align-end justify-center border-right">
           <a href="index.php"><img class="img-responsive" src="images/msu-logo-221x75.png"></a>
-          <div><a class="btn btn-primary btn-login btn-login-bottom btm top" href="#" role="button">LOGIN</a> <a class="btn btn-primary btn-signup btm top" href="#" role="button">SIGN UP</a></div>
+          <div>
+            <a class="btn btn-primary btn-login top" href="#" role="button">LOGIN</a> 
+            <a class="btn btn-primary btn-signup top" href="#" role="button">SIGN UP</a>
+          </div>
         </div>
 
         <div class="col-md-9">

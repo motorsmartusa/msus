@@ -46,7 +46,7 @@
 
                   <div class="sub-heading">
                     Tell us who is <span class="highlight">EXPORTING</span> this vehicle
-                    <a role="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#exporterModal">ADD NEW</a>
+                    <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#exporterModal">ADD NEW</a>
                   </div>
                   
                   <div class="row align-items-end">
@@ -108,7 +108,7 @@
                   
                   <div class="sub-heading">
                     Where is the <span class="highlight">DESTINATION</span> for the vehicle?
-                    <a role="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#destinationModal">ADD NEW</a>
+                    <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#destinationModal">ADD NEW</a>
                   </div>
 
                   <div class="row align-items-end">
@@ -171,7 +171,7 @@
                   <h2>TRANSPORTER DETAILS</h2>
 
                   <div class="sub-heading">Who is <span class="highlight">TRANSPORTING</span> this vehicle for you? 
-                  <a role="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#transporterModal">ADD NEW</a>
+                  <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#transporterModal">ADD NEW</a>
                   </div>
 
                   <div class="row align-items-end">
@@ -219,7 +219,7 @@
                   <h2>BILLING DETAILS</h2>
 
                   <div class="sub-heading">Who should we send the <span class="highlight">INVOICE</span> to?
-                  <a role="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#billingModal">ADD NEW</a>
+                  <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#billingModal">ADD NEW</a>
                   </div>
 
                   <div class="row align-items-end">
@@ -310,7 +310,7 @@
                   <h2>TITLE DETAILS</h2>
 
                   <div class="sub-heading">Where are we sending the <span class="highlight">TITLE</span>?
-                  <a role="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#titleModal">ADD NEW</a>
+                  <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#titleModal">ADD NEW</a>
                   </div>
 
                   <div class="row align-items-end">
@@ -347,7 +347,7 @@
                   <h2>RI LABEL DETAILS</h2>
 
                   <div class="sub-heading">Where do you want the <span class="highlight">LABEL</span> sent to?
-                    <a role="button" class="btn btn-primary btn-med" data-toggle="modal" data-target="#labelModal">ADD NEW</a>
+                    <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#labelModal">ADD NEW</a>
                   </div>
 
                   <div class="row align-items-end">
@@ -440,8 +440,8 @@
 
       <div class="col-md-2">
         <div class="sidebar">
-          <a class="btn btn-primary btn-ask btn-lg" href="#footer" role="button">ASK A QUESTION</a>
-          <a class="btn btn-primary btn-dashbrd btn-lg" href="dashboard.php" role="button">DASHBOARD</a>
+          <a class="btn btn-primary btn-ask" href="#footer" role="button">ASK A QUESTION</a>
+          <a class="btn btn-primary btn-dashbrd" href="dashboard.php" role="button">DASHBOARD</a>
         </div>
       </div>
     </div>

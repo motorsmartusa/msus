@@ -83,7 +83,7 @@
           
         </div>
         <div class="modal-footer">
-          <button class="btn btn-primary btn-med" type="submit">ADD</button>
+          <button class="btn btn-primary" type="submit">ADD</button>
         </div>
       </form>
     </div>

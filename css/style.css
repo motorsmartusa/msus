@@ -45,11 +45,10 @@ input[type=radio] {
 }
 
 input[type=radio] + label {
-  font-size: 14px; 
+  font-size: 15px; 
   width: 45%;
-  min-height: 42px; 
   display: inline-block;
-  padding: 12px;
+  padding: 15px;
   border-color: #ddd;
   background: #e6e6e6;  
   color: #30bdff;
@@ -104,11 +103,12 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .form-control {
-  padding: 20px 12px;
-  color: #878787;
-  font-size: 16px;
-  border: #ccc solid 1px;
-  border-radius: 6px;
+  color: #a0a09f;
+  padding: 10px 10px;
+  font-size: 22px;
+  border-radius: 4px;
+  font-weight: lighter;
+  min-height: 50px;
 }
 
 /** input styles end **/
@@ -203,12 +203,13 @@ input[type=date]::-webkit-calendar-picker-indicator {
 /** button styles start **/
 
 .btn-primary {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 15px;
+  padding:  15px;
   text-transform: uppercase;
   border: 0;
+  border-radius: 4px;
   background: #30bdff;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
   -webkit-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
   -moz-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
   -o-transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
@@ -225,7 +226,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .btn-primary[disabled]:focus,
 .btn-primary[disabled]:hover {
   background: #73d2ff;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
   outline: none;
 }
 
@@ -235,17 +236,22 @@ input[type=date]::-webkit-calendar-picker-indicator {
   color: #30bdff;
 }
 
-.btn-login-bottom {
+.footer .btn-primary {
+  width: 100px;
+  box-shadow: none;
+  padding: 10px;
+}
+
+.footer .btn-login {
   background: transparent;
   border: solid rgba(48, 189, 255, 1) 1px;
   margin-right: 20px;
 }
 
-.btn-login-bottom:active,
-.btn-login-bottom:active:focus,
-.btn-login-bottom:active:hover,
-.btn-login-bottom:focus,
-.btn-login-bottom:hover {
+.footer .btn-login:active,
+.footer .btn-login:active:focus,
+.footer .btn-login:active:hover,
+.footer .btn-login:hover {
   color: #fff;
   background: #30bdff;
   outline: none;
@@ -254,12 +260,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .btn-subscribe {
-  padding: 10px 30px;
-  font-size: 15px;
-  font-weight: 400;
   background: #ccc;
   color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
 }
 
 .btn-subscribe:active,
@@ -273,6 +276,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .btn-ask, 
 .btn-dashbrd {
+  width: 100%;
   background: #fff;
   color: #30bdff;
   margin: 6px 0;
@@ -283,25 +287,44 @@ input[type=date]::-webkit-calendar-picker-indicator {
   color: #30bdff;
 }
 
+
 .btn-sm {
+  font-size: 14px;
+  padding: 6px;
   width: 50%;
-}
-
-.btn-med {
-  padding: 12px 20px;
-  font-size: 14px;
-  min-width: 105px;
-}
-
-.btn-lg {
-  width: 100%;
-  font-size: 14px;
-  padding: 12px 26px;
 }
 
 .btn-xl {
   font-size: 32px;
   padding: 30px 45px;
+}
+
+.dashboard .input-group-btn:last-child>.btn {
+  height: 50px;
+  background-color: #30bdff;
+  color: #fff;
+  font-size: 18px;
+}
+
+.dashboard .btn-primary {
+  width: 100%;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  box-shadow: none;
+}
+
+.dashboard .btn-primary:active,
+.dashboard .btn-primary:active:focus,
+.dashboard .btn-primary:active:hover,
+.dashboard .btn-primary:focus,
+.dashboard .btn-primary:hover {
+  color: #fff;
+  background: #73d2ff;
+  outline: none;
+  border: none;
+  box-shadow: none;
 }
 
 .input-group-btn .btn-primary {
@@ -408,7 +431,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   position: relative;
   top: -32px;
   float: right;
-  right: 20px;
+  right: 28px;
 }
 
 .l-slide .heading {
@@ -595,16 +618,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   padding: 0 32px;
 }
 
-.footer .btn {
-  width: 100px;
-  line-height: 24px;
-}
-
-.footer .btn-primary {
-  box-shadow: none;
-}
-
-.footer .btm {
+.footer .top {
   margin-top: 20px;
 }
 
@@ -787,13 +801,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
   top:-7px;
 }
 
-.dashboard .input-group-btn:last-child>.btn {
-  height: 50px;
-    background-color: #30bdff;
-    color: #fff;
-    font-size: 18px;
-}
-
 .dashboard .input-group {
   margin-top:  6px;
 }
@@ -821,27 +828,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 36px;
   line-height: 63px;
   text-align: center;
-}
-
-.dashboard .flex-container .btn-primary {
-  width: 100%;
-  border-radius: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 28px;
-  box-shadow: none;
-}
-
-.dashboard .flex-container .btn-primary:active,
-.dashboard .flex-container .btn-primary:active:focus,
-.dashboard .flex-container .btn-primary:active:hover,
-.dashboard .flex-container .btn-primary:focus,
-.dashboard .flex-container .btn-primary:hover {
-  color: #fff;
-  background: #73d2ff;
-  outline: none;
-  border: none;
-  box-shadow: none;
 }
 
 #dataTable th {
@@ -968,6 +954,10 @@ table.dataTable thead .sorting_desc_disabled:after {
 .modal-footer {
   border-top: 0;
   margin: 0 30px;
+}
+
+.modal-footer .btn-primary {
+  min-width: 100px;
 }
 
 .sub-heading .btn-primary {

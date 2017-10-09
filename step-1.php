@@ -57,7 +57,7 @@
                         <i class="fa fa-check text-success form-control-feedback hidden"></i>
                       </div>
                       <div class="col-md-2">
-                        <a role="button" class="btn btn-primary btn-lg vin-decoder" href="javascript:;" id="decodeVin" disabled>DECODE</a>
+                        <a role="button" class="btn btn-primary vin-decoder" href="javascript:;" id="decodeVin" disabled>DECODE</a>
                       </div>
                   </div>
                   <div class="row align-items-end">
@@ -151,7 +151,7 @@
                 
                   <div class="row align-items-center">
                     <div class="col-md-3">
-                      <div class="btn btn-primary btn-lg upload">
+                      <div class="btn btn-primary upload">
                       Upload Image
                         <input type="file" class="upload" accept="image/*">
                       </div>
@@ -354,7 +354,7 @@
                   <div class="sub-heading">Check to see if there are any <span class="highlight">RECALLS</span> for his vehicles</div>
 
                   <div class="row">
-                    <div class="col-md-4 border-right">
+                    <div class="col-md-5 border-right">
                       <div class="inside-button">
                         <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#recallsModal" data-recall="mfg">MANUFACTURE RECALL</a>
                         <a href="javascript:;" class="btn btn-primary btn-white">VIEW</a>
@@ -368,7 +368,7 @@
                         <a href="javascript:;" class="btn btn-primary btn-white">VIEW</a>
                       </div>
                     </div>
-                    <div class="col-md-8 align-items-center">
+                    <div class="col-md-7 align-items-center">
                       <div id="pdfImage">
                         <img src="images/pdf-image.jpg" class="img-responsive">
                         <i class="fa fa-times"></i>
