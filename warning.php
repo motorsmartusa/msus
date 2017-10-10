@@ -8,7 +8,7 @@
         <h4 class="modal-title">WARNING!</h4>
         </div>
         <div class="modal-body">
-          Please enter values in only one unit of measurement (lbs or kgs) for GVRW, Front GAWR, and Rear GAWR.
+          
         </div>
       </div>
     </div>

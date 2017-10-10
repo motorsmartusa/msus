@@ -33,7 +33,7 @@
       </div>
 
       <div class="col-md-8">
-          <form name="step-2" method="post" action="step-3.php">
+          <form name="step-2" id="step-2" method="post" action="step-3.php">
                 <section id="pictures">
                   <h2>PICTURES</h2><span class="cls rounded white"></span>
 
@@ -41,7 +41,7 @@
 
                   <div class="row align-items-center" id="pictureOption">
                     <div class="col-md-3">
-                      <input type="radio" id="pictures_1" value="upload" name="pictures" required>
+                      <input type="radio" id="pictures_1" value="upload" name="pictures">
                       <label for="pictures_1">UPLOAD PICTURES</label>
                     </div>
                     <div class="col-md-1">
@@ -417,6 +417,7 @@
     </div>
   </div>
 
+  <?php include dirname(__FILE__)."/warning.php"; ?>
   <?php include dirname(__FILE__)."/preview.php"; ?>
   <?php include dirname(__FILE__)."/footer.php"; ?>
   <!-- javascript start -->

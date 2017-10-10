@@ -29,6 +29,7 @@ $(document).ready(function() {
     prevVal = $(this).val();
   });
 
+  var fileList = [];
   var readURL = function(input) {
 
     if (input.files && input.files[0]) {
@@ -51,6 +52,7 @@ $(document).ready(function() {
             $(this).siblings('a').attr('href', 'javascript:;');
             $(this).parent().hide();
             $(this).parent().siblings('.fa.fa-plus').fadeIn(650);
+            fileList.pop();
         });
 
         $(input).siblings('.iconOverlay').children('.fa.fa-search-plus').click(function() {
@@ -58,6 +60,7 @@ $(document).ready(function() {
           $('#previewModal .modal-body').html(html);
           $('#previewModal').modal('show');
         });
+        fileList.push(e.target.result);
       }
 
       reader.readAsDataURL(input.files[0]);
@@ -67,6 +70,26 @@ $(document).ready(function() {
 
   $('.imgUpload').on('change', function() {
     readURL(this);
+  });
+
+  $('#step-2').on('submit', function() {
+    if ($('input:radio:checked').length <= 0) {
+      $('#warningModal .modal-body').html("Please choose which picture option you would like.");
+      $('#warningModal').modal('show');
+      return false;
+    }
+    if ($('input:radio:checked').val() === "upload") {
+      var flag = 11;
+      $(".picture-list-option").each(function(i) {
+        if ($(this).val() == "--")
+            flag--;
+      });
+      if (fileList.length < 11 || flag < 11) {
+        $('#warningModal .modal-body').html("Please upload all 11 images and select the location.");
+        $('#warningModal').modal('show');
+        return false;
+      }
+    }
   });
 
 });

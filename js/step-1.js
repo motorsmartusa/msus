@@ -54,9 +54,7 @@ $(document).ready(function() {
       $(this).find('iframe').attr('src','https://owner.ford.com/tools/account/maintenance/recalls.html');
     }
 
-    $('#instructionsModal').modal({
-      show: true
-    });
+    $('#instructionsModal').modal('show');
   });
 
   var dataEntered = false;
@@ -64,9 +62,8 @@ $(document).ready(function() {
     if ($('input[name=gvrw]').val() !== undefined || 
       $('input[name=front_gawr]').val() !== undefined || 
       $('input[name=rear_gawr]').val() !== undefined) {
-      $('#warningModal').modal({
-        show: true
-      });
+      $('#warningModal .modal-body').html("Please enter values in only one unit of measurement (lbs or kgs) for GVRW, Front GAWR, and Rear GAWR.");
+      $('#warningModal').modal('show');
     }
 
     if ($(this).val() === 'kgs') {
