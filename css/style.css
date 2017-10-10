@@ -1119,7 +1119,7 @@ table.dataTable thead .sorting_desc_disabled:after {
   cursor: pointer;
 }
 
-#pictureUpload, #pictureUploadInst {
+.pictureUpload, #pictureUploadInst {
   display: none;
 }
 
@@ -1191,7 +1191,7 @@ table.dataTable thead .sorting_desc_disabled:after {
   color: #fff;
 }
 
-#pictureUpload .form-control {
+.pictureUpload .form-control {
   width: 200px;
   margin-top: 12px;
 }
@@ -1246,12 +1246,12 @@ table.dataTable thead .sorting_desc_disabled:after {
 }
 
 #previewModal img {
-  max-width: 100%;
-  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 #previewModal .modal-dialog {
-  width: 50%;
+  width: 70%;
   height: auto;
   margin: 0 auto;
   padding: 0;

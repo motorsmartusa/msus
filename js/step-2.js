@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#pictures_1').on("click", function() {
       $('#pictureOption').hide();
-      $('#pictureUpload').show();
+      $('.pictureUpload').show();
       $('#pictureUploadInst').show();
       $('#pictures .cls.rounded.white').show();
   });
@@ -11,7 +11,7 @@ $(document).ready(function() {
       $('.picture-list-option').prop('selectedIndex',0);
       $('#pictureList li').removeClass('checkmark');
       $('#pictureOption').show();
-      $('#pictureUpload').hide();
+      $('.pictureUpload').hide();
       $('#pictureUploadInst').hide();
       $('#pictures .cls.rounded.white').hide();
   });
