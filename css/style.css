@@ -1137,7 +1137,7 @@ table.dataTable thead .sorting_desc_disabled:after {
   margin-bottom: 10px;
 }
 
-#pictureUploadInst ol {
+#pictureUploadInst ol, #instructionsModal ol {
   font-size: 14px;
   color: #999;
   font-weight: 400;

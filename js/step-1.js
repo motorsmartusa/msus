@@ -53,6 +53,10 @@ $(document).ready(function() {
       $(this).find('.modal-title').text(title);
       $(this).find('iframe').attr('src','https://owner.ford.com/tools/account/maintenance/recalls.html');
     }
+
+    $('#instructionsModal').modal({
+      show: true
+    });
   });
 
   var dataEntered = false;
