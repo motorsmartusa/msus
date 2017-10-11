@@ -62,7 +62,9 @@ $(document).ready(function() {
     if ($('input[name=gvrw]').val() !== undefined || 
       $('input[name=front_gawr]').val() !== undefined || 
       $('input[name=rear_gawr]').val() !== undefined) {
-      $('#warningModal .modal-body').html("Please enter values in only one unit of measurement (lbs or kgs) for GVRW, Front GAWR, and Rear GAWR.");
+      var msg = "Are you sure you want to change the unit of measure? We only use one unit of measure (KGS or LBS) for GVRW, Front GAWR, and Rear GAWR. ";
+      msg +=  "If you are going to change it then double check to make the all the weight entires are in the correct unit of measure.";
+      $('#warningModal .modal-body').html(msg);
       $('#warningModal').modal('show');
     }
 
