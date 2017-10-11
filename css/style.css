@@ -103,7 +103,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .form-control {
-  color: #a0a09f;
+  color: #444444;
   padding: 10px 10px;
   font-size: 22px;
   border-radius: 4px;
@@ -1219,6 +1219,11 @@ table.dataTable thead .sorting_desc_disabled:after {
 
 .iconOverlay .fa:hover {
   opacity: 1;
+}
+
+.iconOverlay .fa-rotate-left {
+  top: 8px;
+  left: 10px;
 }
 
 .iconOverlay .fa-times {
