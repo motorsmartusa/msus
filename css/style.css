@@ -102,7 +102,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   color: #30bdff;
 }
 
-.form-control {
+.form-control:not(#contact-form .form-control) {
   color: #444444;
   padding: 10px 10px;
   font-size: 22px;
