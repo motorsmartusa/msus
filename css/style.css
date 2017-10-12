@@ -296,7 +296,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .btn-ask, 
 .btn-dashbrd {
-  width: 100%;
+  min-width: 245px;
   background: #fff;
   color: #30bdff;
   margin: 6px 0;
@@ -832,7 +832,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .dashboard .input-group {
   position: absolute;
   bottom: 6px;
-  width: 208px;
+  width: 245px;
 }
 
 .dashboard .flex-container {
