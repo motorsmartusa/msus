@@ -267,6 +267,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
   box-shadow: none;
 }
 
+.fixed-top .btn-login-top {
+  margin-right:  6px;
+}
+
 .fixed-top .logout {
   margin-right:  0;
 }
