@@ -469,13 +469,13 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 /** services start */
 
-.services .row:nth-child(3) .col-md-2 {
-  padding: 0;
+.services .row:nth-child(2) .col-md-3 {
+  padding:  0 40px;
 }
 
 .services .service-text span {
   display: block;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
   width: 100%;
   margin-bottom: 9%;
@@ -490,6 +490,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
   margin-bottom: 20px;
   color: #605e5e;
   text-align: justify;
+}
+
+.services .service-img {
+  max-width: 220px;
+  max-height: 220px;
 }
 
 /** services end **/

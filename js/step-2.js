@@ -55,6 +55,14 @@ $(document).ready(function() {
             fileList.pop();
         });
 
+        $(input).siblings('.iconOverlay').children('.fa.fa-rotate-left').click(function() {
+          $(this).parent().siblings('.imgPreview').css({
+              "-webkit-transform": "rotate(90deg)",
+              "-moz-transform": "rotate(90deg)",
+              "transform": "rotate(90deg)"
+          });
+        });
+
         $(input).siblings('.iconOverlay').children('.fa.fa-search-plus').click(function() {
           var html = '<img src="' + e.target.result + '"/>';
           $('#previewModal .modal-body').html(html);

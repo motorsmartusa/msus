@@ -344,12 +344,9 @@
 
 
     <div class="row">
-      <div class="col-md-2">
-      </div>
 
-
-      <div class="col-md-2">
-        <img class="img-responsive" src="images/icon_map.png">
+      <div class="col-md-3">
+        <img class="service-img" src="images/icon_map.png">
 
         <div class="service-text">
           <span>Registered Import Services</span>
@@ -359,8 +356,8 @@
       </div>
 
 
-      <div class="col-md-2">
-        <img class="img-responsive" src="images/icon_odometer.png">
+      <div class="col-md-3">
+        <img class="service-img" src="images/icon_odometer.png">
 
         <div class="service-text">
           <span>Vehicle Conversion</span>
@@ -370,8 +367,8 @@
       </div>
 
 
-      <div class="col-md-2">
-        <img class="img-responsive" src="images/icon_fix.png">
+      <div class="col-md-3">
+        <img class="service-img" src="images/icon_fix.png">
 
         <div class="service-text">
           <span>Reconditioning</span>
@@ -381,8 +378,8 @@
       </div>
 
 
-      <div class="col-md-2">
-        <img class="img-responsive" src="images/icon_title.png">
+      <div class="col-md-3">
+        <img class="service-img" src="images/icon_title.png">
 
         <div class="service-text">
           <span>Titling</span>
@@ -391,9 +388,6 @@
         </div>
       </div>
 
-
-      <div class="col-md-2">
-      </div>
     </div>
 
 

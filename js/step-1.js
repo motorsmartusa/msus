@@ -57,7 +57,6 @@ $(document).ready(function() {
     $('#instructionsModal').modal('show');
   });
 
-  var dataEntered = false;
   $(':radio').on('click', function() {
     if ($('input[name=gvrw]').val() !== undefined || 
       $('input[name=front_gawr]').val() !== undefined || 
