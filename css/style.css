@@ -889,7 +889,6 @@ table.dataTable thead .sorting_desc_disabled:after {
 #viewAllBtn {
   position: absolute;
   bottom: 6px;
-  min-width: 205px;
 }
 /** dealer main and dashboard end **/
 
