@@ -464,7 +464,7 @@
                     </div>
                   </div>
 
-                  <div class="sub-heading">You're all <span class="highlight">DONE</span></div>
+                  <div class="sub-heading">Click Submit &amp; You're All <span class="highlight">DONE</span></div>
                 </section>
 
           </form>
