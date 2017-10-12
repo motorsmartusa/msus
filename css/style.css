@@ -871,6 +871,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 #dataTable td {
   color:  #a0a09f;
   font-size:  14px;
+  white-space: nowrap;
 }
 
 .dataTables_wrapper {
