@@ -6,7 +6,7 @@
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <title>MSU Solutions | DEALER MAIN</title>
+  <title>MSU Solutions | THANK YOU</title>
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -23,19 +23,20 @@
   
   <?php include dirname(__FILE__)."/header.php"; ?>
 
-  <div class="container-fluid dealer">
+  <div class="container-fluid dealer thankyou">
     <div class="row">
       <div class="col-md-2 align-items-start">
-        <h2>DEALER MAIN</h2>
       </div>
 
 
       <div class="col-md-8">
+        <h2>THANK YOU!</h2>
+        <span class="tagline">Your vehicle has been submitted. What would you like to do next?</span>
+
       </div>
 
 
       <div class="col-md-2 align-items-end">
-        <a class="btn btn-primary btn-ask" href="#footer" role="button">ASK A QUESTION</a>
       </div>
     </div>
 
@@ -77,7 +78,6 @@
 
 
       <div class="col-md-4 align-items-center">
-          <div class="sub-heading">What would <span class="highlight">YOU</span> like to do</div>
       </div>
 
 

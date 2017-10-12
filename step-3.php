@@ -40,7 +40,7 @@
         </ul>
       </div>
       <div class="col-md-8">
-          <form name="step-3" method="post" action="dealermain.php">
+          <form name="step-3" method="post" action="thankyou.php">
                 <section id="exp">
                   <h2>EXPORTER DETAILS</h2>
 

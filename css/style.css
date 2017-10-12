@@ -279,7 +279,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   width:  100px;
 }
 
-.btn-subscribe {
+.btn-subscribe, .thankyou .btn-primary {
   background: #ccc;
   color: #fff;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
@@ -289,7 +289,12 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .btn-subscribe:active:focus,
 .btn-subscribe:active:hover,
 .btn-subscribe:focus,
-.btn-subscribe:hover {
+.btn-subscribe:hover,
+.thankyou .btn-primary:active,
+.thankyou .btn-primary:active:focus,
+.thankyou .btn-primary:active:hover,
+.thankyou .btn-primary:focus,
+.thankyou .btn-primary:hover {
   background: #a0a09f;
   color: #fff;
 }
@@ -742,16 +747,35 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 /** footer end **/
 
-/** dealer main and dashboard start **/
+/** dealer main, dashboard, thankyou start **/
 
 .dealer, .dashboard {
   background: #fff;
   padding: 10px 0 36px 0;
 }
 
+.thankyou {
+  background:  #30bdff;
+  color:  #fff;
+  padding-bottom: 60px;
+}
+
 .dealer h2, .dashboard h2 {
   font-size: 24px;
   margin-top: 6px;
+}
+
+.thankyou h2 {
+  font-size: 60px;
+  color:  #fff;
+  margin-top: 100px;
+}
+
+.thankyou .tagline {
+  font-size: 28px;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 60px;
 }
 
 .dashboard h2 {
@@ -770,9 +794,18 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size: 36px;
 }
 
+.thankyou .circle {
+  background: #ccc;
+  color:  #fff;
+}
+
 .dealer .circle:hover {
   background: #30bdff;
   color: #fff;
+}
+
+.thankyou .circle:hover {
+  background: #a0a09f;
 }
 
 .dashboard .sub-heading {
@@ -790,6 +823,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
   border-top: 1px solid #c7c7c7;
 }
 
+.thankyou hr {
+  border-top: 1px solid #fff;
+}
+
 .dealer hr.top {
   transform: rotate(90deg) translateX(-60px);
 }
@@ -805,6 +842,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
   text-transform: uppercase;
   padding: 6px 0;
   text-align: center;
+}
+
+.thankyou hr + .highlight {
+  color: #fff;
 }
 
 .search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -895,7 +936,7 @@ table.dataTable thead .sorting_desc_disabled:after {
   position: absolute;
   bottom: 6px;
 }
-/** dealer main and dashboard end **/
+/** dealer main, dashboard and thankyou end **/
 
 /** export steps start **/
 
