@@ -230,19 +230,23 @@ input[type=date]::-webkit-calendar-picker-indicator {
   outline: none;
 }
 
-.btn-login-top {
+/* .btn-login-top {
   margin-bottom: 6px;
   background: #fff;
   color: #30bdff;
-}
+} */
 
-.footer .btn-primary {
+.footer .btn-primary, .btn-login-top {
   width: 100px;
   box-shadow: none;
   min-height: 50px;
 }
 
-.footer .btn-login {
+.btn-login-top {
+  color:  #30bdff;
+}
+
+.footer .btn-login, .btn-login-top {
   background: transparent;
   border: solid rgba(48, 189, 255, 1) 1px;
   margin-right: 20px;
@@ -251,12 +255,24 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .footer .btn-login:active,
 .footer .btn-login:active:focus,
 .footer .btn-login:active:hover,
-.footer .btn-login:hover {
+.footer .btn-login:hover, 
+.btn-login-top:active,
+.btn-login-top:active:focus,
+.btn-login-top:active:hover,
+.btn-login-top:hover {
   color: #fff;
   background: #30bdff;
   outline: none;
   border: solid rgba(48, 189, 255, 1) 1px;
   box-shadow: none;
+}
+
+.fixed-top .logout {
+  margin-right:  0;
+}
+
+.fixed-top .btn-signup {
+  width:  100px;
 }
 
 .btn-subscribe {

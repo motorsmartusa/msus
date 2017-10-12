@@ -14,17 +14,19 @@
       </div>
 
 
-      <div class="col-md-8">
+      <div class="col-md-7">
       </div>
 
 
-      <div class="col-md-2 align-items-end">
-        <?php if ($bLoggedIn) { ?>
-          <a class="btn btn-primary btn-sm btn-login btn-login-top" href="#" role="button">LOGOUT</a>
-        <?php } else { ?>
-        <a class="btn btn-primary btn-sm btn-login btn-login-top" href="#" role="button">LOGIN</a> 
-        <a class="btn btn-primary btn-sm btn-signup" href="#" role="button">SIGN UP</a>
-        <?php } ?>
+      <div class="col-md-3 align-items-end">
+        <div>
+          <?php if ($bLoggedIn) { ?>
+            <a class="btn btn-primary btn-login btn-login-top logout" href="#" role="button">LOGOUT</a>
+          <?php } else { ?>
+          <a class="btn btn-primary btn-login btn-login-top" href="#" role="button">LOGIN</a> 
+          <a class="btn btn-primary btn-signup" href="#" role="button">SIGN UP</a>
+          <?php } ?>
+        </div>
       </div>
     </div>
   </div>
