@@ -108,6 +108,7 @@
                   
                   <div class="sub-heading">
                     Where is the <span class="highlight">DESTINATION</span> for the vehicle?
+                    <a href="javascript:;"><i class="fa fa-pencil"></i></a>
                     <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#destinationModal">ADD NEW</a>
                   </div>
 
