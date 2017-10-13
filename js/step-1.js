@@ -58,7 +58,6 @@ $(document).ready(function() {
   });
 
   $(':radio').on('click', function() {
-    console.log($('input[name=gvrw]').val());
     if (($('input[name=gvrw]').val() !== undefined && $('input[name=gvrw]').val() !== "") || 
       ($('input[name=front_gawr]').val() !== undefined  && $('input[name=front_gawr]').val() !== "") || 
       ($('input[name=rear_gawr]').val() !== undefined && $('input[name=rear_gawr]').val() !== "")) {
