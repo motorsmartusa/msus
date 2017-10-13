@@ -1,9 +1,12 @@
 $(document).ready(function() {
 
 	var oTable = $('#dataTable').DataTable({
+		"fixedHeader": {
+	      header: true,
+	    },
+		"info":     false,
 		"paging":   false,
-		"searching":   true,
-		"info":     false
+		"searching":   true
 	} );
 
 	$('#searchText').on('keyup blur', function(){

@@ -19,6 +19,7 @@
   <!-- bootstrap css -->
   <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/bootstrap/css/datatables.bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap/css/fixedheader.datatables.min.css" rel="stylesheet">
   <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet"><!-- custom css -->
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -570,6 +571,8 @@
   <script src="js/jquery.datatables.min.js">
   </script>
   <script src="js/datatables.bootstrap.min.js">
+  </script>
+  <script src="js/datatables.fixedHeader.min.js">
   </script>
 
   <!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -903,7 +903,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   text-align: center;
 }
 
-#dataTable th {
+#dataTable th, .dataTable.fixedHeader-floating th {
   font-size:  14px;
   color:  #30bdff;
   font-weight: 400;
@@ -914,7 +914,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
 #dataTable td {
   color:  #a0a09f;
   font-size:  14px;
-  white-space: nowrap;
 }
 
 .dataTables_wrapper {
