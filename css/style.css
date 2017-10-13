@@ -916,6 +916,12 @@ input[type=date]::-webkit-calendar-picker-indicator {
   font-size:  14px;
 }
 
+#dataTable th:not(:last-child), 
+#dataTable td:not(:last-child),
+.dataTable.fixedHeader-floating th:not(:last-child) {
+  padding-right: 40px;
+}
+
 .dataTables_wrapper {
   margin-top: 30px;
 }
