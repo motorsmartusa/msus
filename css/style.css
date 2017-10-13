@@ -34,6 +34,7 @@ input[type=file] {
   cursor: pointer;
   opacity: 0;
   filter: alpha(opacity=0);
+  width: 100%;
 }
 
 input[type=option], 
@@ -1082,6 +1083,8 @@ table.dataTable thead .sorting_desc_disabled:after {
 
 .export .btn-primary.upload {
   margin-left: 6px;
+  width: 240px;
+  margin: 0 auto;
 }
 
 .export section .row:not(:first-child), .modal .row:not(:first-child) {
