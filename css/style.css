@@ -1386,7 +1386,7 @@ li.checkmark:before {
 
 /** decode start **/
 .form-control-feedback {
-    top: 40px !important;
+    top: 45px !important;
 }
 
 .text-success {

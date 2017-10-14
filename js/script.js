@@ -62,6 +62,16 @@ $(document).ready(function() {
     e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
   });
 
+  $(document).on('keyup', 'input[name=mileage], input[name=value], input[name=gvrw], input[name=front_gawr], input[name=rear_gawr]', function(event) {
+    if(event.which >= 37 && event.which <= 40) return;
+
+    $(this).val(function(index, value) {
+      return value
+      .replace(/\D/g, "")
+      .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    });
+  });
+
   $(this).keypress(function(e) {
     if(e.which == 13) {
         e.preventDefault();
@@ -73,7 +83,10 @@ $(document).ready(function() {
       if($(this).val() == '!MANUAL') {
         var self = $(this);
         var name = $(this).attr('name');
-        var input = $('<input name="' + name + '" class="form-control">');
+        var pattern = $(this).attr('pattern');
+        var title = $(this).attr('title');
+        var required = $(this).attr('required');
+        var input = $('<input name="' + name + '" class="form-control" pattern="' + pattern + '" title="' + title + '" ' + required + '>');
         var inputGroup = $('<div class="input-group">"');
         var inputButton = $('<button type="button" class="btn btn-primary">');
         var inputGroupBtn = $('<span class="input-group-btn">');
@@ -85,10 +98,17 @@ $(document).ready(function() {
 
         $(this).val('');
         $(this).attr('data-old-name', self.attr('name'));
+        $(this).removeAttr('name');
+        $(this).removeAttr('pattern');
+        $(this).removeAttr('required');
         $(this).addClass('hidden');
 
         inputButton.on('click', function() {
             self.attr('name', self.attr('data-old-name'));
+            self.attr('pattern', pattern);
+            if (typeof required !== undefined || required !== "") {
+              self.attr('required', required);
+            }
             self.removeClass('hidden');
 
             inputGroup.parent().append(self);

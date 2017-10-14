@@ -47,13 +47,13 @@
                   <div class="row align-items-end">
                       <div class="col-md-5">
                         <label>VIN*</label>
-                        <input type="text" class="form-control vin-input" name="vin" required>
+                        <input type="text" class="form-control vin-input" name="vin" pattern="[a-zA-Z0-9]{1,17}" title="Alphanumeric, max 17 digits." required>
                         <i class="fa fa-check text-success form-control-feedback hidden"></i>
                       </div>
 
                       <div class="col-md-5">
                         <label>Confirm VIN*</label>
-                        <input type="text" class="form-control vin-input" name="confirm_vin" required>
+                        <input type="text" class="form-control vin-input" name="confirm_vin" pattern="[a-zA-Z0-9]{1,17}" title="Alphanumeric, max 17 digits." required>
                         <i class="fa fa-check text-success form-control-feedback hidden"></i>
                       </div>
                       <div class="col-md-2">
@@ -63,19 +63,19 @@
                   <div class="row align-items-end">
                       <div class="col-md-3">
                         <label>Year*</label>
-                        <input type="text" class="form-control" name="year" required>
+                        <input type="text" class="form-control" name="year" pattern="[0-9]{4}" title="Numeric, max 4 digits. (YYYY)" required>
                       </div>
                       <div class="col-md-3">
                         <label>Make*</label>
-                        <input type="text" class="form-control" name="make" required>
+                        <input type="text" class="form-control" name="make" pattern="[a-zA-Z0-9\s]{1,}" title="Alphanumeric." required>
                       </div>
                       <div class="col-md-3">
                         <label>Model*</label>
-                        <input type="text" class="form-control" name="model" required>
+                        <input type="text" class="form-control" name="model" pattern="[a-zA-Z0-9\s]{1,}" title="Alphanumeric." required>
                       </div>
                       <div class="col-md-3">
                         <label>Series/Trim*</label>
-                        <select class="form-control manual-intercept" name="series_trim" required>
+                        <select class="form-control manual-intercept" name="series_trim" pattern="[a-zA-Z0-9\s]{1,}" title="Alphanumeric." required>
                           <option value="">--</option>
                           <option value="!MANUAL">Fill manually..</option>
                         </select>
@@ -84,21 +84,21 @@
                   <div class="row align-items-end">
                     <div class="col-md-3">
                       <label>Style*</label>
-                      <select class="form-control manual-intercept" name="style" required>
+                      <select class="form-control manual-intercept" name="style" pattern="[a-zA-Z0-9\s]{1,}" title="Alphanumeric." required>
                         <option value="">--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-3">
                       <label>Color*</label>
-                      <select class="form-control manual-intercept" name="color" required>
+                      <select class="form-control manual-intercept" name="color" pattern="[a-zA-Z\s]{1,}" title="Letters." required>
                         <option value="">--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-3">
                       <label>Mileage*</label>
-                      <input type="text" class="form-control" name="mileage" required>
+                      <input type="text" class="form-control" name="mileage" pattern="\d{0,1}[,]{0,1}\d{0,3}[,]{0,1}\d{1,3}" title="Numeric, max 7 digits." required>
                     </div>
                     <div class="col-md-3">
                       <div class="inside-radio">
@@ -112,11 +112,11 @@
                   <div class="row align-items-end">
                     <div class="col-md-3">
                       <label>Stock Number</label>
-                      <input type="text" class="form-control" name="stock_number">
+                      <input type="text" class="form-control" name="stock_number" pattern="[a-zA-Z0-9\s]{1,}" title="Alphanumeric.">
                     </div>
                     <div class="col-md-2">
                       <label>Value*</label>
-                      <input type="text" class="form-control" name="value" required>
+                      <input type="text" class="form-control" name="value" pattern="\d{0,1}[,]{0,1}\d{0,3}[,]{0,1}\d{1,3}" title="Numeric, max 7 digits." required>
                     </div>
                     <div class="col-md-3">
                       <div class="inside-radio">
@@ -128,7 +128,7 @@
                     </div>
                     <div class="col-md-2">
                         <label>Fuel Type*</label>
-                        <select class="form-control manual-intercept" name="fuel_type" required>
+                        <select class="form-control manual-intercept" name="fuel_type" pattern="[a-zA-Z0-9\s]{1,}" title="Alphanumeric." required>
                           <option value="" selected>--</option>
                           <option value="!MANUAL">Fill manually..</option>
                         </select>
@@ -136,7 +136,7 @@
                     </div>
                     <div class="col-md-2">
                         <label>Displacement*</label>
-                        <select class="form-control manual-intercept" name="displacement" required>
+                        <select class="form-control manual-intercept" name="displacement" pattern="[0-9\.]{1,3}" title="Numeric, max 3 digits." required>
                           <option value="">--</option>
                           <option value="!MANUAL">Fill manually..</option>
                         </select>
@@ -170,7 +170,7 @@
                     
                     <div class="col-md-3">
                       <label>Manufactured By*</label>
-                      <select class="form-control manual-intercept" name="manu_by" required>
+                      <select class="form-control manual-intercept" name="manu_by" pattern="[a-zA-Z0-9\s]{1,}" title="Alphanumeric." required>
                         <option value="">--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
@@ -239,7 +239,7 @@
                     </div>
                     <div class="col-md-3">
                       <label>GVRW*</label>
-                      <select class="form-control manual-intercept" name="gvrw" required>
+                      <select class="form-control manual-intercept" name="gvrw" pattern="\d{0,3}[,]{0,1}\d{1,3}" title="Numeric, max 6 digits." required>
                         <option value="">--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
@@ -258,7 +258,7 @@
                   <div class="row align-items-end">
                     <div class="col-md-2">
                       <label>Front GAWR*</label>
-                      <select class="form-control manual-intercept" name="front_gawr" required>
+                      <select class="form-control manual-intercept" name="front_gawr" pattern="\d{0,3}[,]{0,1}\d{1,3}" title="Numeric, max 6 digits." required>
                         <option value="">--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
@@ -273,28 +273,28 @@
                     </div>
                     <div class="col-md-2">
                       <label>Front Tire Size*</label>
-                      <select class="form-control manual-intercept" name="front_tire_size" required>
+                      <select class="form-control manual-intercept" name="front_tire_size" pattern="[a-zA-Z0-9\s]{1,}" title="Alphanumeric." required>
                         <option value="">--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>FR Rim Diameter*</label>
-                      <select class="form-control manual-intercept" name="front_rim_diameter" required>
+                      <select class="form-control manual-intercept" name="front_rim_diameter" pattern="\d{1,2}" title="Numeric, max 2 digits." required>
                         <option value="" selected>--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>FR Rim Width*</label>
-                      <select class="form-control manual-intercept" name="front_rim_width" required>
+                      <select class="form-control manual-intercept" name="front_rim_width" pattern="\d{1,2}[.]{1}\d{1}" title="Numeric, max 3 digits."  required>
                         <option value="">--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>Front PSI*</label>
-                      <select class="form-control manual-intercept" name="front_psi" required>
+                      <select class="form-control manual-intercept" name="front_psi" pattern="\d{1,3}" title="Numeric, max 3 digits." required>
                         <option value="">--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
@@ -303,7 +303,7 @@
                   <div class="row align-items-end">
                     <div class="col-md-2">
                       <label>Rear GAWR*</label>
-                      <select class="form-control manual-intercept" name="rear_gawr" required>
+                      <select class="form-control manual-intercept" name="rear_gawr" pattern="\d{0,3}[,]{0,1}\d{1,3}" title="Numeric, max 6 digits." required>
                         <option value="">--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
@@ -318,21 +318,21 @@
                     </div>
                     <div class="col-md-2">
                       <label>Rear Tire Size*</label>
-                      <select class="form-control manual-intercept" name="rear_tire_size" required>
+                      <select class="form-control manual-intercept" name="rear_tire_size" pattern="[a-zA-Z0-9\s]{1,}" title="Alphanumeric." required>
                         <option value="">--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>RR Rim Diameter*</label>
-                      <select class="form-control manual-intercept" name="rear_rim_diameter" required>
+                      <select class="form-control manual-intercept" name="rear_rim_diameter" pattern="\d{1,2}" title="Numeric, max 2 digits." required>
                         <option value="" selected>--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
                     </div>
                     <div class="col-md-2">
                       <label>RR Rim Width*</label>
-                      <select class="form-control manual-intercept" name="rear_rim_width" required>
+                      <select class="form-control manual-intercept" name="rear_rim_width" pattern="\d{1,2}[.]{1}\d{1}" title="Numeric, max 3 digits." required>
                         <option value="" selected>--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
@@ -340,7 +340,7 @@
                     </div>
                     <div class="col-md-2">
                       <label>Rear PSI*</label>
-                      <select class="form-control manual-intercept" name="rear_psi" required>
+                      <select class="form-control manual-intercept" name="rear_psi" pattern="\d{1,3}" title="Numeric, max 3 digits." required>
                         <option value="" selected>--</option>
                         <option value="!MANUAL">Fill manually..</option>
                       </select>
