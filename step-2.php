@@ -71,7 +71,7 @@
                         <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
+                          <!--<i class="fa fa-rotate-left"></i>-->
                           <i class="fa fa-times"></i>
                           <a href="javascript:;" download><i class="fa fa-download"></i></a>
                           <i class="fa fa-search-plus"></i>
@@ -98,7 +98,7 @@
                         <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
+                          <!--<i class="fa fa-rotate-left"></i>-->
                           <i class="fa fa-times"></i>
                           <a href="javascript:;" download><i class="fa fa-download"></i></a>
                           <i class="fa fa-search-plus"></i>
@@ -125,7 +125,7 @@
                         <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
+                          <!--<i class="fa fa-rotate-left"></i>-->
                           <i class="fa fa-times"></i>
                           <a href="javascript:;" download><i class="fa fa-download"></i></a>
                           <i class="fa fa-search-plus"></i>
@@ -152,117 +152,7 @@
                         <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
-                          <i class="fa fa-times"></i>
-                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
-                          <i class="fa fa-search-plus"></i>
-                        </div>
-                      </div>
-                      <select name="photoLocation" class="form-control picture-list-option">
-                        <option selected>--</option>
-                        <option value="Front/Driver Side">Front/Driver Side</option>
-                        <option value="Rear/Passenger Side">Rear/Passenger Side</option>
-                        <option value="Passenger Airbag">Passenger Airbag</option>
-                        <option value="VIN Plate">VIN Plate</option>
-                        <option value="Steering Airbag">Steering Airbag</option>
-                        <option value="Cluster with lights on">Cluster with lights on</option>
-                        <option value="Miles">Miles</option>
-                        <option value="KMS">KMS</option>
-                        <option value="Manufacture Label">Manufacture Label</option>
-                        <option value="Tire Label">Tire Label</option>
-                        <option value="RI Label">RI Label</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="row pictureUpload">
-                    <div class="col-md-3 align-items-center">
-                      <div class="pictureUploadCont">
-                        <i class="fa fa-plus"></i>
-                        <input type="file" class="imgUpload" accept="image/*">
-                        <img class="imgPreview" src="#" />
-                        <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
-                          <i class="fa fa-times"></i>
-                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
-                          <i class="fa fa-search-plus"></i>
-                        </div>
-                      </div>
-                      <select name="photoLocation" class="form-control picture-list-option">
-                        <option selected>--</option>
-                        <option value="Front/Driver Side">Front/Driver Side</option>
-                        <option value="Rear/Passenger Side">Rear/Passenger Side</option>
-                        <option value="Passenger Airbag">Passenger Airbag</option>
-                        <option value="VIN Plate">VIN Plate</option>
-                        <option value="Steering Airbag">Steering Airbag</option>
-                        <option value="Cluster with lights on">Cluster with lights on</option>
-                        <option value="Miles">Miles</option>
-                        <option value="KMS">KMS</option>
-                        <option value="Manufacture Label">Manufacture Label</option>
-                        <option value="Tire Label">Tire Label</option>
-                        <option value="RI Label">RI Label</option>
-                      </select>
-                    </div>
-                    <div class="col-md-3 align-items-center">
-                      <div class="pictureUploadCont">
-                        <i class="fa fa-plus"></i>
-                        <input type="file" class="imgUpload" accept="image/*">
-                        <img class="imgPreview" src="#" />
-                        <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
-                          <i class="fa fa-times"></i>
-                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
-                          <i class="fa fa-search-plus"></i>
-                        </div>
-                      </div>
-                      <select name="photoLocation" class="form-control picture-list-option">
-                        <option selected>--</option>
-                        <option value="Front/Driver Side">Front/Driver Side</option>
-                        <option value="Rear/Passenger Side">Rear/Passenger Side</option>
-                        <option value="Passenger Airbag">Passenger Airbag</option>
-                        <option value="VIN Plate">VIN Plate</option>
-                        <option value="Steering Airbag">Steering Airbag</option>
-                        <option value="Cluster with lights on">Cluster with lights on</option>
-                        <option value="Miles">Miles</option>
-                        <option value="KMS">KMS</option>
-                        <option value="Manufacture Label">Manufacture Label</option>
-                        <option value="Tire Label">Tire Label</option>
-                        <option value="RI Label">RI Label</option>
-                      </select>
-                    </div>
-                    <div class="col-md-3 align-items-center">
-                      <div class="pictureUploadCont">
-                        <i class="fa fa-plus"></i>
-                        <input type="file" class="imgUpload" accept="image/*">
-                        <img class="imgPreview" src="#" />
-                        <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
-                          <i class="fa fa-times"></i>
-                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
-                          <i class="fa fa-search-plus"></i>
-                        </div>
-                      </div>
-                      <select name="photoLocation" class="form-control picture-list-option">
-                        <option selected>--</option>
-                        <option value="Front/Driver Side">Front/Driver Side</option>
-                        <option value="Rear/Passenger Side">Rear/Passenger Side</option>
-                        <option value="Passenger Airbag">Passenger Airbag</option>
-                        <option value="VIN Plate">VIN Plate</option>
-                        <option value="Steering Airbag">Steering Airbag</option>
-                        <option value="Cluster with lights on">Cluster with lights on</option>
-                        <option value="Miles">Miles</option>
-                        <option value="KMS">KMS</option>
-                        <option value="Manufacture Label">Manufacture Label</option>
-                        <option value="Tire Label">Tire Label</option>
-                        <option value="RI Label">RI Label</option>
-                      </select>
-                    </div>
-                    <div class="col-md-3 align-items-center">
-                      <div class="pictureUploadCont">
-                        <i class="fa fa-plus"></i>
-                        <input type="file" class="imgUpload" accept="image/*">
-                        <img class="imgPreview" src="#" />
-                        <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
+                          <!--<i class="fa fa-rotate-left"></i>-->
                           <i class="fa fa-times"></i>
                           <a href="javascript:;" download><i class="fa fa-download"></i></a>
                           <i class="fa fa-search-plus"></i>
@@ -291,7 +181,7 @@
                         <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
+                          <!--<i class="fa fa-rotate-left"></i>-->
                           <i class="fa fa-times"></i>
                           <a href="javascript:;" download><i class="fa fa-download"></i></a>
                           <i class="fa fa-search-plus"></i>
@@ -318,7 +208,7 @@
                         <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
+                          <!--<i class="fa fa-rotate-left"></i>-->
                           <i class="fa fa-times"></i>
                           <a href="javascript:;" download><i class="fa fa-download"></i></a>
                           <i class="fa fa-search-plus"></i>
@@ -345,7 +235,117 @@
                         <input type="file" class="imgUpload" accept="image/*">
                         <img class="imgPreview" src="#" />
                         <div class="iconOverlay">
-                          <i class="fa fa-rotate-left"></i>
+                          <!--<i class="fa fa-rotate-left"></i>-->
+                          <i class="fa fa-times"></i>
+                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </div>
+                      <select name="photoLocation" class="form-control picture-list-option">
+                        <option selected>--</option>
+                        <option value="Front/Driver Side">Front/Driver Side</option>
+                        <option value="Rear/Passenger Side">Rear/Passenger Side</option>
+                        <option value="Passenger Airbag">Passenger Airbag</option>
+                        <option value="VIN Plate">VIN Plate</option>
+                        <option value="Steering Airbag">Steering Airbag</option>
+                        <option value="Cluster with lights on">Cluster with lights on</option>
+                        <option value="Miles">Miles</option>
+                        <option value="KMS">KMS</option>
+                        <option value="Manufacture Label">Manufacture Label</option>
+                        <option value="Tire Label">Tire Label</option>
+                        <option value="RI Label">RI Label</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3 align-items-center">
+                      <div class="pictureUploadCont">
+                        <i class="fa fa-plus"></i>
+                        <input type="file" class="imgUpload" accept="image/*">
+                        <img class="imgPreview" src="#" />
+                        <div class="iconOverlay">
+                          <!--<i class="fa fa-rotate-left"></i>-->
+                          <i class="fa fa-times"></i>
+                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </div>
+                      <select name="photoLocation" class="form-control picture-list-option">
+                        <option selected>--</option>
+                        <option value="Front/Driver Side">Front/Driver Side</option>
+                        <option value="Rear/Passenger Side">Rear/Passenger Side</option>
+                        <option value="Passenger Airbag">Passenger Airbag</option>
+                        <option value="VIN Plate">VIN Plate</option>
+                        <option value="Steering Airbag">Steering Airbag</option>
+                        <option value="Cluster with lights on">Cluster with lights on</option>
+                        <option value="Miles">Miles</option>
+                        <option value="KMS">KMS</option>
+                        <option value="Manufacture Label">Manufacture Label</option>
+                        <option value="Tire Label">Tire Label</option>
+                        <option value="RI Label">RI Label</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row pictureUpload">
+                    <div class="col-md-3 align-items-center">
+                      <div class="pictureUploadCont">
+                        <i class="fa fa-plus"></i>
+                        <input type="file" class="imgUpload" accept="image/*">
+                        <img class="imgPreview" src="#" />
+                        <div class="iconOverlay">
+                          <!--<i class="fa fa-rotate-left"></i>-->
+                          <i class="fa fa-times"></i>
+                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </div>
+                      <select name="photoLocation" class="form-control picture-list-option">
+                        <option selected>--</option>
+                        <option value="Front/Driver Side">Front/Driver Side</option>
+                        <option value="Rear/Passenger Side">Rear/Passenger Side</option>
+                        <option value="Passenger Airbag">Passenger Airbag</option>
+                        <option value="VIN Plate">VIN Plate</option>
+                        <option value="Steering Airbag">Steering Airbag</option>
+                        <option value="Cluster with lights on">Cluster with lights on</option>
+                        <option value="Miles">Miles</option>
+                        <option value="KMS">KMS</option>
+                        <option value="Manufacture Label">Manufacture Label</option>
+                        <option value="Tire Label">Tire Label</option>
+                        <option value="RI Label">RI Label</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3 align-items-center">
+                      <div class="pictureUploadCont">
+                        <i class="fa fa-plus"></i>
+                        <input type="file" class="imgUpload" accept="image/*">
+                        <img class="imgPreview" src="#" />
+                        <div class="iconOverlay">
+                          <!--<i class="fa fa-rotate-left"></i>-->
+                          <i class="fa fa-times"></i>
+                          <a href="javascript:;" download><i class="fa fa-download"></i></a>
+                          <i class="fa fa-search-plus"></i>
+                        </div>
+                      </div>
+                      <select name="photoLocation" class="form-control picture-list-option">
+                        <option selected>--</option>
+                        <option value="Front/Driver Side">Front/Driver Side</option>
+                        <option value="Rear/Passenger Side">Rear/Passenger Side</option>
+                        <option value="Passenger Airbag">Passenger Airbag</option>
+                        <option value="VIN Plate">VIN Plate</option>
+                        <option value="Steering Airbag">Steering Airbag</option>
+                        <option value="Cluster with lights on">Cluster with lights on</option>
+                        <option value="Miles">Miles</option>
+                        <option value="KMS">KMS</option>
+                        <option value="Manufacture Label">Manufacture Label</option>
+                        <option value="Tire Label">Tire Label</option>
+                        <option value="RI Label">RI Label</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3 align-items-center">
+                      <div class="pictureUploadCont">
+                        <i class="fa fa-plus"></i>
+                        <input type="file" class="imgUpload" accept="image/*">
+                        <img class="imgPreview" src="#" />
+                        <div class="iconOverlay">
+                          <!--<i class="fa fa-rotate-left"></i>-->
                           <i class="fa fa-times"></i>
                           <a href="javascript:;" download><i class="fa fa-download"></i></a>
                           <i class="fa fa-search-plus"></i>

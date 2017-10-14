@@ -1323,10 +1323,10 @@ table.dataTable thead .sorting_desc_disabled:after {
   opacity: 1;
 }
 
-.iconOverlay .fa-rotate-left {
+/* .iconOverlay .fa-rotate-left {
   top: 8px;
   left: 10px;
-}
+} */
 
 .iconOverlay .fa-times {
   top: 6px;
