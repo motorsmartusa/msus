@@ -76,7 +76,7 @@
                   <div class="row align-items-end">
                     <div class="col-md-3">
                       <label>Unit</label>
-                      <input type="text" class="form-control" name="exp_unit">
+                      <input type="text" class="form-control" name="exp_unit" pattern="[a-zA-Z0-9\s]{1,6}" title="Alphanumeric, max 6 digits.">
                     </div>
                     <div class="col-md-9">
                       <label>Address*</label>
@@ -139,7 +139,7 @@
                   <div class="row align-items-end">
                     <div class="col-md-3">
                       <label>Unit</label>
-                      <input type="text" class="form-control" name="dest_unit">
+                      <input type="text" class="form-control" name="dest_unit" pattern="[a-zA-Z0-9\s]{1,6}" title="Alphanumeric, max 6 digits.">
                     </div>
                     <div class="col-md-9">
                       <label>Address*</label>
@@ -163,7 +163,7 @@
                     </div>
                     <div class="col-md-3">
                       <label>Federal Tax ID</label>
-                      <input type="text" class="form-control" name="dest_federal_tax_id">
+                      <input type="text" class="form-control" name="dest_federal_tax_id" pattern="[0-9]{1,}" title="Numeric.">
                     </div>
                   </div>
 
@@ -286,7 +286,7 @@
                   <div class="row align-items-end">
                     <div class="col-md-3">
                       <label>Unit</label>
-                      <input type="text" class="form-control" name="bill_unit">
+                      <input type="text" class="form-control" name="bill_unit" pattern="[a-zA-Z0-9\s]{1,6}" title="Alphanumeric, max 6 digits.">
                     </div>
                     <div class="col-md-9">
                       <label>Address</label>

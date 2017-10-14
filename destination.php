@@ -47,7 +47,7 @@
 
           <div class="row align-items-end">
             <div class="col-md-3">
-              <label>Unit</label> <input class="form-control" name="dest_unit" type="text">
+              <label>Unit</label> <input class="form-control" name="dest_unit" type="text" pattern="[a-zA-Z0-9\s]{1,6}" title="Alphanumeric, max 6 digits.">
             </div>
 
 
@@ -76,7 +76,7 @@
 
 
             <div class="col-md-3">
-              <label>Federal Tax ID</label> <input class="form-control" name="dest_federal_tax_id" type="text">
+              <label>Federal Tax ID</label> <input class="form-control" name="dest_federal_tax_id" type="text" pattern="[0-9]{1,}" title="Numeric.">
             </div>
           </div>
       

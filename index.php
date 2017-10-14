@@ -138,7 +138,7 @@
 
             <div class="row align-items-center">
               <div class="col-md-1">
-                <label>Unit</label> <input class="form-control" name="dealer_unit" type="text">
+                <label>Unit</label> <input class="form-control" name="dealer_unit" type="text" pattern="[a-zA-Z0-9\s]{1,6}" title="Alphanumeric, max 6 digits.">
               </div>
 
 
@@ -190,7 +190,7 @@
 
             <div class="row align-items-center">
               <div class="col-md-4">
-                <label>Federal Tax ID</label> <input class="form-control" name="dealer_federalid" type="text">
+                <label>Federal Tax ID</label> <input class="form-control" name="dealer_federalid" type="text" pattern="[0-9]{1,}" title="Numeric.">
               </div>
 
 

@@ -47,7 +47,7 @@
 
           <div class="row align-items-end">
             <div class="col-md-3">
-              <label>Unit</label> <input class="form-control" name="exp_unit" type="text">
+              <label>Unit</label> <input class="form-control" name="exp_unit" type="text" pattern="[a-zA-Z0-9\s]{1,6}" title="Alphanumeric, max 6 digits.">
             </div>
 
 
