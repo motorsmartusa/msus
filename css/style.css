@@ -938,7 +938,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 #dataTable th:not(:last-child), 
 #dataTable td:not(:last-child),
 .dataTable.fixedHeader-floating th:not(:last-child) {
-  padding-right: 40px;
+  padding-left: 30px;
 }
 
 .dataTables_wrapper {
@@ -954,8 +954,36 @@ table.dataTable thead .sorting_asc:after,
 table.dataTable thead .sorting_desc:after, 
 table.dataTable thead .sorting_asc_disabled:after, 
 table.dataTable thead .sorting_desc_disabled:after {
-  color:  #a0a09f;
-  opacity: 1;
+  content: '';
+}
+
+table.dataTable thead .sorting:before, 
+table.dataTable thead .sorting_asc:before, 
+table.dataTable thead .sorting_desc:before, 
+table.dataTable thead .sorting_asc_disabled:before, 
+table.dataTable thead .sorting_desc_disabled:before {
+    color:  #a0a09f;
+    opacity: 1;
+    position: absolute;
+    left: 10px;
+    display: block;
+    font-family: 'Glyphicons Halflings';
+}
+
+table.dataTable thead .sorting:last-child:before {
+  content: '';
+}
+
+table.dataTable thead .sorting:before {
+    content: "\e150";
+}
+
+table.dataTable thead .sorting_asc:before {
+    content: "\e155"
+}
+
+table.dataTable thead .sorting_desc:before {
+    content: "\e156"
 }
 
 #viewAllBtn {
