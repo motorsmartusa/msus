@@ -909,6 +909,15 @@ input[type=date]::-webkit-calendar-picker-indicator {
   text-align: center;
 }
 
+.dataTable.fixedHeader-floating {
+  margin-top: 0 !important;
+  height: 30px;
+}
+
+.dataTable.fixedHeader-floating tr {
+  background: #eee;
+}
+
 #dataTable th, .dataTable.fixedHeader-floating th {
   font-size:  14px;
   color:  #30bdff;
