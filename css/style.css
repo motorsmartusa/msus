@@ -256,10 +256,12 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .footer .btn-login:active,
 .footer .btn-login:active:focus,
 .footer .btn-login:active:hover,
+.footer .btn-login:focus,
 .footer .btn-login:hover, 
 .btn-login-top:active,
 .btn-login-top:active:focus,
 .btn-login-top:active:hover,
+.btn-login-top:focus,
 .btn-login-top:hover {
   color: #fff;
   background: #30bdff;
