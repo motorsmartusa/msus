@@ -304,10 +304,14 @@ input[type=date]::-webkit-calendar-picker-indicator {
 
 .btn-ask, 
 .btn-dashbrd {
-  min-width: 245px;
+  width: 245px;
   background: #fff;
   color: #30bdff;
   margin: 6px 0;
+}
+
+.btn-ask + .btn-primary {
+  width: 245px;
 }
 
 .btn-white {
