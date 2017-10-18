@@ -150,13 +150,13 @@
                   <div class="sub-heading">Upload a picture of the <span class="highlight">MANUFACTURE LABEL</span> and enter the details below</div>
                 
                   <div class="row align-items-center">
-                    <div class="col-md-4">
+                    <div class="col-md-6 align-center">
                       <div class="btn btn-primary upload">
                       Upload Image
                         <input type="file" class="upload" accept="image/*">
                       </div>
                     </div>
-                    <div class="col-md-8 align-items-center">
+                    <div class="col-md-6 align-center">
 
                       <div id="labelImage">
                         <img src="images/dummy-image.jpg">
