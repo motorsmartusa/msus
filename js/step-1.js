@@ -11,8 +11,8 @@ $(document).ready(function() {
 
 
         $('#labelImage').children('.fa.fa-times').click(function() {
-            $(this).siblings('img').attr('src', 'images/dummy-image.jpg');
-            $(this).siblings('a').attr('href', 'images/dummy-image.jpg');
+            $(this).siblings('img').attr('src', 'images/placeholder.png');
+            $(this).siblings('a').attr('href', 'images/placeholder.png');
             $(this).hide();
         });
 

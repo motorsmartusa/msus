@@ -157,11 +157,10 @@
                       </div>
                     </div>
                     <div class="col-md-6 align-center">
-
-                      <div id="labelImage">
-                        <img src="images/dummy-image.jpg">
+                      <div id="labelImage" class="overlay">
+                        <img src="images/placeholder.png">
                         <i class="fa fa-times"></i>
-                        <a href="images/dummy-image.jpg" download><i class="fa fa-download"></i></a>
+                        <a href="images/placeholder.png" download><i class="fa fa-download"></i></a>
                         <i class="fa fa-search-plus"></i>
                       </div> 
                     </div>
