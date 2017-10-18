@@ -429,11 +429,13 @@ input[type=date]::-webkit-calendar-picker-indicator {
 /** login form start **/
 
 #login,
+#password-recover,
 #signup {
   display: none;
 }
 
 #login h2,
+#password-recover h2,
 #signup h2 {
   color: #fff;
   text-align: left;
@@ -443,6 +445,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 #login .container,
+#password-recover .container,
 #signup .container {
   width: 65%;
   padding: 0;

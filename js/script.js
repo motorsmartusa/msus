@@ -19,13 +19,23 @@ $(document).ready(function() {
 
   $(".btn-login").on("click", function(e) {
     e.preventDefault();
+    $("div#password-recover:visible").hide();
     $("div#signup:visible").hide();
     $("#login").slideToggle();
   });
 
+  $(".password-recover").on("click", function(e) {
+    e.preventDefault();
+    $("div#login:visible").hide();
+    $("div#signup:visible").hide();
+    $("#password-recover").slideToggle();
+  });
+
+
   $(".btn-signup").on("click", function(e) {
     e.preventDefault();
     $("div#login:visible").hide();
+    $("div#password-recover:visible").hide();
     $("#signup").slideToggle();
   });
 
@@ -35,6 +45,7 @@ $(document).ready(function() {
 
   $(".cls").on("click", function() {
     $("div#signup:visible").hide();
+    $("div#password-recover:visible").hide();
     $("div#login:visible").hide();
   });
 

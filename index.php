@@ -25,9 +25,8 @@
 <body>
 
   <?php include dirname(__FILE__)."/header.php"; ?>
+
   <!-- login start -->
-
-
   <div id="login">
     <div class="l-slide" id="log-t">
       <div class="title-l">
@@ -64,7 +63,7 @@
 
             <div class="row">
               <div class="col-md-10 text-right">
-                <a href="#">Forgot Password</a>
+                <a href="#" class="password-recover">Forgot Password</a>
               </div>
 
 
@@ -77,6 +76,48 @@
     </div>
   </div>
   <!-- login end -->
+
+  <!-- forgot password start -->
+  <div id="password-recover">
+    <div class="l-slide" id="log-t">
+      <div class="title-l">
+        <div class="container">
+          <h2>Forgot Password</h2>
+        </div>
+
+
+        <div class="cross-arrow login-top">
+          <span class="cls rounded white"></span>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="f-contain">
+          <form id="password-recover-form" method="post" name="password-recover-form" action="index.php">
+            <div class="row align-items-end">
+              <div class="col-md-3">
+              </div>
+              <div class="col-md-4">
+                <label>Email*</label> <input class="form-control" name="email" type="email" required>
+              </div>
+
+
+              <div class="col-md-2">
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+              <div class="col-md-3">
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- forgot password end -->
+
   <!-- signup start -->
 
 
