@@ -1249,7 +1249,7 @@ table.dataTable thead .sorting_desc:before {
 }
 
 #labelImage .fa-download {
-  bottom: 1opx;
+  bottom: 10px;
   right: 22px;
 }
 
