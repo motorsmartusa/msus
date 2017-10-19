@@ -1282,6 +1282,10 @@ table.dataTable thead .sorting_desc:before {
   width:  180px;
 }
 
+#courier input[type=radio]:first-child + label {
+  margin-right: 20px;
+}
+
 #title textarea.form-control, #label-details textarea.form-control {
   height:  100%;
 }
