@@ -1282,6 +1282,10 @@ table.dataTable thead .sorting_desc:before {
   width:  180px;
 }
 
+#title textarea.form-control, #label-details textarea.form-control {
+  height:  100%;
+}
+
 #warningModal .modal-content {
   font-size:  18px;
 }
