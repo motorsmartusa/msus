@@ -389,7 +389,7 @@
                         <div class="col-md-6">
                           <label>Is the RI Label going to the same address as the Title?*</label>
                         </div>
-                        <div class="col-md-6 align-items-end">
+                        <div class="col-md-6">
                           <div class="inside-radio">
                             <input type="radio" value="yes" id="ri_label_1" name="label_same_as_title" required>
                             <label for="ri_label_1">YES</label>

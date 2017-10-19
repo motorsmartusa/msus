@@ -47,7 +47,7 @@ input[type=radio] {
 
 input[type=radio] + label {
   font-size: 15px; 
-  width: 45%;
+  width: 48%;
   display: inline-block;
   padding: 15px;
   border-color: #ddd;
@@ -65,6 +65,14 @@ input[type=radio]:checked + label {
   background: #30bdff; 
   color: #fff;
   cursor: pointer;
+}
+
+.inside-radio input[type=radio] + label:nth-of-type(1) {
+  float: left;
+}
+
+.inside-radio input[type=radio] + label:nth-of-type(2) {
+  float: right;
 }
 
 /* input[type=radio]:not(:last-child) + label {
@@ -1267,10 +1275,6 @@ table.dataTable thead .sorting_desc:before {
 #pdfImage .fa-download {
   bottom: 6px;
   left: 10px;
-}
-
-#label-details input[type=radio] + label { 
-  width:  108px;
 }
 
 #courier input[type=radio] + label {
