@@ -1227,7 +1227,7 @@ table.dataTable thead .sorting_desc:before {
   -ms-transition: all .3s linear;
   -o-transition: all .3s linear;
   transition: all .3s linear;
-  border-radius: 50px;
+  border-radius: 6px;
 }
 
 #labelImage.overlay .fa:hover, #pdfImage .fa:hover {
@@ -1242,7 +1242,7 @@ table.dataTable thead .sorting_desc:before {
 #labelImage img {
   max-height: 100%;
   max-width: 100%;
-  border-radius: 50px;
+  border-radius: 6px;
 }
 
 #labelImage .fa-times {
