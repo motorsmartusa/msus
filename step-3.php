@@ -46,7 +46,8 @@
 
                   <div class="sub-heading">
                     Tell us who is <span class="highlight">EXPORTING</span> this vehicle
-                    <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#exporterModal">ADD NEW</a>
+                    <a href="javascript:;" id="exporterEdit"><i class="fa fa-pencil"></i></a>
+                    <a role="button" class="btn btn-primary" id="exporterAdd">ADD NEW</a>
                   </div>
                   
                   <div class="row align-items-end">
@@ -108,8 +109,8 @@
                   
                   <div class="sub-heading">
                     Where is the <span class="highlight">DESTINATION</span> for the vehicle?
-                    <a href="javascript:;"><i class="fa fa-pencil"></i></a>
-                    <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#destinationModal">ADD NEW</a>
+                    <a href="javascript:;" id="destinationEdit"><i class="fa fa-pencil"></i></a>
+                    <a role="button" class="btn btn-primary" id="destinationAdd">ADD NEW</a>
                   </div>
 
                   <div class="row align-items-end">
@@ -172,7 +173,8 @@
                   <h2>TRANSPORTER DETAILS</h2>
 
                   <div class="sub-heading">Who is <span class="highlight">TRANSPORTING</span> this vehicle for you? 
-                  <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#transporterModal">ADD NEW</a>
+                  <a href="javascript:;" id="transporterEdit"><i class="fa fa-pencil"></i></a>
+                  <a role="button" class="btn btn-primary" id="transporterAdd">ADD NEW</a>
                   </div>
 
                   <div class="row align-items-end">
@@ -347,6 +349,7 @@
                   <h2>TITLE DETAILS</h2>
 
                   <div class="sub-heading">Where are we sending the <span class="highlight">TITLE</span>?
+                  <a href="javascript:;" id="titleEdit"><i class="fa fa-pencil"></i></a>
                   <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#titleModal">ADD NEW</a>
                   </div>
 
@@ -380,6 +383,7 @@
                   <h2>RI LABEL DETAILS</h2>
 
                   <div class="sub-heading">Where do you want the <span class="highlight">LABEL</span> sent to?
+                    <a href="javascript:;"><i class="fa fa-pencil"></i></a>
                     <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#labelModal">ADD NEW</a>
                   </div>
 
@@ -495,6 +499,8 @@
   <script src="css/bootstrap/js/bootstrap.min.js">
   </script> 
   <script src="js/script.js">
+  </script>
+  <script src="js/step-3.js">
   </script> <!-- javascript end -->
 </body>
 </html>

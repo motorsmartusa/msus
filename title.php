@@ -83,7 +83,10 @@
           
         </div>
         <div class="modal-footer">
-          <button class="btn btn-primary" type="submit">SAVE</button>
+          <div>
+            <a href="javascript:;"><i class="fa fa-trash"></i></a>
+            <button class="btn btn-primary" type="submit">SAVE</button>
+          </div>
         </div>
       </form>
     </div>
