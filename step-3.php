@@ -421,7 +421,7 @@
                     </div>
                     <div class="col-md-6">
                       <label>Notes</label>
-                      <textarea class="form-control" name="label_notes"></textarea>
+                      <textarea rows="6" class="form-control" name="label_notes"></textarea>
                     </div>
                   </div>
 
