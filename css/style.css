@@ -120,6 +120,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
   min-height: 50px;
 }
 
+textarea.form-control {
+  height: 100%;
+}
+
 /** input styles end **/
 
 .container form .row {

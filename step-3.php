@@ -350,7 +350,7 @@
                   <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#titleModal">ADD NEW</a>
                   </div>
 
-                  <div class="row align-items-end">
+                  <div class="row">
                     <div class="col-md-6">
                       <div class="row">
                         <div class="col-md-12">
@@ -383,7 +383,7 @@
                     <a role="button" class="btn btn-primary" data-toggle="modal" data-target="#labelModal">ADD NEW</a>
                   </div>
 
-                  <div class="row align-items-end">
+                  <div class="row">
                     <div class="col-md-6">
                       <div class="row">
                         <div class="col-md-6">
@@ -421,7 +421,7 @@
                     </div>
                     <div class="col-md-6">
                       <label>Notes</label>
-                      <textarea rows="7" class="form-control" name="label_notes"></textarea>
+                      <textarea class="form-control" name="label_notes"></textarea>
                     </div>
                   </div>
 
